@@ -2,7 +2,7 @@
 // Phase 3: minimal dashboard-ready admin finance reports. Full Admin Center arrives later.
 
 import { ActionFormData } from "@minecraft/server-ui";
-import { UI } from "../../uiTheme.js";
+import { UI } from "../../core/uiTheme.js";
 import { MoneyUtils } from "../../core/moneyUtils.js";
 import { Permissions } from "../../core/permissions.js";
 import { FinanceService } from "./financeService.js";

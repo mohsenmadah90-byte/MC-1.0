@@ -3,7 +3,7 @@
 // UX Phase 1 (v1.7.0): Minimal home screen without intro summaries.
 
 import { ActionFormData } from "@minecraft/server-ui";
-import { UI } from "../uiTheme.js";
+import { UI } from "../core/uiTheme.js";
 import { Logger } from "../core/logger.js";
 import { Permissions } from "../core/permissions.js";
 import { FormUtils } from "../core/formUtils.js";

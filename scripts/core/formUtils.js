@@ -2,7 +2,7 @@
 // Phase 2: UI Stability & Cancelation Reason Hardening
 
 import { ActionFormData, MessageFormData } from "@minecraft/server-ui";
-import { UI } from "../uiTheme.js";
+import { UI } from "./uiTheme.js";
 import { Logger } from "./logger.js";
 
 export class FormUtils {

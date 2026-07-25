@@ -2,7 +2,7 @@
 // Phase 7 (v1.5.7): Permission re-checks after audit admin forms.
 
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
-import { UI } from "../../uiTheme.js";
+import { UI } from "../../core/uiTheme.js";
 import { Permissions } from "../../core/permissions.js";
 import { AuditService } from "./auditService.js";
 

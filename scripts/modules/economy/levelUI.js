@@ -1,7 +1,7 @@
 // MCity Dashboard V2 - Level UI
 
 import { ActionFormData } from "@minecraft/server-ui";
-import { UI } from "../../uiTheme.js";
+import { UI } from "../../core/uiTheme.js";
 import { CONFIG } from "../../config.js";
 import { LevelService } from "./levelService.js";
 

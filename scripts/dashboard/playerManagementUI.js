@@ -4,7 +4,7 @@
 
 import { world } from "@minecraft/server";
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
-import { UI } from "../uiTheme.js";
+import { UI } from "../core/uiTheme.js";
 import { CONFIG } from "../config.js";
 import { Permissions } from "../core/permissions.js";
 import { PlayerRegistry } from "../core/playerRegistry.js";

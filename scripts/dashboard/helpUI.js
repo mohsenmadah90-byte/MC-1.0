@@ -3,7 +3,7 @@
 
 import { ActionFormData } from "@minecraft/server-ui";
 import { CONFIG } from "../config.js";
-import { UI } from "../uiTheme.js";
+import { UI } from "../core/uiTheme.js";
 import { Permissions } from "../core/permissions.js";
 import { MoneyUtils } from "../core/moneyUtils.js";
 

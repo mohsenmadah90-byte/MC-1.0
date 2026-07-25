@@ -2,7 +2,7 @@
 
 import { ActionFormData, ModalFormData, MessageFormData } from "@minecraft/server-ui";
 import { CONFIG } from "../../config.js";
-import { UI } from "../../uiTheme.js";
+import { UI } from "../../core/uiTheme.js";
 import { MoneyUtils } from "../../core/moneyUtils.js";
 import { ATMInventory } from "./atmInventory.js";
 import { ATMLimits } from "./atmLimits.js";

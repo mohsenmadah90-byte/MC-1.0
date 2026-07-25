@@ -1,4 +1,4 @@
-import { CONFIG } from "./config.js";
+import { CONFIG } from "../config.js";
 
 // MCity Dashboard V2 - UI Theme
 // v1.7.9: centralized palette. Button subtext intentionally avoids gray.

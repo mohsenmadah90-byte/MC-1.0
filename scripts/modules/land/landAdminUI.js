@@ -3,7 +3,7 @@
 // New Changes Phase 5 (v1.8.6): Tax diagnostics and simulated tax accrual.
 
 import { ActionFormData, ModalFormData, MessageFormData } from "@minecraft/server-ui";
-import { UI } from "../../uiTheme.js";
+import { UI } from "../../core/uiTheme.js";
 import { CONFIG } from "../../config.js";
 import { MoneyUtils } from "../../core/moneyUtils.js";
 import { Permissions } from "../../core/permissions.js";

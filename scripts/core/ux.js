@@ -3,7 +3,7 @@
 
 import { ActionFormData } from "@minecraft/server-ui";
 import { CONFIG } from "../config.js";
-import { UI } from "../uiTheme.js";
+import { UI } from "./uiTheme.js";
 
 export class UX {
     static async notice(player, title, lines = [], back = null, icon = UI.ICON.info || "!") {

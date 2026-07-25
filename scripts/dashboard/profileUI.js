@@ -2,7 +2,7 @@
 // UX Phase 2 (v1.7.1): Informational profile only; navigation shortcuts removed.
 
 import { ActionFormData } from "@minecraft/server-ui";
-import { UI } from "../uiTheme.js";
+import { UI } from "../core/uiTheme.js";
 import { MoneyService } from "../modules/economy/moneyService.js";
 import { LevelService } from "../modules/economy/levelService.js";
 import { FinanceService } from "../modules/finance/financeService.js";

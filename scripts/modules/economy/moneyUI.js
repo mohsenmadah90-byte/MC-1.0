@@ -3,7 +3,7 @@
 
 import { world, Player } from "@minecraft/server";
 import { ActionFormData, ModalFormData, MessageFormData } from "@minecraft/server-ui";
-import { UI } from "../../uiTheme.js";
+import { UI } from "../../core/uiTheme.js";
 import { CONFIG } from "../../config.js";
 import { MoneyUtils } from "../../core/moneyUtils.js";
 import { MoneyService } from "./moneyService.js";

@@ -2,7 +2,7 @@
 // Phase 7 (v1.5.7): Permission re-checks after every form await.
 
 import { ActionFormData, ModalFormData, MessageFormData } from "@minecraft/server-ui";
-import { UI } from "../../uiTheme.js";
+import { UI } from "../../core/uiTheme.js";
 import { CONFIG } from "../../config.js";
 import { Permissions } from "../../core/permissions.js";
 import { UX } from "../../core/ux.js";

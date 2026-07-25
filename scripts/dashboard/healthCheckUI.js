@@ -7,7 +7,7 @@
 
 import { ActionFormData } from "@minecraft/server-ui";
 import { CONFIG } from "../config.js";
-import { UI } from "../uiTheme.js";
+import { UI } from "../core/uiTheme.js";
 import { Database } from "../core/database.js";
 import { Logger } from "../core/logger.js";
 import { Permissions } from "../core/permissions.js";

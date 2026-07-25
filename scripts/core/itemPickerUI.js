@@ -2,7 +2,7 @@
 // UX Phase 5 (v1.7.4): Reusable searchable item selection UI.
 
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
-import { UI } from "../uiTheme.js";
+import { UI } from "./uiTheme.js";
 import { ITEM_CATEGORIES } from "./itemCatalog.js";
 import { ItemSettingsService } from "./itemSettingsService.js";
 

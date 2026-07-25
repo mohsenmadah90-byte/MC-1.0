@@ -3,7 +3,7 @@
 // New Changes Phase 1 (v1.8.2): Server contracts use ItemPickerUI.
 
 import { ActionFormData, ModalFormData, MessageFormData } from "@minecraft/server-ui";
-import { UI } from "../../uiTheme.js";
+import { UI } from "../../core/uiTheme.js";
 import { CONFIG } from "../../config.js";
 import { MoneyUtils } from "../../core/moneyUtils.js";
 import { ItemPickerUI } from "../../core/itemPickerUI.js";

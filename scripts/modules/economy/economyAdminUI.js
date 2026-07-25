@@ -2,7 +2,7 @@
 // Phase 7.5 (v0.22.0): Added player detail view from leaderboard (EC7).
 
 import { ActionFormData } from "@minecraft/server-ui";
-import { UI } from "../../uiTheme.js";
+import { UI } from "../../core/uiTheme.js";
 import { Permissions } from "../../core/permissions.js";
 import { MoneyUtils } from "../../core/moneyUtils.js";
 import { MoneyService } from "./moneyService.js";
