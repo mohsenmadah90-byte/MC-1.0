@@ -9,7 +9,10 @@
     "check:imports": "node tools/validate-imports.mjs",
     "check:manifest": "node tools/validate-manifest.mjs",
     "test:contracts": "node tests/runtime-lifecycle-smoke.mjs && node tests/database-backup-contract.mjs && node tests/financial-safety-contract.mjs && node tests/performance-contract.mjs",
-    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts"
+    "test:load": "node tests/load-simulation.mjs",
+    "preflight": "node tools/production-preflight.mjs",
+    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts",
+    "validate:production": "npm run validate && npm run test:load && npm run preflight"
   },
   "engines": {
     "node": ">=18"
