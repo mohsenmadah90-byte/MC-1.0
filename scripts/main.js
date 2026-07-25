@@ -222,7 +222,7 @@ function registerLandTaxLoop() {
             LandService.accrueTaxes(false); 
         }
         catch (error) { Logger.warn("Main", "Land tax loop failed", error); }
-    }, CONFIG.LAND.TAX_ACCRUAL_INTERVAL_TICKS || 1200); // Default 1 minute
+    }, CONFIG.LAND.TAX_ACCRUAL_INTERVAL_TICKS || 1200, { budgetMs: 5 }); // Default 1 minute
     RuntimeState.trackInterval(id);
 }
 
@@ -231,7 +231,7 @@ function registerContractGCLoop() {
         if (RuntimeState.shuttingDown) return;
         try { ContractService.finalizeExpired(); }
         catch (error) { Logger.warn("Main", "Contract GC loop failed", error); }
-    }, CONFIG.CONTRACTS.GC_INTERVAL_TICKS || 6000); // Default 5 minutes
+    }, CONFIG.CONTRACTS.GC_INTERVAL_TICKS || 6000, { budgetMs: 5 }); // Default 5 minutes
     RuntimeState.trackInterval(id);
 }
 

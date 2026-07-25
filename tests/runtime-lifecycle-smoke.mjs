@@ -18,6 +18,9 @@ assert.equal(manifest.modules?.[0]?.type, "script", "manifest script module is m
 
 const runtime = read("scripts/core/runtimeHandleRegistry.js");
 assert.match(runtime, /static timeout\s*\(/, "tracked timeout API is missing");
+assert.match(runtime, /static scheduled\s*\(/, "central scheduled task API is missing");
+assert.match(runtime, /skippedOverlaps/, "scheduled overlap guard is missing");
+assert.match(runtime, /overBudget/, "scheduled budget metrics are missing");
 assert.match(runtime, /system\.runTimeout\(/, "timeout must be created through Script API");
 assert.match(runtime, /static shutdown\s*\(/, "runtime shutdown is missing");
 assert.match(runtime, /system\.clearRun\(/, "interval/timeout cleanup is missing");

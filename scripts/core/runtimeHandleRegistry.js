@@ -9,6 +9,7 @@ export class RuntimeHandleRegistry {
     /** @type {Map<number, {id:number, type:"interval"|"timeout"|"job", label:string, createdAt:number}>} */
     static #handles = new Map();
     static #clearFailures = 0;
+    static #scheduleMetrics = { executions: 0, skippedOverlaps: 0, overBudget: 0 };
 
     static initialize() {
         if (this.#initialized) return;
@@ -16,11 +17,45 @@ export class RuntimeHandleRegistry {
         Logger.startup("RuntimeHandles", "Runtime interval/job registry initialized");
     }
 
-    static interval(label, callback, ticks) {
+    static interval(label, callback, ticks, options = {}) {
         if (!this.#initialized) this.initialize();
-        const id = system.runInterval(callback, ticks);
-        this.#handles.set(id, { id, type: "interval", label: String(label || "interval"), createdAt: Date.now() });
+        if (typeof callback !== "function") throw new TypeError(`Runtime interval '${label}' requires a callback`);
+        const budgetMs = Number.isFinite(options?.budgetMs) && options.budgetMs > 0 ? options.budgetMs : 0;
+        let running = false;
+        const trackedCallback = () => {
+            if (running) {
+                this.#scheduleMetrics.skippedOverlaps++;
+                return;
+            }
+            running = true;
+            this.#scheduleMetrics.executions++;
+            const started = Date.now();
+            let result;
+            try {
+                result = callback();
+            } catch (error) {
+                running = false;
+                throw error;
+            }
+            const finish = () => {
+                const elapsed = Date.now() - started;
+                if (budgetMs && elapsed > budgetMs) {
+                    this.#scheduleMetrics.overBudget++;
+                    Logger.warn("RuntimeHandles", `Scheduled task '${String(label || "interval")}' exceeded budget ${budgetMs}ms (${elapsed}ms)`);
+                }
+                running = false;
+            };
+            if (result && typeof result.then === "function") return result.finally(finish);
+            finish();
+            return result;
+        };
+        const id = system.runInterval(trackedCallback, ticks);
+        this.#handles.set(id, { id, type: "interval", label: String(label || "interval"), createdAt: Date.now(), budgetMs });
         return id;
+    }
+
+    static scheduled(label, callback, ticks, options = {}) {
+        return this.interval(label, callback, ticks, options);
     }
 
     static timeout(label, callback, ticks) {
@@ -79,6 +114,7 @@ export class RuntimeHandleRegistry {
         for (const entry of entries) this.clear(entry.id);
         this.#handles.clear();
         this.#clearFailures = 0;
+        this.#scheduleMetrics = { executions: 0, skippedOverlaps: 0, overBudget: 0 };
         this.#initialized = false;
         Logger.info("RuntimeHandles", "Runtime handle registry shutdown complete");
     }
@@ -99,6 +135,7 @@ export class RuntimeHandleRegistry {
             timeouts,
             jobs,
             clearFailures: this.#clearFailures,
+            scheduleMetrics: { ...this.#scheduleMetrics },
             byLabel
         };
     }
