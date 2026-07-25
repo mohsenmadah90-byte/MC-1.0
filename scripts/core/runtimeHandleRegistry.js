@@ -6,7 +6,7 @@ import { Logger } from "./logger.js";
 
 export class RuntimeHandleRegistry {
     static #initialized = false;
-    /** @type {Map<number, {id:number, type:"interval"|"job", label:string, createdAt:number}>} */
+    /** @type {Map<number, {id:number, type:"interval"|"timeout"|"job", label:string, createdAt:number}>} */
     static #handles = new Map();
     static #clearFailures = 0;
 
@@ -20,6 +20,16 @@ export class RuntimeHandleRegistry {
         if (!this.#initialized) this.initialize();
         const id = system.runInterval(callback, ticks);
         this.#handles.set(id, { id, type: "interval", label: String(label || "interval"), createdAt: Date.now() });
+        return id;
+    }
+
+    static timeout(label, callback, ticks) {
+        if (!this.#initialized) this.initialize();
+        const id = system.runTimeout(() => {
+            try { callback(); }
+            finally { this.#handles.delete(id); }
+        }, ticks);
+        this.#handles.set(id, { id, type: "timeout", label: String(label || "timeout"), createdAt: Date.now() });
         return id;
     }
 
@@ -74,16 +84,19 @@ export class RuntimeHandleRegistry {
     }
 
     static stats() {
-        let intervals = 0, jobs = 0;
+        let intervals = 0, timeouts = 0, jobs = 0;
         const byLabel = {};
         for (const entry of this.#handles.values()) {
-            if (entry.type === "job") jobs++; else intervals++;
+            if (entry.type === "job") jobs++;
+            else if (entry.type === "timeout") timeouts++;
+            else intervals++;
             byLabel[entry.label] = (byLabel[entry.label] || 0) + 1;
         }
         return {
             initialized: this.#initialized,
             active: this.#handles.size,
             intervals,
+            timeouts,
             jobs,
             clearFailures: this.#clearFailures,
             byLabel

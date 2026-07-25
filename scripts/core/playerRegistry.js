@@ -12,6 +12,7 @@ import { DisposableRegistry } from "./disposableRegistry.js";
 import { Sanitizer } from "./sanitizer.js";
 import { BedrockCompat } from "./bedrockCompat.js";
 import { SubscriptionRegistry } from "./subscriptionRegistry.js";
+import { RuntimeHandleRegistry } from "./runtimeHandleRegistry.js";
 
 // Phase 4 Stability: Lazy import NotificationService to break circular dependency.
 // PlayerRegistry → NotificationService → PlayerRegistry was causing issues on reload.
@@ -96,7 +97,7 @@ export class PlayerRegistry {
                 this.#onlineIndex.set(player.id, player);
                 DisposableRegistry.firePlayerJoin(player.id);
             }
-            system.runTimeout(async () => {
+            RuntimeHandleRegistry.timeout("PlayerRegistry.playerSpawn", async () => {
                 if (player) {
                     this.touch(player);
                     try {

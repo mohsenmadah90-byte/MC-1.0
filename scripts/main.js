@@ -183,7 +183,7 @@ function initialize() {
 function registerRuntimeEvents() {
     BedrockCompat.subscribe("player.spawn.after", "Main.playerSpawn", event => {
         if (!event.initialSpawn) return;
-        system.runTimeout(() => {
+        RuntimeHandleRegistry.timeout("Main.playerWelcome", () => {
             try {
                 // Touch and queue checks are handled internally by PlayerRegistry.
                 if (CONFIG.DEBUG.LOG_STARTUP_REPORT) {

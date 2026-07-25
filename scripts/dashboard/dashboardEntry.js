@@ -11,6 +11,7 @@ import { BedrockCompat } from "../core/bedrockCompat.js";
 import { SubscriptionRegistry } from "../core/subscriptionRegistry.js";
 import { RateLimiter } from "../core/rateLimiter.js";
 import { ErrorBoundary } from "../core/errorBoundary.js";
+import { RuntimeHandleRegistry } from "../core/runtimeHandleRegistry.js";
 
 const DC = CONFIG.DASHBOARD;
 
@@ -33,7 +34,7 @@ export class DashboardEntry {
         });
 
         // If the script is reloaded while players are online, recover their menu item state.
-        system.runTimeout(() => {
+        RuntimeHandleRegistry.timeout("DashboardEntry.menuRecovery", () => {
             try {
                 for (const player of world.getAllPlayers()) this.ensureMenuItem(player, false);
             } catch (error) {
@@ -153,7 +154,7 @@ export class DashboardEntry {
     static #registerSpawnDelivery() {
         BedrockCompat.subscribe("player.spawn.after", "DashboardEntry.playerSpawn", event => {
             if (!event.initialSpawn) return;
-            system.runTimeout(() => this.ensureMenuItem(event.player, false), 50);
+            RuntimeHandleRegistry.timeout("DashboardEntry.playerSpawn", () => this.ensureMenuItem(event.player, false), 50);
         }, { required: true });
     }
 
