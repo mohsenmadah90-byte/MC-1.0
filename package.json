@@ -1,0 +1,22 @@
+{
+  "name": "mcity-dashboard-v2",
+  "version": "1.14.3",
+  "private": true,
+  "description": "MCity Dashboard V2 Bedrock script project",
+  "type": "module",
+  "scripts": {
+    "check:syntax": "find scripts -type f -name '*.js' -print0 | xargs -0 -n1 node --check",
+    "check:imports": "node tools/validate-imports.mjs",
+    "check:manifest": "node tools/validate-manifest.mjs",
+    "test:contracts": "node tests/runtime-lifecycle-smoke.mjs && node tests/database-backup-contract.mjs && node tests/financial-safety-contract.mjs && node tests/performance-contract.mjs",
+    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "prettier": "^3.0.0"
+  }
+}
