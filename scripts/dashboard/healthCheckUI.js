@@ -33,6 +33,7 @@ import { FinancialRecoveryService } from "../core/financialRecoveryService.js";
 import { MarketShardService } from "../modules/market/marketShardService.js";
 import { LandShardService } from "../modules/land/landShardService.js";
 import { ErrorBoundary } from "../core/errorBoundary.js";
+import { BoundedCache } from "../core/boundedCache.js";
 
 function fmtBytes(bytes) {
     if (!bytes || bytes <= 0) return "0B";
@@ -113,8 +114,7 @@ export class HealthCheckUI {
     // Phase 7.7 (v1.0.0) (P6): Cache the aggregated stats snapshot for 5s
     // to avoid calling Database.stats on every open (each stats call is
     // O(N) per collection via Object.keys).
-    static #statsCache = { data: null, time: 0 };
-    static #statsCacheTtlMs = 5_000;
+    static #statsCache = new BoundedCache({ maxEntries: 1, ttlMs: 5_000 });
 
     static initialize() {
         if (this.initialized) return;
@@ -130,9 +130,8 @@ export class HealthCheckUI {
      */
     static #getAggregatedStats() {
         const now = Date.now();
-        if (this.#statsCache.data && now - this.#statsCache.time < this.#statsCacheTtlMs) {
-            return this.#statsCache.data;
-        }
+        const cached = this.#statsCache.get("aggregate", now);
+        if (cached) return cached;
         const collections = Database.listCollections();
         let totalSize = 0;
         let totalItems = 0;
@@ -166,9 +165,10 @@ export class HealthCheckUI {
             generationStatus: Database.runtimeStatus(),
             moneyShardStatus: MoneyShard.status(),
             onlineCount: PlayerRegistry.onlineMap().size,
+            healthCacheStats: this.#statsCache.stats(),
             timestamp: now
         };
-        this.#statsCache = { data, time: now };
+        this.#statsCache.set("aggregate", data, now);
         return data;
     }
 
