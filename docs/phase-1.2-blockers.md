@@ -8,4 +8,4 @@ After restoring the structured layout, all existing relative imports were normal
 - `scripts/modules/market/marketService.js`
 - `scripts/modules/land/landUI.js`
 
-These are referenced from `main.js`, dashboard files, and health-check code. They must be restored from the original project or their references must be intentionally removed in a later approved change. Placeholder implementations were not created because doing so could silently break the market/land features.
+These were referenced from `main.js`, dashboard files, and health-check code. The missing files were subsequently restored from the repository's `main` branch and added to this working branch. No placeholder implementations were created. The import validation now reports zero unresolved relative imports.
