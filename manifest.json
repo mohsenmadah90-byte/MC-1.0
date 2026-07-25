@@ -1,0 +1,42 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "\u00a7l\u00a76MCity Dashboard V2",
+        "description": "MCity Dashboard V2 v1.13.2 Contract Safety",
+        "min_engine_version": [
+            1,
+            21,
+            100
+        ],
+        "uuid": "5e1065d0-0f75-4b2e-8d5b-be780a88ec82",
+        "version": [
+            1,
+            14,
+            3
+        ]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "uuid": "7c30e454-23b3-481e-9cc6-ff98b30e188e",
+            "version": [
+                1,
+                14,
+                3
+            ]
+        }
+    ],
+    "capabilities": [],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.1.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        }
+    ]
+}
