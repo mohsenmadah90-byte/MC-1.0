@@ -131,7 +131,7 @@ export const CONFIG = {
             iron_emerald: "Iron + Emerald",
             emerald_gold: "Emerald + Gold",
             gold_diamond: "Gold + Diamond",
-            diamond_netherite: "Diamond + Netherite"
+            diamond_netherite: "Diamond + Netherite Scrap"
         }
     },
 
@@ -174,7 +174,7 @@ export const CONFIG = {
             iron_emerald: ["minecraft:iron_ingot", "minecraft:emerald"],
             emerald_gold: ["minecraft:emerald", "minecraft:gold_ingot"],
             gold_diamond: ["minecraft:gold_ingot", "minecraft:diamond"],
-            diamond_netherite: ["minecraft:diamond", "minecraft:netherite_ingot"]
+            diamond_netherite: ["minecraft:diamond", "minecraft:netherite_scrap"]
         }
     },
 

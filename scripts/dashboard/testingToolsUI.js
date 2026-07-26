@@ -29,7 +29,7 @@ import { Logger } from "../core/logger.js";
 
 const COMMON_ITEMS = [
     "minecraft:copper_ingot", "minecraft:iron_ingot", "minecraft:emerald", "minecraft:gold_ingot",
-    "minecraft:diamond", "minecraft:netherite_ingot", "minecraft:wheat", "minecraft:cobblestone", "minecraft:glass"
+    "minecraft:diamond", "minecraft:netherite_scrap", "minecraft:wheat", "minecraft:cobblestone", "minecraft:glass"
 ];
 
 function backAdmin(player) { return import("./adminDashboard.js").then(m => m.AdminDashboard.open(player)); }
