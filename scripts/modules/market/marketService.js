@@ -49,6 +49,7 @@ export class MarketService {
         if (this.#initialized) return;
         this.#initialized = true;
         const db = this.db();
+        this.clearLegacySeededMarket(db);
         this.seedDefaults(db);
         this.applyCatalogPricing(db);
         // Catalog is a reference/policy source only. Market starts empty; items
@@ -140,6 +141,19 @@ export class MarketService {
         db.stats.lastUpdated = now();
         Database.save(COLLECTION, true);
         this.#rebuildItemIndex(db);
+        return true;
+    }
+
+    static clearLegacySeededMarket(db = this.db()) {
+        if (db.catalogSeedCleanupV1) return false;
+        db.categories = [];
+        db.orders = {};
+        db.playerOrders = {};
+        db.mailbox = {};
+        db.catalogSeedCleanupV1 = true;
+        db.stats.lastUpdated = now();
+        Database.save(COLLECTION, true);
+        Logger.warn("Market", "Cleared legacy auto-seeded market records; Market starts empty by policy");
         return true;
     }
 
