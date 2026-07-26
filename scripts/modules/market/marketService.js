@@ -51,6 +51,7 @@ export class MarketService {
         const db = this.db();
         this.seedDefaults(db);
         this.applyCatalogPricing(db);
+        this.seedCatalogRecords(db);
         // Phase 2: build the initial index right after load.
         this.#rebuildItemIndex(db);
         // Phase 4 Fix: Explicitly register MarketService with MarketOrders
@@ -139,6 +140,33 @@ export class MarketService {
         Database.save(COLLECTION, true);
         this.#rebuildItemIndex(db);
         return true;
+    }
+
+    static seedCatalogRecords(db = this.db()) {
+        const existing = new Set(this.allItems(db).map(item => normalizeItemId(item.id)));
+        const grouped = new Map();
+        for (const policy of ItemSettingsService.all("any")) {
+            if (existing.has(policy.id)) continue;
+            const category = policy.category || "misc";
+            if (!grouped.has(category)) grouped.set(category, []);
+            grouped.get(category).push(normalizeMarketItem({
+                id: policy.id,
+                displayName: policy.name || policy.englishName || policy.id,
+                baseBuyPrice: policy.baseBuyPrice || 0,
+                baseSellPrice: policy.baseSellPrice || 0,
+                buyPrice: policy.baseBuyPrice || 0,
+                sellPrice: policy.baseSellPrice || 0,
+                minPrice: policy.minPrice || 0,
+                maxPrice: policy.maxPrice || 0,
+                stock: 0,
+                targetStock: MC.DEFAULTS.TARGET_STOCK
+            }));
+        }
+        if (!grouped.size) return 0;
+        for (const [name, items] of grouped) db.categories.push({ name, displayName: name, icon: null, items });
+        db.stats.lastUpdated = now();
+        Database.save(COLLECTION, true);
+        return [...grouped.values()].reduce((sum, items) => sum + items.length, 0);
     }
 
     static allItems(db = this.db()) {

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { ITEM_CATALOG, ItemCatalog } from "../scripts/core/itemCatalog.js";
-import { ENTITY_CATALOG, ENCHANTMENT_CATALOG, EFFECT_CATALOG } from "../scripts/data/gameCatalog.generated.js";
+import { ENTITY_CATALOG, ENCHANTMENT_CATALOG, EFFECT_CATALOG } from "../scripts/core/gameCatalog.js";
 
 assert.equal(ITEM_CATALOG.length, 1944);
 assert.equal(new Set(ITEM_CATALOG.map(item => item.id)).size, ITEM_CATALOG.length);

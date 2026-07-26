@@ -6,7 +6,7 @@ import { Logger } from "./logger.js";
 import { ItemCatalog } from "./itemCatalog.js";
 import { DEFAULT_ITEM_SETTINGS_DB, validateItemSettingsData } from "../schemas/itemSettingsSchema.js";
 import { DisposableRegistry } from "./disposableRegistry.js";
-import { MARKET_PRICING_DEFAULTS } from "../data/catalog.js";
+import { ITEM_PRICING_DEFAULTS as MARKET_PRICING_DEFAULTS } from "./itemCatalog.js";
 
 const ATM_ANCHOR_ITEMS = new Set(["minecraft:copper_ingot", "minecraft:iron_ingot", "minecraft:emerald", "minecraft:gold_ingot", "minecraft:diamond", "minecraft:netherite_scrap"]);
 const COLLECTION = "item_settings";
