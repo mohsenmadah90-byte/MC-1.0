@@ -14,8 +14,9 @@
     "test:catalog": "node tests/catalog-contract.mjs",
     "test:land-sale-tax": "node tests/land-sale-tax-contract.mjs",
     "test:chunk-banner": "node tests/chunk-banner-preview-contract.mjs",
+    "test:village": "node tests/village-protection-contract.mjs",
     "preflight": "node tools/production-preflight.mjs",
-    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts && npm run test:protection && npm run test:catalog && npm run test:land-sale-tax && npm run test:chunk-banner",
+    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts && npm run test:protection && npm run test:catalog && npm run test:land-sale-tax && npm run test:chunk-banner && npm run test:village",
     "validate:production": "npm run validate && npm run test:load && npm run preflight"
   },
   "engines": {

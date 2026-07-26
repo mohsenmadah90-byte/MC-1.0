@@ -22,6 +22,7 @@ const FEATURES = Object.freeze({
     "block.place.after": { path: "world.afterEvents.playerPlaceBlock", targetSupported: true, required: false },
     "entity.hurt.before": { path: "world.beforeEvents.entityHurt", targetSupported: false, required: false, fallback: "entity.hurt.after" },
     "entity.hurt.after": { path: "world.afterEvents.entityHurt", targetSupported: true, required: false },
+    "entity.interact.before": { path: "world.beforeEvents.playerInteractWithEntity", targetSupported: true, required: false },
     "piston.activate.before": { path: "world.beforeEvents.pistonActivate", targetSupported: false, required: false, fallback: "piston.activate.after", fallbackMode: "detective" },
     "piston.activate.after": { path: "world.afterEvents.pistonActivate", targetSupported: true, required: false },
     "item.useOn.before": { path: "world.beforeEvents.itemUseOn", targetSupported: false, required: false, fallback: "item.use.before", fallbackMode: "conservative" },

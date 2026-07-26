@@ -178,6 +178,21 @@ export const CONFIG = {
         }
     },
 
+    VILLAGE_PROTECTION: {
+        ENABLED: true,
+        SCAN_INTERVAL_TICKS: 600,
+        CLUSTER_RADIUS_BLOCKS: 48,
+        PROTECTION_PADDING_BLOCKS: 8,
+        MIN_VILLAGERS_PER_VILLAGE: 1,
+        MAX_TRACKED_VILLAGERS: 512,
+        TELEPORT_ESCAPED_VILLAGERS: true,
+        ALLOWED_INTERACTION_BLOCKS: [
+            "door", "trapdoor", "chest", "barrel", "shulker", "furnace", "blast_furnace", "smoker",
+            "brewing_stand", "hopper", "dispenser", "dropper", "lectern", "composter", "smithing_table",
+            "cartography_table", "fletching_table", "grindstone", "loom", "stonecutter", "villager"
+        ]
+    },
+
     CONTRACTS: {
         COLLECTION: "contracts",
         PLAYER_CONTRACT_FEE_RATE: 0.05,

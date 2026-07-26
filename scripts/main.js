@@ -47,6 +47,7 @@ import { ATMProtection } from "./modules/atm/atmProtection.js";
 import { ATMLimits } from "./modules/atm/atmLimits.js";
 import { AuditService } from "./modules/audit/auditService.js";
 import { BackupService } from "./modules/backup/backupService.js";
+import { VillageProtection } from "./modules/village/villageProtection.js";
 
 class RuntimeState {
     static initialized = false;
@@ -85,6 +86,7 @@ class RuntimeState {
         try { ATMProtection.shutdown(); } catch (error) { Logger.error("Main", "ATMProtection shutdown error", error); }
         try { ATMLimits.stopLoop(system); } catch (error) { Logger.error("Main", "ATMLimits shutdown error", error); }
         try { LandProtection.shutdown(); } catch (error) { Logger.error("Main", "LandProtection shutdown error", error); }
+        try { VillageProtection.shutdown(); } catch (error) { Logger.error("Main", "VillageProtection shutdown error", error); }
         try { DashboardEntry.shutdown(); } catch (error) { Logger.error("Main", "DashboardEntry shutdown error", error); }
         try { DashboardSystem.shutdown(); } catch (error) { Logger.error("Main", "Dashboard shutdown error", error); }
         try { PlayerRegistry.shutdown(); } catch (error) { Logger.error("Main", "PlayerRegistry shutdown error", error); }
@@ -149,6 +151,7 @@ function initialize() {
         LandUI.initialize();
         LandShardService.initialize();
         LandProtection.initialize();
+        VillageProtection.initialize();
         ContractUI.initialize();
         ContractShardService.initialize();
         AuditService.initialize();
