@@ -1,5 +1,8 @@
 // MCity Dashboard V2 - Minecraft Item Catalog Core
 // UX Phase 4 (v1.7.3): Searchable item catalog for player-friendly item selection.
+// Catalog data is generated from the Bedrock reference workbook; legacy policy metadata is preserved.
+
+import { GENERATED_CATALOG } from "../data/itemCatalog.generated.js";
 //
 // This catalog intentionally starts with the most economy-relevant vanilla
 // Bedrock items instead of every possible block/item. It is designed to be
@@ -35,7 +38,7 @@ export const ITEM_CATEGORIES = {
     misc: "Misc"
 };
 
-export const ITEM_CATALOG = Object.freeze([
+const LEGACY_ITEM_CATALOG = Object.freeze([
     // Materials / currency-like resources
     item("minecraft:coal", "Coal", "materials", "textures/items/coal", ["charcoal fuel", "زغال"]),
     item("minecraft:charcoal", "Charcoal", "materials", "textures/items/charcoal", ["coal fuel", "زغال چوب"]),
@@ -187,6 +190,44 @@ export const ITEM_CATALOG = Object.freeze([
     item("minecraft:barrier", "Barrier", "misc", "textures/blocks/barrier", ["admin banned"], { marketable: false, contractable: false, adminOnly: true, dangerous: true }),
     item("minecraft:command_block", "Command Block", "misc", "textures/blocks/command_block", ["admin banned"], { marketable: false, contractable: false, adminOnly: true, dangerous: true })
 ]);
+
+const LEGACY_BY_ID = new Map(LEGACY_ITEM_CATALOG.map(item => [item.id, item]));
+
+function generatedCategory(tab, isBlock) {
+    const value = String(tab || "").toLowerCase();
+    if (value.includes("redstone")) return "redstone";
+    if (value.includes("food")) return "food";
+    if (value.includes("nature") || value.includes("farming")) return "farming";
+    if (value.includes("combat")) return "combat";
+    if (value.includes("tools")) return "tools";
+    if (value.includes("building")) return "stone";
+    if (value.includes("equipment")) return "armor";
+    if (value.includes("transport")) return "misc";
+    if (value.includes("decoration")) return "decoration";
+    return isBlock ? "stone" : "misc";
+}
+
+// Merge the complete raw reference catalog with the existing economy policy.
+// New records are deliberately non-tradeable until explicitly approved.
+export const ITEM_CATALOG = Object.freeze(GENERATED_CATALOG.map(raw => {
+    const legacy = LEGACY_BY_ID.get(raw.id);
+    return {
+        ...item(raw.id, legacy?.name || raw.englishName, legacy?.category || generatedCategory(raw.creativeTab, raw.isBlock), legacy?.icon || "", legacy?.aliases || [raw.persianName].filter(Boolean), {
+            stackSize: legacy?.stackSize || 64,
+            marketable: legacy?.marketable === true,
+            contractable: legacy?.contractable === true,
+            adminOnly: legacy?.adminOnly || raw.id.includes("command_block") || ["minecraft:barrier", "minecraft:bedrock"].includes(raw.id),
+            dangerous: legacy?.dangerous || /tnt|lava|fire|spawn_egg|command|barrier|bedrock/.test(raw.id)
+        }),
+        englishName: raw.englishName,
+        persianName: raw.persianName,
+        numericId: raw.numericId,
+        creativeTab: raw.creativeTab,
+        isBlock: raw.isBlock,
+        isItem: raw.isItem,
+        sourceVersion: raw.sourceVersion
+    };
+}));
 
 const ITEM_BY_ID = new Map(ITEM_CATALOG.map(i => [i.id, i]));
 
