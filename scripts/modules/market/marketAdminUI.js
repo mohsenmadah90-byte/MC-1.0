@@ -258,6 +258,30 @@ export class MarketAdminUI {
         return this.categoryList(player, page);
     }
 
+    static async editItemPrices(player, itemId) {
+        if (!__mcityCan(player)) return;
+        const item = ItemSettingsService.effective(itemId);
+        if (!item) return;
+        const form = await new ModalFormData()
+            .title("§eEdit Item Prices")
+            .textField("Base Buy Price ($)", "0.00", { defaultValue: ((item.baseBuyPrice || 0) / 100).toFixed(2) })
+            .textField("Base Sell Price ($)", "0.00", { defaultValue: ((item.baseSellPrice || 0) / 100).toFixed(2) })
+            .textField("Minimum Price ($)", "0.00", { defaultValue: ((item.minPrice || 0) / 100).toFixed(2) })
+            .textField("Maximum Price ($)", "0.00", { defaultValue: ((item.maxPrice || 0) / 100).toFixed(2) })
+            .show(player);
+        if (form.canceled || __mcityLost(player)) return;
+        const values = form.formValues.map(value => MoneyUtils.parseFloatToCents(value, false));
+        if (values.some(value => !value.ok)) { player.sendMessage(CONFIG.PREFIX + "§cInvalid price."); return this.itemFlagDetails(player, itemId); }
+        const result = ItemSettingsService.setPrices(itemId, {
+            baseBuyPriceCents: values[0].cents,
+            baseSellPriceCents: values[1].cents,
+            minPriceCents: values[2].cents,
+            maxPriceCents: values[3].cents
+        }, player.name);
+        player.sendMessage(CONFIG.PREFIX + result.message);
+        return this.itemFlagDetails(player, itemId);
+    }
+
     static async itemFlags(player) {
         if (!__mcityCan(player)) return;
         const selected = await ItemPickerUI.pick(player, { mode: "admin", title: "Select Item Flags", pageSize: CONFIG.UI.ITEMS_PER_PAGE || 8 });
@@ -279,18 +303,21 @@ export class MarketAdminUI {
                 UI.kv("Category", item.category),
                 UI.kv("Marketable", item.marketable ? "ON" : "OFF", item.marketable ? "§a" : "§c"),
                 UI.kv("Contractable", item.contractable ? "ON" : "OFF", item.contractable ? "§a" : "§c"),
+                UI.kv("Base Buy", MoneyUtils.formatCents(item.baseBuyPrice || 0), "§a"),
+                UI.kv("Base Sell", MoneyUtils.formatCents(item.baseSellPrice || 0), "§e"),
                 UI.kv("Override", override ? "Custom" : "Default", override ? "§e" : "§a"),
                 item.adminOnly ? "§cAdmin-only catalog item" : "",
                 item.dangerous ? "§eDangerous/sensitive item" : ""
             ))
             .button(item.marketable ? "§cDisable Marketable" : "§aEnable Marketable")
             .button(item.contractable ? "§cDisable Contractable" : "§aEnable Contractable")
+            .button("§eEdit Prices")
             .button("§eReset Override")
             .button(UI.BACK);
         const r = await form.show(player);
         if (__mcityLost(player)) return;
         if (r.canceled) return;
-        if (r.selection === 3) return this.open(player);
+        if (r.selection === 4) return this.open(player);
         if (r.selection === 0) {
             const res = ItemSettingsService.setFlags(item.id, { marketable: !item.marketable }, player.name);
             player.sendMessage(CONFIG.PREFIX + res.message);
@@ -301,7 +328,8 @@ export class MarketAdminUI {
             player.sendMessage(CONFIG.PREFIX + res.message);
             return this.itemFlagDetails(player, item.id);
         }
-        if (r.selection === 2) {
+        if (r.selection === 2) return this.editItemPrices(player, item.id);
+        if (r.selection === 3) {
             const res = ItemSettingsService.reset(item.id);
             player.sendMessage(CONFIG.PREFIX + res.message);
             return this.itemFlagDetails(player, item.id);

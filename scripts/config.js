@@ -204,14 +204,10 @@ export const CONFIG = {
         GC_INTERVAL_TICKS: 6000,
         ITEMS_PER_PAGE: 8,
         DEFAULT_EXPIRE_DAYS: 3,
-        SERVER_CONTRACTS_ENABLED: true,
+        SERVER_CONTRACTS_ENABLED: false,
         PLAYER_CONTRACTS_ENABLED: true,
         CONTRIBUTION_CONTRACTS_ENABLED: true,
-        DEFAULT_SERVER_CONTRACTS: [
-            { title: "Server needs Wheat", category: "farming", itemId: "minecraft:wheat", amountRequired: 128, rewardCents: 250000, rewardScore: 10, resetMode: "daily" },
-            { title: "Server needs Cobblestone", category: "mining", itemId: "minecraft:cobblestone", amountRequired: 512, rewardCents: 180000, rewardScore: 8, resetMode: "daily" },
-            { title: "Server needs Iron", category: "mining", itemId: "minecraft:iron_ingot", amountRequired: 64, rewardCents: 450000, rewardScore: 15, resetMode: "weekly" }
-        ],
+        DEFAULT_SERVER_CONTRACTS: [],
         CATEGORIES: {
             farming: { name: "Farming", color: "§a", icon: "☘" },
             mining: { name: "Mining", color: "§7", icon: "⛏" },

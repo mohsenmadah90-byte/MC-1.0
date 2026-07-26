@@ -30,6 +30,7 @@ import { BatchTaskService } from "../../core/batchTaskService.js";
 import { RateLimiter } from "../../core/rateLimiter.js";
 
 const CC = CONFIG.CONTRACTS;
+const ATM_ANCHOR_ITEMS = new Set(["minecraft:copper_ingot", "minecraft:iron_ingot", "minecraft:emerald", "minecraft:gold_ingot", "minecraft:diamond", "minecraft:netherite_scrap"]);
 const COLLECTION = CC.COLLECTION;
 const DAY_MS = 24 * 60 * 60 * 1000;
 function now(){return Date.now();}
@@ -48,6 +49,7 @@ export class ContractService {
         this.#initialized=true; 
         const db=this.db(); 
         this.seedDefaults(db);
+        this.#disableRestrictedContracts(db);
         BatchTaskService.register("contract_gc", {
             process: task => this.#processGCBatch(task),
             afterCommit: effects => this.#afterGCBatch(effects)
@@ -60,8 +62,24 @@ export class ContractService {
     
     static db(){ return Database.collection(COLLECTION, DEFAULT_CONTRACT_DB, { validate: validateContractData }); }
 
+    static #disableRestrictedContracts(db) {
+        const restricted = Object.values(db.contracts || {}).filter(c => ATM_ANCHOR_ITEMS.has(String(c.itemId || "").toLowerCase()) && ["active", "open", "accepted"].includes(c.status));
+        if (!restricted.length) return;
+        for (const contract of restricted) { contract.status = "cancelled"; contract.cancelledAt = now(); contract.cancelReason = "ATM anchor item disabled in contracts"; }
+        rebuildContractIndexes(db); db.stats.lastUpdated = now(); Database.save(COLLECTION, true);
+        Logger.warn("Contracts", `Cancelled ${restricted.length} active contracts using ATM anchor items`);
+    }
+
     static seedDefaults(db=this.db()){
-        if(db.seeded || !CC.SERVER_CONTRACTS_ENABLED)return false;
+        if (!CC.SERVER_CONTRACTS_ENABLED) {
+            const activeServer = Object.values(db.contracts || {}).filter(c => c.type === "server_market_supply" && ["active", "open", "accepted"].includes(c.status));
+            if (activeServer.length) {
+                for (const contract of activeServer) { contract.status = "cancelled"; contract.cancelledAt = now(); contract.cancelReason = "Default server contracts disabled by economy policy"; }
+                rebuildContractIndexes(db); db.stats.lastUpdated = now(); Database.save(COLLECTION, true);
+            }
+            return false;
+        }
+        if(db.seeded)return false;
         for(const raw of CC.DEFAULT_SERVER_CONTRACTS||[]){
             const id=contractId("srv");
             const c=sanitizeContract({ id, type:"server_market_supply", creatorId:"server", creatorName:"Server", status:"active", createdAt:now(), expiresAt:now()+DAY_MS, ...raw });

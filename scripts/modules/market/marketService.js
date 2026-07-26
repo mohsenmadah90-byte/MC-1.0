@@ -50,6 +50,7 @@ export class MarketService {
         this.#initialized = true;
         const db = this.db();
         this.seedDefaults(db);
+        this.applyCatalogPricing(db);
         // Phase 2: build the initial index right after load.
         this.#rebuildItemIndex(db);
         // Phase 4 Fix: Explicitly register MarketService with MarketOrders
@@ -70,6 +71,27 @@ export class MarketService {
             this.#initialized = false;
         });
         Logger.startup("Market", `Market service initialized (${this.#itemIndex.size} items indexed)`);
+    }
+
+    static applyCatalogPricing(db = this.db()) {
+        let changed = 0;
+        for (const item of this.allItems(db)) {
+            const policy = ItemSettingsService.effective(item.id);
+            if (!policy || policy.baseBuyPrice === undefined) continue;
+            const override = ItemSettingsService.overrideFor(item.id);
+            if (override?.baseBuyPriceCents !== undefined || override?.baseSellPriceCents !== undefined) continue;
+            const buy = Math.max(0, Math.floor(policy.baseBuyPrice));
+            const sell = Math.max(0, Math.floor(policy.baseSellPrice ?? buy * MC.DEFAULTS.SELL_RATIO));
+            if (item.baseBuyPrice !== buy || item.baseSellPrice !== sell) {
+                item.baseBuyPrice = buy; item.baseSellPrice = sell;
+                item.buyPrice = buy; item.sellPrice = sell;
+                item.minPrice = Math.max(0, Math.floor(policy.minPrice ?? buy * MC.PRICE.MIN_MULTIPLIER));
+                item.maxPrice = Math.max(item.minPrice, Math.floor(policy.maxPrice ?? buy * MC.PRICE.MAX_MULTIPLIER));
+                changed++;
+            }
+        }
+        if (changed) Database.save(COLLECTION, true);
+        return changed;
     }
 
     static onDatabaseRestored(event = {}) {

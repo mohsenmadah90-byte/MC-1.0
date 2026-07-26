@@ -28,7 +28,11 @@ export function validateItemSettingsData(data, def = DEFAULT_ITEM_SETTINGS_DB) {
             const o = {};
             if (typeof raw.marketable === "boolean") o.marketable = raw.marketable;
             if (typeof raw.contractable === "boolean") o.contractable = raw.contractable;
-            if (!Object.prototype.hasOwnProperty.call(o, "marketable") && !Object.prototype.hasOwnProperty.call(o, "contractable")) continue;
+            for (const key of ["baseBuyPriceCents", "baseSellPriceCents", "minPriceCents", "maxPriceCents"]) {
+                const value = Math.floor(Number(raw[key]));
+                if (Number.isSafeInteger(value) && value >= 0) o[key] = value;
+            }
+            if (!Object.keys(o).length) continue;
             o.updatedBy = String(raw.updatedBy || "system").substring(0, 64);
             o.updatedAt = Number(raw.updatedAt) || Date.now();
             out.overrides[itemId] = o;
