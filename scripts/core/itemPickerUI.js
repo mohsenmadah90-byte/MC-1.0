@@ -3,7 +3,7 @@
 
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
 import { UI } from "./uiTheme.js";
-import { ITEM_CATEGORIES } from "./itemCatalog.js";
+import { ITEM_CATEGORIES, ItemCatalog } from "./itemCatalog.js";
 import { ItemSettingsService } from "./itemSettingsService.js";
 
 const DEFAULT_PAGE_SIZE = 8;
@@ -45,11 +45,12 @@ export class ItemPickerUI {
 
     static async #searchForm(player, state) {
         const categories = ["all", ...Object.keys(ITEM_CATEGORIES)];
+        const counts = Object.fromEntries(categories.slice(1).map(category => [category, ItemCatalog.all().filter(item => item.category === category).length]));
         const currentIndex = Math.max(0, categories.indexOf(state.category || "all"));
         const form = new ModalFormData()
             .title(`§3§l${state.title}`)
             .textField("Search item", "iron / آهن / wheat / diamond", { defaultValue: state.query || "" })
-            .dropdown("Category", categories.map(c => c === "all" ? "All Categories" : categoryName(c)), { defaultValueIndex: currentIndex });
+            .dropdown("Category", categories.map(c => c === "all" ? `All Categories (${ItemCatalog.all().length})` : `${categoryName(c)} (${counts[c] || 0})`), { defaultValueIndex: currentIndex });
         const r = await form.show(player);
         if (r.canceled) return;
         state.query = String(r.formValues?.[0] || "").trim();
@@ -62,7 +63,7 @@ export class ItemPickerUI {
         const results = ItemSettingsService.search(state.query, {
             mode: state.mode,
             category: state.category,
-            limit: 100
+            limit: 5000
         });
         const totalPages = Math.max(1, Math.ceil(results.length / state.pageSize));
         page = Math.max(0, Math.min(page, totalPages - 1));
