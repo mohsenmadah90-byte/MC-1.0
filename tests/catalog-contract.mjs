@@ -4,6 +4,7 @@ import { ENTITY_CATALOG, ENCHANTMENT_CATALOG, EFFECT_CATALOG } from "../scripts/
 
 assert.equal(ITEM_CATALOG.length, 1944);
 assert.equal(new Set(ITEM_CATALOG.map(item => item.id)).size, ITEM_CATALOG.length);
+assert.equal(ItemCatalog.search("", { limit: 5000 }).length, ITEM_CATALOG.length);
 assert.ok(ITEM_CATALOG.some(item => item.isBlock));
 assert.ok(ITEM_CATALOG.some(item => item.isItem));
 assert.equal(ItemCatalog.get("minecraft:diamond")?.marketable, true);

@@ -1,5 +1,5 @@
 // Complete non-item game catalogs generated from the Bedrock reference workbook.
-import { ENTITY_CATALOG, ENCHANTMENT_CATALOG, EFFECT_CATALOG } from "../data/gameCatalog.generated.js";
+import { ENTITY_CATALOG, ENCHANTMENT_CATALOG, EFFECT_CATALOG } from "../data/catalog.js";
 
 export { ENTITY_CATALOG, ENCHANTMENT_CATALOG, EFFECT_CATALOG };
 

@@ -2,7 +2,7 @@
 // UX Phase 4 (v1.7.3): Searchable item catalog for player-friendly item selection.
 // Catalog data is generated from the Bedrock reference workbook; legacy policy metadata is preserved.
 
-import { GENERATED_CATALOG } from "../data/itemCatalog.generated.js";
+import { GENERATED_CATALOG } from "../data/catalog.js";
 //
 // This catalog intentionally starts with the most economy-relevant vanilla
 // Bedrock items instead of every possible block/item. It is designed to be
@@ -248,14 +248,14 @@ export class ItemCatalog {
         const q = this.#normalizeQuery(query);
         let pool = this.forMode(mode);
         if (category) pool = pool.filter(i => i.category === category);
-        if (!q) return pool.slice(0, Math.max(1, Math.min(100, limit)));
+        if (!q) return pool.slice(0, Math.max(1, Math.min(5000, limit)));
         const scored = [];
         for (const it of pool) {
             const score = this.#score(it, q);
             if (score > 0) scored.push({ item: it, score });
         }
         scored.sort((a, b) => b.score - a.score || a.item.name.localeCompare(b.item.name));
-        return scored.slice(0, Math.max(1, Math.min(100, limit))).map(x => x.item);
+        return scored.slice(0, Math.max(1, Math.min(5000, limit))).map(x => x.item);
     }
 
     static isAllowed(id, mode = "any") {

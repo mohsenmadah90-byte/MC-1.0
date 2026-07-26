@@ -6,7 +6,7 @@ import { Logger } from "./logger.js";
 import { ItemCatalog } from "./itemCatalog.js";
 import { DEFAULT_ITEM_SETTINGS_DB, validateItemSettingsData } from "../schemas/itemSettingsSchema.js";
 import { DisposableRegistry } from "./disposableRegistry.js";
-import { MARKET_PRICING_DEFAULTS } from "../data/marketPricing.generated.js";
+import { MARKET_PRICING_DEFAULTS } from "../data/catalog.js";
 
 const ATM_ANCHOR_ITEMS = new Set(["minecraft:copper_ingot", "minecraft:iron_ingot", "minecraft:emerald", "minecraft:gold_ingot", "minecraft:diamond", "minecraft:netherite_scrap"]);
 const COLLECTION = "item_settings";
@@ -65,10 +65,10 @@ export class ItemSettingsService {
     static search(query = "", options = {}) {
         const mode = options.mode || "any";
         const category = options.category || null;
-        const limit = Math.max(1, Math.min(100, Math.floor(options.limit || 20)));
+        const limit = Math.max(1, Math.min(5000, Math.floor(options.limit || 20)));
         // Search broader than mode, then apply effective override filter so
         // disabled items disappear immediately from player-facing pickers.
-        let results = ItemCatalog.search(query, { mode: mode === "admin" ? "admin" : "any", category, limit: 100 })
+        let results = ItemCatalog.search(query, { mode: mode === "admin" ? "admin" : "any", category, limit: 5000 })
             .map(i => this.effective(i))
             .filter(i => this.#modeAllowed(i, mode));
         return results.slice(0, limit);
