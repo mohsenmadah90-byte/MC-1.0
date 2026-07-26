@@ -474,12 +474,15 @@ export class LandService {
         return { success: true, claim: tx.result, message: `§aClaim purchased: §f${tx.result.id} (${typeStr}§a) §7for §e${MoneyUtils.formatCents(v.price)}` };
     }
 
-    static payTax(player, claimIdValue) {
+    static payTax(player, claimIdValue, options = {}) {
         const db = this.db(); const claim = db.claims[claimIdValue];
         if (!claim) return { success: false, message: "§cClaim not found." };
         if (!this.canManage(claim, player)) return { success: false, message: "§cYou cannot manage this claim." };
         const debt = Math.max(0, claim.taxDebt || 0);
-        if (debt <= 0) return { success: true, message: "§aNo tax due." };
+        if (debt <= 0) return { success: true, paid: 0, message: "§aNo tax due." };
+        if (options.expectedDebt !== undefined && Math.floor(Number(options.expectedDebt) || 0) !== debt) {
+            return { success: false, stale: true, message: "§cTax amount changed. Please reopen the sale form." };
+        }
         if (MoneyService.getBalance(player) < debt) return { success: false, message: `§cNeed ${MoneyUtils.formatCents(debt)}.` };
 
         // Phase 7 (v0.21.0): Atomic debit replaces addMoney(-debt).
@@ -490,6 +493,7 @@ export class LandService {
 
         const tx = Database.transaction(COLLECTION, data => {
             const c = data.claims[claimIdValue]; if (!c) throw new Error("Claim missing.");
+            if (options.expectedDebt !== undefined && Math.max(0, c.taxDebt || 0) !== debt) throw new Error("Tax amount changed before payment.");
             c.taxDebt = 0; c.updatedAt = now();
             data.treasury.balance = (data.treasury.balance || 0) + debt;
             data.treasury.totalTaxCollected = (data.treasury.totalTaxCollected || 0) + debt;
@@ -504,13 +508,14 @@ export class LandService {
 
         this.#recordFinanceIn(debt, "Land tax payment", { playerId: player.id, playerName: player.name, claimId: claimIdValue });
         AuditService.record("land.tax.pay", "land", player.id, player.name, `Paid tax for ${claimIdValue}`, { claimId: claimIdValue, amount: debt });
-        return { success: true, message: `§aTax paid: §e${MoneyUtils.formatCents(debt)}` };
+        return { success: true, paid: debt, message: `§aTax paid: §e${MoneyUtils.formatCents(debt)}` };
     }
 
     static sellToServer(player, claimIdValue) {
         const claim = this.db().claims[claimIdValue];
         if (!claim) return { success: false, message: "§cClaim not found." };
         if (claim.ownerId !== player.id) return { success: false, message: "§cOnly owner can sell this claim." };
+        if ((claim.taxDebt || 0) > 0) return { success: false, message: "§cPay tax debt before selling this claim." };
         
         // Prevent selling Base Chunk if Child Chunks exist
         if (claim.isBase) {

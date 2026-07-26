@@ -16,6 +16,26 @@ const LC = CONFIG.LAND;
 function backDashboard(player) { return import("../../dashboard/dashboardSystem.js").then(m => m.DashboardSystem.open(player)); }
 function fmtDuration(ms) { const s=Math.max(0,Math.ceil((ms||0)/1000)); if(s<60)return `${s}s`; const m=Math.floor(s/60); if(m<60)return `${m}m`; const h=Math.floor(m/60); if(h<48)return `${h}h ${m%60}m`; const d=Math.floor(h/24); return `${d}d ${h%24}h`; }
 function taxLine(c) { const info = LandService.taxInfo(c); if (!info || info.reason) return "§7Tax: §8unknown"; if (info.inGrace) return `§7Tax Grace: §a${fmtDuration(info.graceRemainingMs)} remaining`; return `§7Next Tax: §e${fmtDuration(info.nextTaxInMs)} §8(${MoneyUtils.formatCents(info.taxPerPeriodCents)} / ${info.periodHours}h)`; }
+async function confirmTaxBeforeSale(player, claimId) {
+    const claim = LandService.db().claims[claimId];
+    const debt = Math.max(0, claim?.taxDebt || 0);
+    if (!claim || debt <= 0) return { success: true, paid: 0 };
+    const confirmation = await new MessageFormData()
+        .title("§eTax Required Before Sale")
+        .body(`This land has unpaid tax.\n\nTax due: §e${MoneyUtils.formatCents(debt)}§r\n\nYou must pay the full tax before listing or selling this land. After payment, you will receive a separate sale confirmation.`)
+        .button1("§cCancel")
+        .button2("§aPay Tax & Continue")
+        .show(player);
+    if (confirmation.canceled || confirmation.selection !== 1) return { success: false, canceled: true };
+    const paid = LandService.payTax(player, claimId, { expectedDebt: debt });
+    if (!paid.success) {
+        player.sendMessage(CONFIG.PREFIX + paid.message);
+        return paid;
+    }
+    player.sendMessage(CONFIG.PREFIX + `§aTax paid: §e${MoneyUtils.formatCents(paid.paid || debt)}§a. Continue to sale confirmation.`);
+    return { success: true, paid: paid.paid || debt };
+}
+
 function claimInfo(c) { 
     return `§7ID: §f${c.id}\n` +
            `§7Type: ${c.isBase ? "§bBase Chunk" : "§7Child Chunk"}\n` +
@@ -376,13 +396,21 @@ export class LandUI {
 
     static async listSale(player, claimId) {
         try {
+            const tax = await confirmTaxBeforeSale(player, claimId);
+            if (!tax.success) return this.manage(player, claimId);
             const form = new ModalFormData().title("§dList Land For Sale").textField("Price ($)", "10000.00"); 
             const r = await form.show(player); 
             if (r.canceled) return;
             
             const parsed = MoneyUtils.parseFloatToCents(r.formValues[0], false); 
             if (!parsed.ok) { player.sendMessage(CONFIG.PREFIX + "§cInvalid price."); return this.manage(player, claimId); }
-            
+            const confirmation = await new MessageFormData()
+                .title("§dConfirm Land Listing")
+                .body(`List claim §f${claimId}§r for §e${MoneyUtils.formatCents(parsed.cents)}§r?\n\nAny required tax was paid before this confirmation.`)
+                .button1("§cCancel")
+                .button2("§aConfirm Listing")
+                .show(player);
+            if (confirmation.canceled || confirmation.selection !== 1) return this.manage(player, claimId);
             const res = LandService.listForSale(player, claimId, parsed.cents); 
             player.sendMessage(CONFIG.PREFIX + res.message); 
             return this.manage(player, claimId);
@@ -392,6 +420,8 @@ export class LandUI {
     static async sellServer(player, claimId) {
         const refund = Math.floor(LC.BASE_PRICE_CENTS * LC.SELL_REFUND_RATIO);
         try {
+            const tax = await confirmTaxBeforeSale(player, claimId);
+            if (!tax.success) return this.manage(player, claimId);
             const c = await new MessageFormData().title("§cSell To Server").body(`Sell claim §f${claimId}§r to server for §e${MoneyUtils.formatCents(refund)}§r pending payout?`).button1("§cCancel").button2("§aSell").show(player);
             if (c.canceled) return; if (c.selection !== 1) return this.manage(player, claimId);
             const res = LandService.sellToServer(player, claimId); player.sendMessage(CONFIG.PREFIX + res.message); return this.open(player);

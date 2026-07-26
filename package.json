@@ -12,8 +12,9 @@
     "test:load": "node tests/load-simulation.mjs",
     "test:protection": "node tests/protection-fallback-contract.mjs",
     "test:catalog": "node tests/catalog-contract.mjs",
+    "test:land-sale-tax": "node tests/land-sale-tax-contract.mjs",
     "preflight": "node tools/production-preflight.mjs",
-    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts && npm run test:protection && npm run test:catalog",
+    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts && npm run test:protection && npm run test:catalog && npm run test:land-sale-tax",
     "validate:production": "npm run validate && npm run test:load && npm run preflight"
   },
   "engines": {
