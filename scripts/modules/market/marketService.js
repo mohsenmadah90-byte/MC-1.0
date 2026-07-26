@@ -51,7 +51,8 @@ export class MarketService {
         const db = this.db();
         this.seedDefaults(db);
         this.applyCatalogPricing(db);
-        this.seedCatalogRecords(db);
+        // Catalog is a reference/policy source only. Market starts empty; items
+        // must be explicitly added by an admin rather than auto-seeded.
         // Phase 2: build the initial index right after load.
         this.#rebuildItemIndex(db);
         // Phase 4 Fix: Explicitly register MarketService with MarketOrders
