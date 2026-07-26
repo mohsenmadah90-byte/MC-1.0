@@ -142,7 +142,11 @@ export class FinanceLedgerService {
 
     static #processLegacyMigration(task) {
         const collections = Array.isArray(task.payload?.collections) ? task.payload.collections : [];
-        const batchSize = Math.max(1, Math.min(200, Math.floor(Number(task.payload?.batchSize) || 50)));
+        // Dynamic-property serialization dominates this migration's wall time. Keep
+        // each durable batch deliberately small so a growing canonical ledger
+        // cannot monopolize a server tick. The cap also applies to already
+        // persisted tasks created with the previous larger payload.
+        const batchSize = Math.max(1, Math.min(5, Math.floor(Number(task.payload?.batchSize) || 5)));
         let collectionIndex = Math.max(0, Math.floor(Number(task.cursor?.collectionIndex) || 0));
         let offset = Math.max(0, Math.floor(Number(task.cursor?.offset) || 0));
         while (collectionIndex < collections.length && collections[collectionIndex] === COLLECTION) { collectionIndex++; offset = 0; }

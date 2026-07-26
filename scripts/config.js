@@ -323,7 +323,7 @@ export const CONFIG = {
         MAX_PAYOUTS_PER_PLAYER: 100, // warning threshold only; never an economic trim cap
         PAYOUT_SHARD_SOFT_LIMIT_BYTES: 850000,
         CLAIM_BATCH_SIZE: 50,
-        LEDGER_MIGRATION_BATCH_SIZE: 50,
+        LEDGER_MIGRATION_BATCH_SIZE: 5,
         AUTO_CLAIM_ON_JOIN: false,
         DIRECT_PAY_ONLINE: false
     },
