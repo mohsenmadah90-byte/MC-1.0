@@ -36,7 +36,8 @@ async function confirmTaxBeforeSale(player, claimId) {
     return { success: true, paid: paid.paid || debt };
 }
 
-function claimInfo(c) { 
+function claimInfo(c) {
+    const sale = LandService.saleInfo(c);
     return `§7ID: §f${c.id}\n` +
            `§7Type: ${c.isBase ? "§bBase Chunk" : "§7Child Chunk"}\n` +
            `§7Owner: §f${c.ownerName}\n` +
@@ -46,7 +47,7 @@ function claimInfo(c) {
            `${taxLine(c)}\n` +
            `§7Rent: ${c.rentEnabled ? "§a" + MoneyUtils.formatCents(c.rentPricePerDay) + "/day" : "§cDisabled"}\n` +
            `§7Entry: §f${c.flags?.entry || "public"}\n` +
-           `§7For Sale: ${c.listedForSale ? "§aYes §e" + MoneyUtils.formatCents(c.marketPrice) : "§cNo"}`; 
+           `§7For Sale: ${sale?.listed ? "§aYes §e" + MoneyUtils.formatCents(sale.priceCents) : "§cNo"}`; 
 }
 
 export class LandUI {
@@ -192,7 +193,9 @@ export class LandUI {
             
             for (const c of slice) { 
                 const typeStr = c.isBase ? "§b(Base)" : "§7(Child)";
-                form.button(`${c.ownerId === player.id ? "§aOwned" : "§dTrusted"} §f${c.id}\n${typeStr} §e| §fTax ${MoneyUtils.formatCents(c.taxDebt || 0)} ${c.listedForSale ? "§eFor Sale" : ""}`); 
+                const sale = LandService.saleInfo(c);
+                const saleText = sale?.listed ? `§eFor Sale ${MoneyUtils.formatCents(sale.priceCents)}` : "";
+                form.button(`${c.ownerId === player.id ? "§aOwned" : "§dTrusted"} §f${c.id}\n${typeStr} §e| §fTax ${MoneyUtils.formatCents(c.taxDebt || 0)} ${saleText}`); 
                 actions.push({ type: "claim", id: c.id }); 
             }
             

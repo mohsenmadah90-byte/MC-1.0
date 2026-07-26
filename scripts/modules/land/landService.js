@@ -638,8 +638,28 @@ export class LandService {
             : { success: false, message: `§cFailed: ${tx.error}` };
     }
 
+    static saleInfo(claimOrId) {
+        const db = this.db();
+        const claim = typeof claimOrId === "string" ? db.claims[claimOrId] : claimOrId;
+        if (!claim) return null;
+        const listing = claim.listingId ? db.market.listings[claim.listingId] : null;
+        if (!claim.listedForSale || !listing) return { listed: false, claimId: claim.id, priceCents: 0, taxDebt: Math.max(0, claim.taxDebt || 0) };
+        const priceCents = Math.max(0, Math.floor(Number(listing.price ?? claim.salePriceCents) || 0));
+        return {
+            listed: true,
+            claimId: claim.id,
+            listingId: listing.id,
+            priceCents,
+            sellerId: listing.sellerId || claim.ownerId,
+            sellerName: listing.sellerName || claim.ownerName,
+            createdAt: listing.createdAt || claim.updatedAt || 0,
+            taxDebt: Math.max(0, claim.taxDebt || 0)
+        };
+    }
+
     static listForSale(player, claimIdValue, price) {
         const claim = this.db().claims[claimIdValue]; if (!claim) return { success: false, message: "§cClaim not found." };
+        if (!Number.isSafeInteger(price) || price <= 0) return { success: false, message: "§cSale price must be a positive whole-cent amount." };
         if (claim.ownerId !== player.id) return { success: false, message: "§cOnly owner can list." };
         if (claim.taxDebt > 0) return { success: false, message: "§cPay tax debt before listing." };
         
