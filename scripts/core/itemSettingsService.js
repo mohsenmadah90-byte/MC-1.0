@@ -8,11 +8,7 @@ import { DEFAULT_ITEM_SETTINGS_DB, validateItemSettingsData } from "../schemas/i
 import { DisposableRegistry } from "./disposableRegistry.js";
 import { MARKET_PRICING_DEFAULTS } from "../data/marketPricing.generated.js";
 
-const ATM_ANCHOR_ITEMS = new Set([
-    "minecraft:copper_ingot", "minecraft:iron_ingot", "minecraft:emerald",
-    "minecraft:gold_ingot", "minecraft:diamond", "minecraft:netherite_scrap"
-]);
-
+const ATM_ANCHOR_ITEMS = new Set(["minecraft:copper_ingot", "minecraft:iron_ingot", "minecraft:emerald", "minecraft:gold_ingot", "minecraft:diamond", "minecraft:netherite_scrap"]);
 const COLLECTION = "item_settings";
 function now() { return Date.now(); }
 
@@ -49,6 +45,8 @@ export class ItemSettingsService {
             override: Object.keys(override).length ? override : null
         };
     }
+
+    static isATMAnchor(id) { return ATM_ANCHOR_ITEMS.has(this.normalizeId(id)); }
 
     static isMarketable(id) {
         const item = this.effective(id);

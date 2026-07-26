@@ -338,9 +338,10 @@ export class MarketAdminUI {
 
     static async addEditFromCatalog(player) {
         if (!__mcityCan(player)) return;
-        const selected = await ItemPickerUI.pick(player, { mode: "market", title: "Select Market Item", pageSize: CONFIG.UI.ITEMS_PER_PAGE || 8 });
+        const selected = await ItemPickerUI.pick(player, { mode: "admin", title: "Select Catalog Item", pageSize: CONFIG.UI.ITEMS_PER_PAGE || 8 });
         if (__mcityLost(player)) return;
         if (!selected) { player.sendMessage(CONFIG.PREFIX + "§eMarket item creation cancelled: no item selected."); return this.open(player); }
+        if (ItemSettingsService.isATMAnchor(selected.id)) { player.sendMessage(CONFIG.PREFIX + "§cATM anchor ores cannot be added to Market."); return this.open(player); }
         return this.configureItem(player, {
             id: selected.id,
             displayName: selected.name,
@@ -370,12 +371,15 @@ export class MarketAdminUI {
 
     static async configureItem(player, base) {
         if (!__mcityCan(player)) return;
+        const defaults = ItemSettingsService.effective(base.id);
+        const defaultBuy = ((defaults?.baseBuyPrice ?? 2000) / 100).toFixed(2);
+        const defaultSell = ((defaults?.baseSellPrice ?? 1400) / 100).toFixed(2);
         const r = await new ModalFormData()
             .title("§aConfigure Market Item")
-            .textField("Category", "materials", { defaultValue: base.category || "materials" })
-            .textField("Display Name", base.displayName || base.id)
-            .textField("Base Buy Price ($)", "20.00")
-            .textField("Base Sell Price ($)", "14.00")
+            .textField("Category", "materials", { defaultValue: base.category || defaults?.category || "materials" })
+            .textField("Display Name", base.displayName || defaults?.name || base.id)
+            .textField("Base Buy Price ($)", "20.00", { defaultValue: defaultBuy })
+            .textField("Base Sell Price ($)", "14.00", { defaultValue: defaultSell })
             .textField("Stock", "100")
             .textField("Target Stock", "100")
             .show(player);
