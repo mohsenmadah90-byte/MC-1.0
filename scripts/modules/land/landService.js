@@ -211,7 +211,7 @@ export class LandService {
         if (!v.ok) return { success: false, message: `§c${v.reason}`, validation: v };
         this.clearClaimPreview(player.id);
         const duration = Math.max(5000, Math.floor(Number(LC.CLAIM_PREVIEW_DURATION_MS) || 60000));
-        const markerType = LC.CLAIM_PREVIEW_MARKER_BLOCK || "minecraft:white_wool";
+        const markerType = LC.CLAIM_PREVIEW_MARKER_BLOCK || "minecraft:white_banner";
         const dim = player.dimension;
         const minX = v.pc.cx * 16, maxX = minX + 15;
         const minZ = v.pc.cz * 16, maxZ = minZ + 15;
@@ -254,8 +254,14 @@ export class LandService {
         return false;
     }
 
+    static isClaimPreviewLocation(block) {
+        if (!block?.location || !block.dimension) return false;
+        const key = this.#markerKey(block.dimension.id, block.location.x, block.location.y, block.location.z);
+        return [...this.#claimPreviews.values()].some(preview => (preview.markers || []).some(marker => marker.key === key));
+    }
+
     static removeClaimPreviewMarker(block) {
-        if (!this.isClaimPreviewMarker(block)) return false;
+        if (!this.isClaimPreviewLocation(block)) return false;
         try { block.setType("minecraft:air"); } catch {}
         return true;
     }

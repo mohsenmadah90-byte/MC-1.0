@@ -227,7 +227,7 @@ export const CONFIG = {
         ENTRY_TAX_COOLDOWN_MS: 3600000,
         ENTRY_CHECK_INTERVAL_TICKS: 20,
         CLAIM_PREVIEW_DURATION_MS: 60000,
-        CLAIM_PREVIEW_MARKER_BLOCK: "minecraft:white_wool",
+        CLAIM_PREVIEW_MARKER_BLOCK: "minecraft:white_banner",
         PROTECTION: {
             BREAK: true,
             PLACE: true,

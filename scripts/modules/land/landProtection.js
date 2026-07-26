@@ -394,7 +394,7 @@ export class LandProtection {
     static #registerProtection() {
         if (LC.PROTECTION.BREAK) {
             BedrockCompat.subscribe("block.break.before", "LandProtection.break", e => {
-                if (LandService.isClaimPreviewMarker(e.block)) {
+                if (LandService.isClaimPreviewLocation(e.block)) {
                     e.cancel = true;
                     system.run(() => LandService.removeClaimPreviewMarker(e.block));
                     return;
@@ -443,7 +443,7 @@ export class LandProtection {
             const impactedBlocks = e.getImpactedBlocks();
             for (const block of impactedBlocks) {
                 const c = this.#fastGetClaimAt(block);
-                if (c && c.flags.explosions === false) blocksToProtect.push(block);
+                if (LandService.isClaimPreviewLocation(block) || (c && c.flags.explosions === false)) blocksToProtect.push(block);
             }
             if (blocksToProtect.length > 0) {
                 if (blocksToProtect.length === impactedBlocks.length) e.cancel = true;
@@ -482,6 +482,11 @@ export class LandProtection {
         if (BedrockCompat.signal("block.place.before")) {
             BedrockCompat.subscribe("block.place.before", "LandProtection.placeBefore", e => {
                 const loc = e.block?.location || e.player.location;
+                if (LandService.isClaimPreviewLocation({ location: loc, dimension: e.player.dimension })) {
+                    e.cancel = true;
+                    deny(e.player, "Preview banners are display-only.");
+                    return;
+                }
                 const c = this.#fastGetClaimAt({ location: loc, dimension: e.player.dimension });
                 if (c && !LandService.checkPermission(c, e.player, "place")) {
                     e.cancel = true;
@@ -495,6 +500,17 @@ export class LandProtection {
             const player = e.player;
             const block = e.block;
             if (!(player instanceof Player) || !block) return;
+            if (LandService.isClaimPreviewLocation(block)) {
+                const typeId = block.typeId;
+                system.run(() => {
+                    try {
+                        if (block.typeId === typeId) block.setType("minecraft:air");
+                        player.getComponent("minecraft:inventory")?.container?.addItem(new ItemStack(typeId, 1));
+                        deny(player, "Preview banners are display-only and cannot be replaced.");
+                    } catch (error) { Logger.warn("LandProtection", "Preview marker placement compensation failed", error); }
+                });
+                return;
+            }
             const c = this.#fastGetClaimAt(block);
             if (c && !LandService.checkPermission(c, player, "place")) {
                 const typeId=block.typeId;

@@ -135,41 +135,38 @@ export class LandUI {
     }
 
     static async buyCurrent(player) {
-        const previewResult = LandService.previewCurrentChunk(player);
-        if (!previewResult.success) { player.sendMessage(CONFIG.PREFIX + previewResult.message); return this.open(player); }
-        const v = previewResult.validation;
+        const validation = LandService.validateClaimable(player);
+        if (!validation.ok) { player.sendMessage(CONFIG.PREFIX + `§c${validation.reason}`); return this.open(player); }
         try {
-            const typeStr = v.isBase ? "Base Chunk" : "Child Chunk";
-            const seconds = Math.ceil((previewResult.durationMs || 60000) / 1000);
+            const typeStr = validation.isBase ? "Base Chunk" : "Child Chunk";
             const c = await new MessageFormData()
-                .title("§aPreview & Buy Land Claim")
-                .body(
-                    `The current chunk corners have been marked with white preview markers.
-`+
-                    `Walk around and check the boundary before buying.
-
-`+
-                    `Chunk: §f${v.pc.id}§r
-`+
-                    `Type: §b${typeStr}§r
-`+
-                    `Price: §e${MoneyUtils.formatCents(v.price)}§r
-`+
-                    `Protected Y: ${LC.MIN_CLAIM_Y}-${LC.MAX_CLAIM_Y}
-`+
-                    `Markers placed: §f${previewResult.markers}/4§r
-`+
-                    `Preview expires in: §f${seconds}s§r`
-                )
-                .button1("§cCancel")
-                .button2("§aBuy")
+                .title("§aChunk Preview & Buy")
+                .body(`Chunk: §f${validation.pc.id}§r\nType: §b${typeStr}§r\nPrice: §e${MoneyUtils.formatCents(validation.price)}§r\nProtected Y: ${LC.MIN_CLAIM_Y}-${LC.MAX_CLAIM_Y}\n\nChoose Show Chunk to place four temporary white banners. The menu will close and banners expire after one minute.`)
+                .button1("§fShow Chunk")
+                .button2("§aBuy Claim")
                 .show(player);
-            if (c.canceled) { LandService.clearClaimPreview(player.id); return; }
-            if (c.selection !== 1) { LandService.clearClaimPreview(player.id); return this.open(player); }
-            LandService.clearClaimPreview(player.id);
-            const res = LandService.buyCurrentChunk(player); 
-            player.sendMessage(CONFIG.PREFIX + res.message); 
-            return this.open(player);
+            if (c.canceled) return;
+            if (c.selection === 0) {
+                const shown = LandService.previewCurrentChunk(player);
+                if (shown.success) player.sendMessage(CONFIG.PREFIX + `§aFour white banners placed around ${validation.pc.id}. They expire in ${Math.ceil((shown.durationMs || 60000) / 1000)} seconds.`);
+                else player.sendMessage(CONFIG.PREFIX + shown.message);
+                return;
+            }
+            if (c.selection === 1) {
+                const shown = LandService.previewCurrentChunk(player);
+                if (!shown.success) { player.sendMessage(CONFIG.PREFIX + shown.message); return this.open(player); }
+                const confirm = await new MessageFormData()
+                    .title("§aConfirm Claim Purchase")
+                    .body(`Buy ${validation.pc.id} for §e${MoneyUtils.formatCents(validation.price)}§r?`)
+                    .button1("§cCancel")
+                    .button2("§aConfirm Buy")
+                    .show(player);
+                if (confirm.canceled || confirm.selection !== 1) { LandService.clearClaimPreview(player.id); return this.open(player); }
+                LandService.clearClaimPreview(player.id);
+                const res = LandService.buyCurrentChunk(player);
+                player.sendMessage(CONFIG.PREFIX + res.message);
+                return this.open(player);
+            }
         } catch (e) { LandService.clearClaimPreview(player.id); try { player.sendMessage("§cUI Error: " + String(e)); console.warn(e, e.stack); } catch(ex){} }
     }
 
