@@ -18,13 +18,13 @@ const FEATURES = Object.freeze({
     "block.interact.before": { path: "world.beforeEvents.playerInteractWithBlock", targetSupported: true, required: false },
     "block.interact.after": { path: "world.afterEvents.playerInteractWithBlock", targetSupported: true, required: false },
     "explosion.before": { path: "world.beforeEvents.explosion", targetSupported: true, required: false },
-    "block.place.before": { path: "world.beforeEvents.playerPlaceBlock", targetSupported: false, required: false, fallback: "block.place.after" },
+    "block.place.before": { path: "world.beforeEvents.playerPlaceBlock", targetSupported: false, required: false, fallback: "block.place.after", fallbackMode: "compensating" },
     "block.place.after": { path: "world.afterEvents.playerPlaceBlock", targetSupported: true, required: false },
     "entity.hurt.before": { path: "world.beforeEvents.entityHurt", targetSupported: false, required: false, fallback: "entity.hurt.after" },
     "entity.hurt.after": { path: "world.afterEvents.entityHurt", targetSupported: true, required: false },
-    "piston.activate.before": { path: "world.beforeEvents.pistonActivate", targetSupported: false, required: false, fallback: "piston.activate.after" },
+    "piston.activate.before": { path: "world.beforeEvents.pistonActivate", targetSupported: false, required: false, fallback: "piston.activate.after", fallbackMode: "detective" },
     "piston.activate.after": { path: "world.afterEvents.pistonActivate", targetSupported: true, required: false },
-    "item.useOn.before": { path: "world.beforeEvents.itemUseOn", targetSupported: false, required: false, fallback: "item.use.before" },
+    "item.useOn.before": { path: "world.beforeEvents.itemUseOn", targetSupported: false, required: false, fallback: "item.use.before", fallbackMode: "conservative" },
     "world.unload.after": { path: "world.afterEvents.worldUnload", targetSupported: false, required: false, fallback: "system.shutdown" }
 });
 
@@ -86,6 +86,7 @@ export class BedrockCompat {
                 runtimeAvailable,
                 required: !!def.required,
                 fallback: def.fallback || "",
+                fallbackMode: def.fallbackMode || "",
                 status: runtimeAvailable ? "available" : (def.targetSupported ? "missing_required_api" : "unsupported_on_target")
             };
         });
