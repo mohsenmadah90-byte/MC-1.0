@@ -60,7 +60,7 @@ export class DashboardEntry {
             item.setLore([
                 "§7Use to open MCity Dashboard",
                 "§8Commandless control center",
-                "§8Requires a valid Personal Card"
+                "§8Use to open Mine Phone"
             ]);
         } catch {}
         return item;
@@ -108,7 +108,7 @@ export class DashboardEntry {
             }
 
             player.setDynamicProperty(DC.GIVEN_PROPERTY, true);
-            player.sendMessage(CONFIG.PREFIX + "§aYou received a §bMine Phone§a. Use it with your valid Personal Card.");
+            player.sendMessage(CONFIG.PREFIX + "§aYou received a §bMine Phone§a. Use it to open Mine Phone.");
             return true;
         } catch (error) {
             Logger.warn("DashboardEntry", `Failed to give menu item to ${player.name}`, error);
@@ -135,10 +135,6 @@ export class DashboardEntry {
 
     static openFromItem(player) {
         if (!(player instanceof Player)) return false;
-        if (!this.hasValidPersonalCard(player)) {
-            try { player.sendMessage(CONFIG.PREFIX + "§cA valid Personal Card is required to use the Mine Phone."); } catch {}
-            return false;
-        }
         const now = Date.now();
         const last = this.#lastOpen.get(player.id) || 0;
         if (now - last < (DC.OPEN_COOLDOWN_MS || 700)) return false;

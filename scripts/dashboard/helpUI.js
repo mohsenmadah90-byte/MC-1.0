@@ -58,7 +58,7 @@ export class HelpUI {
     static quickStart() {
         return [
             "§6MCity is a commandless city/economy dashboard.",
-            "§7Open it with the §bMine Phone§7 while carrying a valid Personal Card.",
+            "§7Open it with the §bMine Phone§7 without requiring a Personal Card.",
             "", 
             "§eCore loop:",
             "§71. Check your Profile for status.",
@@ -186,7 +186,7 @@ export class HelpUI {
         return [
             "§6FAQ",
             "§eI lost my Mine Phone.",
-            "§7Open Mine Phone Settings and recover it; a valid Personal Card is required.",
+            "§7Open Mine Phone Settings and recover it.",
             "", 
             "§eWhere did my reward go?",
             "§7Check Payouts, Market Mailbox, or Contract Mailbox.",

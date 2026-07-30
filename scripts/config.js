@@ -171,7 +171,7 @@ export const CONFIG = {
 
     CUSTOM_ITEMS: {
         CARD_SIGNATURE_SALT: "mcity-card-v1",
-        PHONE_REQUIRES_CARD: true
+        PHONE_REQUIRES_CARD: false
     },
 
     CONTRACTS: {

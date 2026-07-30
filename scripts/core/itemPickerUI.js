@@ -86,9 +86,9 @@ export class ItemPickerUI {
             const flags = [];
             if (it.adminOnly) flags.push("Admin");
             if (it.dangerous) flags.push("Danger");
-            const sub = `${it.id}${flags.length ? ` | ${flags.join(", ")}` : ""}`;
-            try { form.button(`${it.name}\n§b${sub}`, it.icon || undefined); }
-            catch { form.button(`${it.name}\n§b${sub}`); }
+            const sub = flags.length ? `§8${flags.join(" | ")}` : "";
+            try { form.button(`${it.name}${sub ? `\n${sub}` : ""}`, it.icon || undefined); }
+            catch { form.button(`${it.name}${sub ? `\n${sub}` : ""}`); }
             actions.push({ type: "select", item: it });
         }
 
