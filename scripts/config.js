@@ -117,14 +117,6 @@ export const CONFIG = {
 
     ATM_INFO: {
         RESET_MINUTES: 10,
-        EXCHANGE_LIMITS: {
-            copper: 16,
-            copper_iron: 4,
-            iron_emerald: 4,
-            emerald_gold: 4,
-            gold_diamond: 4,
-            diamond_netherite: 4
-        },
         COMBINATION_NAMES: {
             copper: "Copper Only",
             copper_iron: "Copper + Iron",
@@ -149,9 +141,6 @@ export const CONFIG = {
         MAX_ACTIVE_ATMS: 500,
         MAX_WAITING_ATMS: 200,
         MAX_ATMS_PER_SOURCE: 50,
-        RESET_INTERVAL_TICKS: 10 * 60 * 20,
-        RESET_MINUTES: 10,
-        BROADCAST_RESET: true,
         BASE_PRICES: {
             copper: 100,
             copper_iron: 500,
@@ -169,11 +158,11 @@ export const CONFIG = {
             diamond_netherite: 10
         },
         ORE_COMBINATIONS: {
-            copper: ["minecraft:copper_ingot"],
-            copper_iron: ["minecraft:copper_ingot", "minecraft:iron_ingot"],
-            iron_emerald: ["minecraft:iron_ingot", "minecraft:emerald"],
-            emerald_gold: ["minecraft:emerald", "minecraft:gold_ingot"],
-            gold_diamond: ["minecraft:gold_ingot", "minecraft:diamond"],
+            copper: ["minecraft:raw_copper"],
+            copper_iron: ["minecraft:raw_copper", "minecraft:raw_iron"],
+            iron_emerald: ["minecraft:raw_iron", "minecraft:emerald"],
+            emerald_gold: ["minecraft:emerald", "minecraft:raw_gold"],
+            gold_diamond: ["minecraft:raw_gold", "minecraft:diamond"],
             diamond_netherite: ["minecraft:diamond", "minecraft:netherite_scrap"]
         }
     },

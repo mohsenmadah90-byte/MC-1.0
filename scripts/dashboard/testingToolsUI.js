@@ -28,7 +28,7 @@ import { Migrations } from "../core/migrations.js";
 import { Logger } from "../core/logger.js";
 
 const COMMON_ITEMS = [
-    "minecraft:copper_ingot", "minecraft:iron_ingot", "minecraft:emerald", "minecraft:gold_ingot",
+    "minecraft:raw_copper", "minecraft:raw_iron", "minecraft:emerald", "minecraft:raw_gold",
     "minecraft:diamond", "minecraft:netherite_scrap", "minecraft:wheat", "minecraft:cobblestone", "minecraft:glass"
 ];
 

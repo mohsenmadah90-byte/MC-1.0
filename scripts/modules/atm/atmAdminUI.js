@@ -7,7 +7,6 @@ import { CONFIG } from "../../config.js";
 import { UI } from "../../core/uiTheme.js";
 import { Permissions } from "../../core/permissions.js";
 import { MoneyUtils } from "../../core/moneyUtils.js";
-import { ATMLimits } from "./atmLimits.js";
 import { ATMService } from "./atmService.js";
 
 const AC = CONFIG.ATM;
@@ -49,7 +48,6 @@ export class ATMAdminUI {
         if (r.selection === 4) return this.sourceList(player, 0);
         if (r.selection === 5) return this.integrity(player, false);
         if (r.selection === 6) return this.integrity(player, true);
-        if (r.selection === 7) { ATMLimits.resetAllOnline(); player.sendMessage(CONFIG.PREFIX + "§aATM limits reset for online players."); return this.open(player); }
         if (r.selection === 8) return this.help(player);
     }
 

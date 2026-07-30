@@ -9,7 +9,6 @@ const money = read("scripts/modules/economy/moneyService.js");
 const payout = read("scripts/modules/finance/financePayoutService.js");
 const finance = read("scripts/modules/finance/financeService.js");
 const atm = read("scripts/modules/atm/atmService.js");
-const atmLimits = read("scripts/modules/atm/atmLimits.js");
 const contracts = read("scripts/modules/contracts/contractService.js");
 
 // Money must protect integer arithmetic, capacity, and recovery paths.
@@ -42,12 +41,11 @@ for (const pattern of [/Database\.transaction/, /MAX_MONEY|MAX_/, /ledger/i, /al
     assert.match(finance, pattern, `Finance safety contract missing: ${pattern}`);
 }
 
-// ATM operations must use limits, journals/recovery, validation and audit.
+// ATM operations retain journals/recovery, validation and audit; daily limits are intentionally removed.
 for (const pattern of [/Database\.transaction/, /AuditService/, /journal|Journal/i, /recovery|recover/i]) {
     assert.match(atm, pattern, `ATM safety contract missing: ${pattern}`);
 }
-assert.match(atmLimits, /addUsed/);
-assert.match(atmLimits, /MAX|limit/i);
+assert.doesNotMatch(atm, /ATMLimits|EXCHANGE_LIMITS/);
 
 // Contracts must enforce per-player limits, transactional state transitions,
 // rate limiting, inventory/reward safety and auditability.

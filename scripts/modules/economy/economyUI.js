@@ -7,7 +7,6 @@ import { MoneyService } from "./moneyService.js";
 import { LevelService } from "./levelService.js";
 import { MoneyUI } from "./moneyUI.js";
 import { LevelUI } from "./levelUI.js";
-import { ATMLimits } from "../atm/atmLimits.js";
 
 export class EconomyUI {
     static initialize() {
@@ -60,23 +59,16 @@ export class EconomyUI {
         const level = LevelService.getLevelInfo(player);
         const lines = [
             "§6ATM is a physical world system.",
-            "§7To exchange ores, interact with a real ATM block/chest in the world.",
-            "",
-            UI.kv("Reset Interval", `${CONFIG.ATM_INFO.RESET_MINUTES} minutes`, "§e"),
+            "§7Exchange raw ores at a real ATM block/chest.",
+            "§7There is no daily exchange limit; the server rate limiter protects runtime health.",
             `§7Your Level Bonus Source: ${level.color}[${level.name}]`,
             "",
-            "§6Configured Exchange Limits"
+            "§6Configured Exchange Tiers",
+            ...Object.values(CONFIG.ATM_INFO.COMBINATION_NAMES || {}).map(name => `§7${name}: available from inventory`),
+            "",
+            "§8ATM exchange itself is physical: interact with an ATM chest in the world."
         ];
-        for (const [key, limit] of Object.entries(CONFIG.ATM_INFO.EXCHANGE_LIMITS || {})) {
-            lines.push(`§7${CONFIG.ATM_INFO.COMBINATION_NAMES?.[key] || key}: §f${ATMLimits.remaining(player, key)}§7/§f${limit}`);
-        }
-        lines.push("");
-        lines.push("§8ATM exchange itself is physical: interact with an ATM chest in the world.");
-        await new ActionFormData()
-            .title(UI.title(UI.ICON.atm, "ATM Limits Info"))
-            .body(UI.body(...lines))
-            .button(UI.BACK)
-            .show(player);
+        await new ActionFormData().title(UI.title(UI.ICON.atm, "ATM Info")).body(UI.body(...lines)).button(UI.BACK).show(player);
         return this.open(player);
     }
 

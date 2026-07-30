@@ -20,7 +20,6 @@ import { EventBus } from "../../core/eventBus.js";
 import { DEFAULT_ATM_DB, DEFAULT_SOURCE_DB, validateATMData, validateSourceData, sanitizeATM, sanitizeSource } from "../../schemas/atmSchema.js";
 import { AuditService } from "../audit/auditService.js";
 import { ATMInventory } from "./atmInventory.js";
-import { ATMLimits } from "./atmLimits.js";
 import { RuntimeHandleRegistry } from "../../core/runtimeHandleRegistry.js";
 
 const AC = CONFIG.ATM;
@@ -384,7 +383,7 @@ export class ATMService {
     static calculate(combo, qty, player){ const base=CONFIG.ATM.BASE_PRICES[combo]||0; const level=LevelService.getLevelInfo(player); const bonus=level.bonuses?.[combo] ?? 1; return{money:Math.floor(base*bonus*qty),score:(CONFIG.ATM.SCORE_REWARDS[combo]||0)*qty,level}; }
 
     static buildExchangeSummary(player, selections){ const items={}; let totalMoney=0,totalScore=0,totalQty=0; for(const [combo,qtyRaw] of Object.entries(selections||{})){ const qty=Math.max(0,Math.floor(qtyRaw||0)); if(!qty)continue; const need=ATMInventory.prepareItems(combo,qty); for(const [id,n] of Object.entries(need))items[id]=(items[id]||0)+n; const calc=this.calculate(combo,qty,player); totalMoney+=calc.money; totalScore+=calc.score; totalQty+=qty; } return{items,totalMoney,totalScore,totalQty}; }
-    static quickSelections(player){ const counts=ATMInventory.oreCounts(player); const out={}; for(const combo of Object.keys(AIC.EXCHANGE_LIMITS||{})){ const ores=CONFIG.ATM.ORE_COMBINATIONS[combo]||[]; const invMax=ores.length?Math.min(...ores.map(id=>counts[id]||0)):0; const max=Math.max(0,Math.min(invMax,ATMLimits.remaining(player,combo),AIC.EXCHANGE_LIMITS[combo]||0)); if(max>0)out[combo]=max; } return out; }
+    static quickSelections(player){ const counts=ATMInventory.oreCounts(player); const out={}; for(const combo of Object.keys(CONFIG.ATM.ORE_COMBINATIONS||{})){ const ores=CONFIG.ATM.ORE_COMBINATIONS[combo]||[]; const max=ores.length?Math.max(0,Math.min(...ores.map(id=>counts[id]||0))):0; if(max>0)out[combo]=max; } return out; }
 
     static exchange(player, atmBlock, selections){
         // Phase 1 Fix: Journal-based atomic exchange with recovery path.
@@ -434,7 +433,6 @@ export class ATMService {
         const src=this.sourceDB().sources[info.atm.sourceCode]; if(!src)return{success:false,message:"§cLinked source not found. Ask an admin to repair this ATM."};
         const summary=this.buildExchangeSummary(player,selections); const {items,totalMoney,totalScore,totalQty}=summary;
         if(totalQty<=0)return{success:false,message:"§cNo exchange selected."};
-        for(const [combo,qtyRaw] of Object.entries(selections||{})){ const qty=Math.max(0,Math.floor(qtyRaw||0)); if(qty&&!ATMLimits.canExchange(player,combo,qty))return{success:false,message:`§cLimit reached for ${AIC.COMBINATION_NAMES[combo]||combo}.`}; }
 
         if(!ATMInventory.hasItems(player,items))return{success:false,message:"§cYou do not have the required ores."};
         const container=this.#sourceContainer(src);
@@ -503,7 +501,6 @@ export class ATMService {
 
         // ─── Step 3 & 4: Deliver rewards (money + score) ───
         // Phase 7.3 (v0.21.2) (CT5): Limits are now applied AFTER reward
-        // delivery is verified. Previously, `ATMLimits.addUsed` was called
         // BEFORE `MoneyService.addMoney` / `LevelService.addScore`. If the
         // reward failed (player disconnected, scoreboard missing), the
         // player's daily exchange limit was permanently burned without
@@ -581,14 +578,6 @@ export class ATMService {
 
             return { success: false, message: "§cExchange reward delivery failed. Compensation has been queued. See Dashboard → Payouts." };
         }
-
-        // ─── Step 5: Rewards delivered — consume daily limits ───
-        // Phase 7.3 (v0.21.2) (CT5): Only now — after rewards verified —
-        // consume the daily exchange limits.
-        let limitWriteOk=true;
-        for(const [combo,qtyRaw] of Object.entries(selections||{})){ const qty=Math.max(0,Math.floor(qtyRaw||0)); if(qty&&!ATMLimits.addUsed(player,combo,qty))limitWriteOk=false; }
-        if(!limitWriteOk){this.#markJournal(journalId,"recovery_failed","Limit write/readback failed after rewards; operation must not complete.");return{success:false,pendingRecovery:true,message:"§eRewards delivered but limit accounting is pending recovery."};}
-
         FinanceService.recordMint(totalMoney,"ATM exchange","atm",{playerId:player.id,playerName:player.name,atmCode:info.code,sourceCode:src.code});
 
         // Phase 6 Deep Fix: Combine ATM + Source stats into a single unified

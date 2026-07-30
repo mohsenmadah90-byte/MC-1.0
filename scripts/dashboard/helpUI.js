@@ -8,7 +8,6 @@ import { Permissions } from "../core/permissions.js";
 import { MoneyUtils } from "../core/moneyUtils.js";
 
 function backDashboard(player) { return import("./dashboardSystem.js").then(m => m.DashboardSystem.open(player)); }
-function atmResetMinutes() { return Math.max(1, Math.round((CONFIG.ATM.RESET_INTERVAL_TICKS || 12000) / 20 / 60)); }
 function money(cents) { return MoneyUtils.formatCents(Math.max(0, Math.floor(Number(cents) || 0))); }
 
 export class HelpUI {
@@ -147,10 +146,9 @@ export class HelpUI {
         return [
             "§6ATM",
             "§7ATM is a physical world system. Interact with configured ATM blocks/chests.",
-            `§7Limit reset interval: §f${atmResetMinutes()} minute(s)`,
             "", 
             "§eExchange tiers:",
-            ...Object.entries(CONFIG.ATM_INFO.COMBINATION_NAMES || {}).map(([key, name]) => `§7- ${name}: §f${CONFIG.ATM_INFO.EXCHANGE_LIMITS?.[key] ?? 0} per reset`),
+            ...Object.values(CONFIG.ATM_INFO.COMBINATION_NAMES || {}).map(name => `§7- ${name}: available from inventory and server rate limit`),
             "", 
             "§8Admins create ATMs and Sources with setup hooks."
         ];

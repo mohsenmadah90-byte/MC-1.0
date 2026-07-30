@@ -44,7 +44,6 @@ import { ContractService } from "./modules/contracts/contractService.js";
 import { ContractShardService } from "./modules/contracts/contractShardService.js";
 import { ATMService } from "./modules/atm/atmService.js";
 import { ATMProtection } from "./modules/atm/atmProtection.js";
-import { ATMLimits } from "./modules/atm/atmLimits.js";
 import { AuditService } from "./modules/audit/auditService.js";
 import { BackupService } from "./modules/backup/backupService.js";
 import { VillageProtection } from "./modules/village/villageProtection.js";
@@ -84,7 +83,6 @@ class RuntimeState {
         this.intervals.clear();
 
         try { ATMProtection.shutdown(); } catch (error) { Logger.error("Main", "ATMProtection shutdown error", error); }
-        try { ATMLimits.stopLoop(system); } catch (error) { Logger.error("Main", "ATMLimits shutdown error", error); }
         try { LandProtection.shutdown(); } catch (error) { Logger.error("Main", "LandProtection shutdown error", error); }
         try { VillageProtection.shutdown(); } catch (error) { Logger.error("Main", "VillageProtection shutdown error", error); }
         try { DashboardEntry.shutdown(); } catch (error) { Logger.error("Main", "DashboardEntry shutdown error", error); }
@@ -160,7 +158,6 @@ function initialize() {
         FinancialRecoveryService.initialize();
         ATMService.initialize();
         ATMProtection.initialize();
-        ATMLimits.startLoop(system);
         MemoryMonitor.initialize();
         ItemSettingsService.initialize();
         ShardMigrationService.initialize();

@@ -5,7 +5,6 @@ import { CONFIG } from "../../config.js";
 import { UI } from "../../core/uiTheme.js";
 import { MoneyUtils } from "../../core/moneyUtils.js";
 import { ATMInventory } from "./atmInventory.js";
-import { ATMLimits } from "./atmLimits.js";
 import { ATMService } from "./atmService.js";
 
 const AIC = CONFIG.ATM_INFO;
@@ -25,27 +24,13 @@ export class ATMUI {
             ))
             .button("§aQuick Exchange Max")
             .button("§fCustom Exchange")
-            .button("§eMy Limits")
             .button("§fATM Info")
             .button(UI.CLOSE);
         const r = await form.show(player);
         if (r.canceled || r.selection === 4) return;
         if (r.selection === 0) return this.quickExchange(player, block);
         if (r.selection === 1) return this.exchangeForm(player, block);
-        if (r.selection === 2) return this.limits(player, block);
-        if (r.selection === 3) return this.info(player, block);
-    }
-
-    static async limits(player, block = null) {
-        const seconds = ATMLimits.secondsToReset(player);
-        const resetText = seconds ? `${Math.floor(seconds / 60)}m ${seconds % 60}s` : `${CONFIG.ATM.RESET_MINUTES} minutes`;
-        const lines = [`§7Reset interval: §e${CONFIG.ATM.RESET_MINUTES} minutes`, `§7Approx next reset: §e${resetText}`, ""];
-        for (const [combo, limit] of Object.entries(AIC.EXCHANGE_LIMITS || {})) {
-            const used = ATMLimits.used(player, combo);
-            lines.push(`§7${AIC.COMBINATION_NAMES?.[combo] || combo}: §f${ATMLimits.remaining(player, combo)}§7/§f${limit} §8(used ${used})`);
-        }
-        await new ActionFormData().title(UI.title(UI.ICON.atm, "ATM Limits")).body(UI.body(...lines)).button(UI.BACK).show(player);
-        if (block) return this.open(player, block);
+        if (r.selection === 2) return this.info(player, block);
     }
 
     static async info(player, block) {
@@ -61,7 +46,7 @@ export class ATMUI {
 
     static async quickExchange(player, block) {
         const selections = ATMService.quickSelections(player);
-        if (!Object.keys(selections).length) { player.sendMessage(CONFIG.PREFIX + "§eNo available ATM exchanges based on your inventory and limits."); return this.open(player, block); }
+        if (!Object.keys(selections).length) { player.sendMessage(CONFIG.PREFIX + "§eNo available ATM exchanges based on your inventory."); return this.open(player, block); }
         const summary = ATMService.buildExchangeSummary(player, selections);
         const lines = ["§6Quick Exchange Max", "§7The ATM will exchange the maximum available amount allowed by your inventory and current limits.", ""];
         for (const [combo, qty] of Object.entries(selections)) lines.push(`§7${AIC.COMBINATION_NAMES?.[combo] || combo}: §f${qty}`);
@@ -77,12 +62,12 @@ export class ATMUI {
         const info = ATMService.getATMFromBlock(block);
         if (!info?.atm?.sourceCode) { player.sendMessage(CONFIG.PREFIX + "§cThis ATM is not linked."); return this.open(player, block); }
         const counts = ATMInventory.oreCounts(player);
-        const combos = Object.keys(AIC.EXCHANGE_LIMITS || {});
+        const combos = Object.keys(CONFIG.ATM.ORE_COMBINATIONS || {});
         const form = new ModalFormData().title("§aATM Exchange");
         for (const combo of combos) {
             const ores = CONFIG.ATM.ORE_COMBINATIONS[combo] || [];
             const available = ores.length ? Math.min(...ores.map(id => counts[id] || 0)) : 0;
-            const max = Math.max(0, Math.min(available, ATMLimits.remaining(player, combo), AIC.EXCHANGE_LIMITS[combo] || 0));
+            const max = Math.max(0, available);
             form.slider(`${AIC.COMBINATION_NAMES?.[combo] || combo} (max ${max})`, 0, Math.max(1, max), { valueStep: 1, defaultValue: 0 });
         }
         const r = await form.show(player); if (r.canceled) return;

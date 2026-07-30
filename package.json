@@ -18,9 +18,9 @@
     "test:atm-scrap": "node tests/atm-netherite-scrap-contract.mjs",
     "test:land-price": "node tests/land-price-contract.mjs",
     "test:economy-policy": "node tests/economy-policy-contract.mjs",
-    "test:critical-regressions": "node tests/critical-regression-contract.mjs",
+    "test:atm-limit-removal": "node tests/atm-limit-removal-contract.mjs",
     "preflight": "node tools/production-preflight.mjs",
-    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts && npm run test:protection && npm run test:catalog && npm run test:land-sale-tax && npm run test:chunk-banner && npm run test:village && npm run test:atm-scrap && npm run test:land-price && npm run test:economy-policy && npm run test:critical-regressions",
+    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts && npm run test:protection && npm run test:catalog && npm run test:land-sale-tax && npm run test:chunk-banner && npm run test:village && npm run test:atm-scrap && npm run test:land-price && npm run test:economy-policy && npm run test:atm-limit-removal",
     "validate:production": "npm run validate && npm run test:load && npm run preflight"
   },
   "engines": {
