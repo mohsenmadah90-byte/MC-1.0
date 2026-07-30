@@ -22,6 +22,10 @@ for (const color of colors) {
     assert.deepEqual(phoneRecipe["minecraft:recipe_shaped"].pattern, ["ILI", "CGN", "IGI"]);
     assert.equal(phoneRecipe["minecraft:recipe_shaped"].key.L, "minecraft:lightning_rod");
 }
+const charger = readJson(path.join(root, "items/mcity/mine_phone_charger.json"));
+assert.equal(charger["minecraft:item"].description.identifier, "mcity:mine_phone_charger");
+const chargerRecipe = readJson(path.join(root, "recipes/mcity/mine_phone_charger.json"));
+assert.equal(chargerRecipe["minecraft:recipe_shaped"].result.item, "mcity:mine_phone_charger");
 const phone = readJson(path.join(root, "items/mcity/mine_phone.json"));
 assert.equal(phone["minecraft:item"].description.identifier, "mcity:mine_phone");
 assert.ok(texture.texture_data.mcity_mine_phone);

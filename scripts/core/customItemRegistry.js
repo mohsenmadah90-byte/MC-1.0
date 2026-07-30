@@ -33,6 +33,20 @@ for (const color of CARD_COLORS) {
     });
 }
 
+definitions["mcity:mine_phone_charger"] = Object.freeze({
+    id: "mcity:mine_phone_charger",
+    type: "mine_phone_charger",
+    displayName: "Mine Phone Charger",
+    textureKey: "mcity_mine_phone_charger",
+    texturePath: "textures/items/redstone",
+    stackSize: 1,
+    marketable: false,
+    contractable: false,
+    adminOnly: false,
+    requiresIdentity: false,
+    version: 1
+});
+
 definitions["mcity:mine_phone"] = Object.freeze({
     id: "mcity:mine_phone",
     type: "mine_phone",
@@ -56,6 +70,7 @@ export class CustomItemRegistry {
     static isCustom(id) { return !!this.get(id); }
     static isPersonalCard(id) { return this.get(id)?.type === "personal_card"; }
     static isMinePhone(id) { return this.get(id)?.type === "mine_phone"; }
+    static isCharger(id) { return this.get(id)?.type === "mine_phone_charger"; }
     static colors() { return CARD_COLORS; }
 }
 

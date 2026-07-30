@@ -3,8 +3,9 @@ import { CustomItemRegistry, CARD_COLORS } from "../scripts/core/customItemRegis
 
 assert.equal(CARD_COLORS.length, 16);
 assert.equal(CustomItemRegistry.cards().length, 16);
-assert.equal(CustomItemRegistry.all().length, 17);
-assert.equal(new Set(CustomItemRegistry.all().map(item => item.id)).size, 17);
+assert.equal(CustomItemRegistry.all().length, 18);
+assert.equal(CustomItemRegistry.isCharger("mcity:mine_phone_charger"), true);
+assert.equal(new Set(CustomItemRegistry.all().map(item => item.id)).size, 18);
 for (const color of CARD_COLORS) {
     const item = CustomItemRegistry.get(`mcity:personal_card_${color}`);
     assert.ok(item);
