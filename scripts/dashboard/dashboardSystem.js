@@ -74,13 +74,15 @@ export class DashboardSystem {
                 UI.kv("Phone Item", `${CONFIG.DASHBOARD.ITEM_ID} (${CONFIG.DASHBOARD.ITEM_NAME})`),
                 UI.kv("Has Mine Phone", hasItem ? "Yes" : "No", hasItem ? "§a" : "§e"),
                 UI.kv("Given Flag", given ? "Yes" : "No", given ? "§a" : "§e"),
+                UI.kv("Flash Light", MinePhoneService.flashlight(player) ? "ON" : "OFF", MinePhoneService.flashlight(player) ? "§e" : "§8"),
                 "§8Use Mine Phone with a valid Personal Card."
             ))
             .button("§aGive / Recover Mine Phone")
             .button("§eReset Given Flag")
+            .button("§6Flash Light")
             .button(UI.BACK);
         const result = await form.show(player);
-        if (result.canceled) return; if (result.selection === 2) return this.open(player);
+        if (result.canceled) return; if (result.selection === 3) return this.open(player);
         if (result.selection === 0) {
             const ok = DashboardEntry.ensureMenuItem(player, true);
             player.sendMessage(CONFIG.PREFIX + (ok ? "§aMine Phone recovered." : "§cCould not give Mine Phone. Check inventory space."));
@@ -89,6 +91,11 @@ export class DashboardSystem {
         if (result.selection === 1) {
             DashboardEntry.resetGivenFlag(player);
             player.sendMessage(CONFIG.PREFIX + "§aMine Phone given flag reset.");
+            return this.openSettings(player);
+        }
+        if (result.selection === 2) {
+            const enabled = MinePhoneService.toggleFlashlight(player);
+            player.sendMessage(CONFIG.PREFIX + (enabled ? "§eFlash Light enabled." : "§7Flash Light disabled."));
             return this.openSettings(player);
         }
     }

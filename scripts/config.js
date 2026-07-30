@@ -2,7 +2,7 @@
 // Phase 0: Foundation scaffold
 
 export const CONFIG = {
-    VERSION: "1.14.9-phone-charger",
+    VERSION: "1.14.10-phone-flashlight",
     SYSTEM_NAME: "MCity Dashboard V2",
     PREFIX: "§r[§6§lMCity§r] §r",
 
