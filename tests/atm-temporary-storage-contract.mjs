@@ -1,0 +1,10 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+const schema=fs.readFileSync("scripts/schemas/atmSchema.js","utf8");
+const service=fs.readFileSync("scripts/modules/atm/atmService.js","utf8");
+assert.match(schema,/pendingTransfers/);
+assert.match(service,/queuePendingTransfer/);
+assert.match(service,/flushPendingTransfer/);
+assert.match(service,/Source or durable ATM Bottom queue/);
+assert.match(service,/pending ATM storage could not be persisted/);
+console.log("ATM temporary storage and delayed Source transfer checks passed.");

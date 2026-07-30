@@ -16,6 +16,7 @@ export const DEFAULT_ATM_DB = {
     //   completedAt, recoveryAttempts, lastError }
     // status ∈ {pending, completed, failed, recovery_failed, recovered_payout}
     journals: {},
+    pendingTransfers: {},
     stats: { totalCreated: 0, totalLinked: 0, totalExchanges: 0, lastUpdated: 0 }
 };
 
@@ -132,6 +133,14 @@ export function validateATMData(data, def = DEFAULT_ATM_DB) {
             // retained later by a marker-aware policy, never by raw count.
             valid.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
             for (const j of valid) out.journals[j.id] = j;
+        }
+        out.pendingTransfers = {};
+        if (data?.pendingTransfers && typeof data.pendingTransfers === "object" && !Array.isArray(data.pendingTransfers)) {
+            for (const [atmCode, raw] of Object.entries(data.pendingTransfers)) {
+                const items = {};
+                for (const [id, value] of Object.entries(raw?.items || {})) { const amount = Math.max(0, Math.floor(Number(value) || 0)); if (amount) items[String(id).slice(0, 80)] = amount; }
+                if (Object.keys(items).length) out.pendingTransfers[String(atmCode).replace(/\D/g, "").slice(0, 4)] = { items, updatedAt: Number(raw.updatedAt) || Date.now() };
+            }
         }
         out.stats = { ...out.stats, ...(data?.stats || {}) };
     } catch {

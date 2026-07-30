@@ -385,6 +385,25 @@ export class ATMService {
     static buildExchangeSummary(player, selections){ const items={}; let totalMoney=0,totalScore=0,totalQty=0; for(const [combo,qtyRaw] of Object.entries(selections||{})){ const qty=Math.max(0,Math.min(CONFIG.ATM.MAX_EXCHANGE_PER_COMBO || 64, Math.floor(qtyRaw||0))); if(!qty)continue; const need=ATMInventory.prepareItems(combo,qty); for(const [id,n] of Object.entries(need))items[id]=(items[id]||0)+n; const calc=this.calculate(combo,qty,player); totalMoney+=calc.money; totalScore+=calc.score; totalQty+=qty; } return{items,totalMoney,totalScore,totalQty}; }
     static quickSelections(player){ const counts=ATMInventory.oreCounts(player); const out={}; for(const combo of Object.keys(CONFIG.ATM.ORE_COMBINATIONS||{})){ const ores=CONFIG.ATM.ORE_COMBINATIONS[combo]||[]; const max=ores.length?Math.max(0,Math.min(CONFIG.ATM.MAX_EXCHANGE_PER_COMBO || 64, ...ores.map(id=>counts[id]||0))):0; if(max>0)out[combo]=max; } return out; }
 
+    static #queuePendingTransfer(atmCode, items) {
+        const tx = Database.transaction(AC.COLLECTION, data => {
+            if (!data.pendingTransfers) data.pendingTransfers = {};
+            const pending = data.pendingTransfers[atmCode] || { items: {}, updatedAt: 0 };
+            for (const [id, amount] of Object.entries(items || {})) pending.items[id] = (pending.items[id] || 0) + Math.max(0, Math.floor(Number(amount) || 0));
+            pending.updatedAt = Date.now(); data.pendingTransfers[atmCode] = pending; return pending;
+        });
+        return tx.success && Database.flushCritical(AC.COLLECTION, "atm_pending_transfer_queue").ok;
+    }
+
+    static #flushPendingTransfer(atmCode, container) {
+        const pending = this.atmDB().pendingTransfers?.[atmCode];
+        if (!pending?.items || !Object.keys(pending.items).length) return { ok: true, empty: true };
+        if (!container || !ATMInventory.hasSpace(container, pending.items)) return { ok: false, reason: "source_unavailable_or_full" };
+        if (!ATMInventory.addItems(container, pending.items)) return { ok: false, reason: "source_transfer_failed" };
+        const tx = Database.transaction(AC.COLLECTION, data => { delete data.pendingTransfers[atmCode]; });
+        return { ok: tx.success && Database.flushCritical(AC.COLLECTION, "atm_pending_transfer_flush").ok, empty: false };
+    }
+
     static exchange(player, atmBlock, selections){
         // Phase 1 Fix: Journal-based atomic exchange with recovery path.
         //
@@ -436,11 +455,9 @@ export class ATMService {
 
         if(!ATMInventory.hasItems(player,items))return{success:false,message:"§cYou do not have the required ores."};
         const container=this.#sourceContainer(src);
-        if(!container){
-            AuditService.record("atm.source_unavailable","atm",player.id,player.name,"ATM source unavailable",{sourceCode:src.code,atmCode:info.code,location:src.location},"warn");
-            return{success:false,message:"§cSource chest is unavailable or chunk is not loaded."};
-        }
-        if(!ATMInventory.hasSpace(container,items))return{success:false,message:"§cSource chest is full."};
+        const pendingFlush = this.#flushPendingTransfer(info.code, container);
+        if (!pendingFlush.ok) return { success: false, message: "§cATM storage is waiting for the Source chest to load or have space." };
+        if(container && !ATMInventory.hasSpace(container,items))return{success:false,message:"§cSource chest is full."};
 
         // Phase 7.3 (v0.21.2) (CT7): Rate limit check HERE — only consumes
         // a slot if all pre-checks passed and we're about to actually
@@ -491,12 +508,19 @@ export class ATMService {
             return{success:false,message:"§cFailed to remove ores from inventory."};
         }
 
-        // ─── Step 2: Add items to source chest ───
-        // If it fails, refund items to player.
-        if(!ATMInventory.addItems(container,items)){
+        // ─── Step 2: Transfer to Source or durable ATM Bottom queue ───
+        // The player has already delivered the exchange; an unloaded Source
+        // must never make the exchange fail after inventory removal.
+        if (container) {
+            if(!ATMInventory.addItems(container,items)){
+                ATMInventory.returnItems(player,items);
+                this.#markJournal(journalId, "failed", "addItems to source failed");
+                return{success:false,message:"§cSource transfer failed. Ores returned."};
+            }
+        } else if (!this.#queuePendingTransfer(info.code, items)) {
             ATMInventory.returnItems(player,items);
-            this.#markJournal(journalId, "failed", "addItems to source failed");
-            return{success:false,message:"§cSource transfer failed. Ores returned."};
+            this.#markJournal(journalId, "failed", "pending ATM storage could not be persisted");
+            return { success: false, message: "§cATM storage could not be saved. Ores returned." };
         }
 
         // ─── Step 3 & 4: Deliver rewards (money + score) ───
