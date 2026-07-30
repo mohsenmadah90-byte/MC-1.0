@@ -70,19 +70,19 @@ export class DashboardSystem {
             .title(UI.title(UI.ICON.settings, "Dashboard Settings"))
             .body(UI.body(
                 UI.kv("Dashboard", CONFIG.DASHBOARD.ENABLED ? "Enabled" : "Disabled", CONFIG.DASHBOARD.ENABLED ? "§a" : "§c"),
-                UI.kv("Menu Item", `${CONFIG.DASHBOARD.ITEM_ID} named ${CONFIG.DASHBOARD.ITEM_NAME}`),
+                UI.kv("Phone Item", `${CONFIG.DASHBOARD.ITEM_ID} (${CONFIG.DASHBOARD.ITEM_NAME})`),
                 UI.kv("Has Menu Item", hasItem ? "Yes" : "No", hasItem ? "§a" : "§e"),
                 UI.kv("Given Flag", given ? "Yes" : "No", given ? "§a" : "§e"),
-                "§8If lost, rename any paper to §fmenu§8 or use the recovery button."
+                "§8Use Mine Phone with a valid Personal Card."
             ))
-            .button("§aGive / Recover Menu Paper")
+            .button("§aGive / Recover Mine Phone")
             .button("§eReset Given Flag")
             .button(UI.BACK);
         const result = await form.show(player);
         if (result.canceled) return; if (result.selection === 2) return this.open(player);
         if (result.selection === 0) {
             const ok = DashboardEntry.ensureMenuItem(player, true);
-            player.sendMessage(CONFIG.PREFIX + (ok ? "§aMenu paper recovered." : "§cCould not give menu paper. Check inventory space."));
+            player.sendMessage(CONFIG.PREFIX + (ok ? "§aMine Phone recovered." : "§cCould not give Mine Phone. Check inventory space."));
             return this.openSettings(player);
         }
         if (result.selection === 1) {

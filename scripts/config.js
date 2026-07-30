@@ -344,9 +344,9 @@ export const CONFIG = {
     DASHBOARD: {
         ENABLED: true,
         COLLECTION: "dashboard",
-        ITEM_ID: "minecraft:paper",
-        ITEM_NAME: "menu",
-        ITEM_DISPLAY_NAME: "§6§lMCity Menu",
+        ITEM_ID: "mcity:mine_phone",
+        ITEM_NAME: "Mine Phone",
+        ITEM_DISPLAY_NAME: "§b§lMine Phone",
         GIVEN_PROPERTY: "mcity2_dashboard_given",
         GIVE_ON_FIRST_JOIN: true,
         OPEN_COOLDOWN_MS: 700,

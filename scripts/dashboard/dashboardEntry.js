@@ -11,6 +11,7 @@ import { BedrockCompat } from "../core/bedrockCompat.js";
 import { SubscriptionRegistry } from "../core/subscriptionRegistry.js";
 import { RateLimiter } from "../core/rateLimiter.js";
 import { ErrorBoundary } from "../core/errorBoundary.js";
+import { CustomCardService } from "../core/customCardService.js";
 import { RuntimeHandleRegistry } from "../core/runtimeHandleRegistry.js";
 
 const DC = CONFIG.DASHBOARD;
@@ -59,7 +60,7 @@ export class DashboardEntry {
             item.setLore([
                 "§7Use to open MCity Dashboard",
                 "§8Commandless control center",
-                "§8If lost, rename any paper to 'menu'"
+                "§8Requires a valid Personal Card"
             ]);
         } catch {}
         return item;
@@ -102,12 +103,12 @@ export class DashboardEntry {
 
             const leftover = inv.addItem(this.createMenuItem());
             if (leftover) {
-                player.sendMessage(CONFIG.PREFIX + "§eYour inventory is full. Rename any paper to §fmenu §eto open MCity Dashboard.");
+                player.sendMessage(CONFIG.PREFIX + "§eYour inventory is full. Make room for your Mine Phone.");
                 return false;
             }
 
             player.setDynamicProperty(DC.GIVEN_PROPERTY, true);
-            player.sendMessage(CONFIG.PREFIX + "§aYou received a §6MCity Menu§a paper. Use it to open Dashboard.");
+            player.sendMessage(CONFIG.PREFIX + "§aYou received a §bMine Phone§a. Use it with your valid Personal Card.");
             return true;
         } catch (error) {
             Logger.warn("DashboardEntry", `Failed to give menu item to ${player.name}`, error);
@@ -122,8 +123,22 @@ export class DashboardEntry {
         } catch { return false; }
     }
 
+    static hasValidPersonalCard(player) {
+        const inventory = this.getInventory(player);
+        if (!inventory) return false;
+        for (let slot = 0; slot < inventory.size; slot++) {
+            const stack = inventory.getItem(slot);
+            if (CustomCardService.validate(player, stack).valid) return true;
+        }
+        return false;
+    }
+
     static openFromItem(player) {
         if (!(player instanceof Player)) return false;
+        if (!this.hasValidPersonalCard(player)) {
+            try { player.sendMessage(CONFIG.PREFIX + "§cA valid Personal Card is required to use the Mine Phone."); } catch {}
+            return false;
+        }
         const now = Date.now();
         const last = this.#lastOpen.get(player.id) || 0;
         if (now - last < (DC.OPEN_COOLDOWN_MS || 700)) return false;

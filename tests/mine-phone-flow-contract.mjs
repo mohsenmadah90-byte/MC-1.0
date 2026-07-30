@@ -1,0 +1,16 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+const config=fs.readFileSync("scripts/config.js","utf8");
+const entry=fs.readFileSync("scripts/dashboard/dashboardEntry.js","utf8");
+const system=fs.readFileSync("scripts/dashboard/dashboardSystem.js","utf8");
+const help=fs.readFileSync("scripts/dashboard/helpUI.js","utf8");
+assert.match(config,/ITEM_ID: "mcity:mine_phone"/);
+assert.match(config,/ITEM_NAME: "Mine Phone"/);
+assert.match(entry,/CustomCardService\.validate/);
+assert.match(entry,/valid Personal Card is required/);
+assert.match(entry,/mcity:mine_phone|DC\.ITEM_ID/);
+assert.doesNotMatch(entry,/minecraft:paper/);
+assert.match(system,/Mine Phone/);
+assert.doesNotMatch(system,/rename any paper/);
+assert.match(help,/Mine Phone/);
+console.log("Mine Phone and Paper removal contract checks passed.");

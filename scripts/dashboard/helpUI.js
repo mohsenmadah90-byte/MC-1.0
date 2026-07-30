@@ -58,7 +58,7 @@ export class HelpUI {
     static quickStart() {
         return [
             "§6MCity is a commandless city/economy dashboard.",
-            "§7Open it with the §fMCity Menu §7paper.",
+            "§7Open it with the §bMine Phone§7 while carrying a valid Personal Card.",
             "", 
             "§eCore loop:",
             "§71. Check your Profile for status.",
@@ -67,7 +67,7 @@ export class HelpUI {
             "§74. Use Market and Contracts to trade and earn.",
             "§75. Claim pending money/items from Payouts and mailboxes.",
             "", 
-            "§8Tip: if your menu paper is lost, open Settings and recover it."
+            "§8Tip: if your Mine Phone is lost, open Settings and recover it."
         ];
     }
 
@@ -185,8 +185,8 @@ export class HelpUI {
     static faq() {
         return [
             "§6FAQ",
-            "§eI lost my menu paper.",
-            "§7Open Dashboard Settings or rename a paper to the configured menu name.",
+            "§eI lost my Mine Phone.",
+            "§7Open Mine Phone Settings and recover it; a valid Personal Card is required.",
             "", 
             "§eWhere did my reward go?",
             "§7Check Payouts, Market Mailbox, or Contract Mailbox.",
