@@ -24,8 +24,9 @@
     "test:custom-assets": "node tests/custom-item-assets-contract.mjs",
     "test:card-identity": "node tests/card-identity-contract.mjs",
     "test:mine-phone": "node tests/mine-phone-flow-contract.mjs",
+    "test:access-card": "node tests/access-card-contract.mjs",
     "preflight": "node tools/production-preflight.mjs",
-    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts && npm run test:protection && npm run test:catalog && npm run test:land-sale-tax && npm run test:chunk-banner && npm run test:atm-scrap && npm run test:land-price && npm run test:economy-policy && npm run test:atm-limit-removal && npm run test:atm-slider && npm run test:vanilla-textures && npm run test:custom-items && npm run test:custom-assets && npm run test:card-identity && npm run test:mine-phone",
+    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts && npm run test:protection && npm run test:catalog && npm run test:land-sale-tax && npm run test:chunk-banner && npm run test:atm-scrap && npm run test:land-price && npm run test:economy-policy && npm run test:atm-limit-removal && npm run test:atm-slider && npm run test:vanilla-textures && npm run test:custom-items && npm run test:custom-assets && npm run test:card-identity && npm run test:mine-phone && npm run test:access-card",
     "validate:production": "npm run validate && npm run test:load && npm run preflight"
   },
   "engines": {

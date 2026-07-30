@@ -10,6 +10,7 @@ import { Permissions } from "../../core/permissions.js";
 import { ATMService } from "./atmService.js";
 import { ATMUI } from "./atmUI.js";
 import { ATMAdminUI } from "./atmAdminUI.js";
+import { AccessCardService } from "../../core/accessCardService.js";
 import { BedrockCompat } from "../../core/bedrockCompat.js";
 import { SubscriptionRegistry } from "../../core/subscriptionRegistry.js";
 
@@ -83,10 +84,12 @@ export class ATMProtection {
                 const type = this.#fastCheck(block);
                 if(!type) return;
 
-                if(type.isATM){ 
-                    e.cancel=true; 
-                    system.run(()=>ATMUI.open(player,block)); 
-                    return; 
+                if(type.isATM){
+                    e.cancel = true;
+                    const access = AccessCardService.authorize(player, `atm:${ATMService.getATMFromBlock(block)?.code || "unknown"}`);
+                    if (!access.valid) { deny(player, access.message); return; }
+                    system.run(() => ATMUI.open(player, block));
+                    return;
                 } 
                 
                 // Source interaction has two modes:
