@@ -1,0 +1,21 @@
+{
+  "format_version": "1.17.41",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "mcity:personal_card_white"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      "minecraft:paper",
+      "minecraft:leather",
+      "minecraft:gold_nugget",
+      "minecraft:white_dye"
+    ],
+    "result": {
+      "item": "mcity:personal_card_white",
+      "count": 1
+    }
+  }
+}

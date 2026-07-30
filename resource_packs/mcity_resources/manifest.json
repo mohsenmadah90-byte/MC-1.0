@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "MCity Resources",
+    "description": "MCity custom cards and Mine Phone visuals",
+    "uuid": "05e5fe0d-fb1f-4169-801e-935d0ace528a",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      80
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "67c2083d-b30b-40d8-8ce8-ede366398671",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.17.41",
+  "minecraft:recipe_shaped": {
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "III",
+      "CGN",
+      "IGI"
+    ],
+    "key": {
+      "I": "minecraft:iron_ingot",
+      "G": "minecraft:glass",
+      "N": "minecraft:gold_nugget",
+      "C": "mcity:personal_card_red"
+    },
+    "result": {
+      "item": "mcity:mine_phone",
+      "count": 1
+    },
+    "description": {
+      "identifier": "mcity:mine_phone_red"
+    }
+  }
+}
