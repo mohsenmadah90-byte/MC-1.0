@@ -10,6 +10,7 @@ const AC = CONFIG.ATM;
 
 export class ATMLimits {
     static #intervalId = null;
+    static #resetJobId = null;
 
     static resetKey(combo) { return `mcity2_atm_limit_${combo}`; }
     static lastResetKey() { return "mcity2_atm_last_reset"; }
@@ -38,19 +39,30 @@ export class ATMLimits {
     static canExchange(player, combo, qty) { return this.remaining(player, combo) >= qty; }
     static addUsed(player, combo, qty) { try { this.initPlayer(player); const expected=this.used(player,combo)+qty; player.setDynamicProperty(this.resetKey(combo),expected); return Number(player.getDynamicProperty(this.resetKey(combo))||0)===expected; } catch { return false; } }
 
-    static resetAllOnline() { for (const p of PlayerRegistry.online()) this.resetPlayer(p); }
+    static resetAllOnline() {
+        if (this.#resetJobId !== null) return { queued: false, reason: "already_running" };
+        const players = [...PlayerRegistry.online()]; const self = this;
+        function* resetJob() {
+            try { for (const player of players) { self.resetPlayer(player); yield; }
+                if (AC.BROADCAST_RESET) try { world.sendMessage?.(CONFIG.PREFIX + "§eATM exchange limits have been reset."); } catch {}
+            } finally { self.#resetJobId = null; }
+        }
+        this.#resetJobId = RuntimeHandleRegistry.job("ATMLimits.resetBatch", resetJob());
+        return { queued: true, players: players.length };
+    }
 
     static startLoop(systemRef = null) {
         void systemRef;
         if (this.#intervalId) return this.#intervalId;
-        this.#intervalId = RuntimeHandleRegistry.interval("ATMLimits.reset", () => {
-            this.resetAllOnline();
-            if (AC.BROADCAST_RESET) try { world.sendMessage?.(CONFIG.PREFIX + "§eATM exchange limits have been reset."); } catch {}
-        }, AC.RESET_INTERVAL_TICKS);
+        this.#intervalId = RuntimeHandleRegistry.interval("ATMLimits.reset", () => this.resetAllOnline(), AC.RESET_INTERVAL_TICKS);
         return this.#intervalId;
     }
 
-    static stopLoop(systemRef = null) { void systemRef; if (this.#intervalId) { RuntimeHandleRegistry.clear(this.#intervalId); this.#intervalId = null; } }
+    static stopLoop(systemRef = null) {
+        void systemRef;
+        if (this.#intervalId) { RuntimeHandleRegistry.clear(this.#intervalId); this.#intervalId = null; }
+        if (this.#resetJobId !== null) { RuntimeHandleRegistry.clear(this.#resetJobId); this.#resetJobId = null; }
+    }
 }
 
 export default ATMLimits;

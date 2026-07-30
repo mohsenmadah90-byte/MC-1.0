@@ -36,6 +36,7 @@ export const DEFAULT_MARKET_DB = {
     // See MarketService.dayKey() for why this exists.
     lastLimitAnchor: 0,
     seeded: false,
+    catalogSeedCleanupV1: false,
     authority: { economic: "legacy", locked: true, lockedAt: 0 }
 };
 
@@ -165,6 +166,7 @@ export function validateMarketData(data, def = DEFAULT_MARKET_DB) {
         // Phase 5 Fix: Preserve the limit anchor for stable day boundaries.
         out.lastLimitAnchor = Number(data?.lastLimitAnchor) || 0;
         out.seeded = !!data?.seeded;
+        out.catalogSeedCleanupV1 = data?.catalogSeedCleanupV1 === true;
         out.authority = { economic: "legacy", locked: true, lockedAt: Number(data?.authority?.lockedAt) || Date.now() };
     } catch {
         return JSON.parse(JSON.stringify(def));
