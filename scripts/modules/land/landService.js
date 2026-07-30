@@ -925,7 +925,7 @@ export class LandService {
             const tenant = PlayerRegistry.findOnlineById(tenantId);
             if (tenant) {
                 try {
-                    tenant.sendMessage(CONFIG.PREFIX + `§eYou were evicted from land §f${claimIdValue}§e by §f${player.name}§e. A refund of §a${MoneyUtils.formatCents(refundCents)}§e for §f${remainingDays}§e remaining day(s) has been queued. Claim it from Dashboard → Payouts.`);
+                    tenant.sendMessage(CONFIG.PREFIX + `§eYou were evicted from land §f${claimIdValue}§e by §f${player.name}§e. A refund of §a${MoneyUtils.formatCents(refundCents)}§e for §f${remainingDays}§e remaining day(s) has been queued. Claim it from the Add-On → Payouts.`);
                 } catch (e) { /* player may be offline */ }
             }
 

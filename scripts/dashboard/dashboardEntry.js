@@ -58,7 +58,7 @@ export class DashboardEntry {
         try { item.nameTag = DC.ITEM_DISPLAY_NAME; } catch {}
         try {
             item.setLore([
-                "§7Use to open MCity Dashboard",
+                "§7Use to open Mine Phone",
                 "§8Commandless control center",
                 "§8Use to open Mine Phone"
             ]);
@@ -141,7 +141,7 @@ export class DashboardEntry {
         this.#lastOpen.set(player.id, now);
 
         if (!this.#openHandler) {
-            player.sendMessage(CONFIG.PREFIX + "§cDashboard is not ready yet.");
+            player.sendMessage(CONFIG.PREFIX + "§cMine Phone is not ready yet.");
             return false;
         }
 
@@ -149,14 +149,14 @@ export class DashboardEntry {
         const limitKey = `dashboard_open:${player.id}`;
         if (limit && !RateLimiter.check(limitKey, limit[0], limit[1])) {
             const retryMs = RateLimiter.retryIn(limitKey, limit[0], limit[1]);
-            player.sendMessage(CONFIG.PREFIX + `§cDashboard open limit reached. Try again in ${Math.ceil(retryMs / 1000)}s.`);
+            player.sendMessage(CONFIG.PREFIX + `§cMine Phone open limit reached. Try again in ${Math.ceil(retryMs / 1000)}s.`);
             return false;
         }
 
         system.run(async () => {
             await ErrorBoundary.guard("DashboardEntry", () => this.#openHandler(player), {
                 player,
-                message: `Open handler failed for ${player.name}`
+                message: `Mine Phone open handler failed for ${player.name}`
             });
         });
         return true;

@@ -187,7 +187,7 @@ function registerRuntimeEvents() {
             try {
                 // Touch and queue checks are handled internally by PlayerRegistry.
                 if (CONFIG.DEBUG.LOG_STARTUP_REPORT) {
-                    event.player.sendMessage(CONFIG.PREFIX + "§aMCity Dashboard V2 loaded. Use your §6MCity Menu §apaper to open Dashboard.");
+                    event.player.sendMessage(CONFIG.PREFIX + "§aWelcome to MCity. The Add-On is ready to use.");
                 }
             } catch (error) {
                 Logger.error("Main", `Player init failed for ${event.player?.name || "unknown"}`, error);

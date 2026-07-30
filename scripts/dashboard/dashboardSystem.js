@@ -67,11 +67,11 @@ export class DashboardSystem {
         const hasItem = DashboardEntry.hasMenuItem(player);
         const given = !!player.getDynamicProperty(CONFIG.DASHBOARD.GIVEN_PROPERTY);
         const form = new ActionFormData()
-            .title(UI.title(UI.ICON.settings, "Dashboard Settings"))
+            .title(UI.title(UI.ICON.settings, "Mine Phone Settings"))
             .body(UI.body(
-                UI.kv("Dashboard", CONFIG.DASHBOARD.ENABLED ? "Enabled" : "Disabled", CONFIG.DASHBOARD.ENABLED ? "§a" : "§c"),
+                UI.kv("Mine Phone", CONFIG.DASHBOARD.ENABLED ? "Enabled" : "Disabled", CONFIG.DASHBOARD.ENABLED ? "§a" : "§c"),
                 UI.kv("Phone Item", `${CONFIG.DASHBOARD.ITEM_ID} (${CONFIG.DASHBOARD.ITEM_NAME})`),
-                UI.kv("Has Menu Item", hasItem ? "Yes" : "No", hasItem ? "§a" : "§e"),
+                UI.kv("Has Mine Phone", hasItem ? "Yes" : "No", hasItem ? "§a" : "§e"),
                 UI.kv("Given Flag", given ? "Yes" : "No", given ? "§a" : "§e"),
                 "§8Use Mine Phone with a valid Personal Card."
             ))
@@ -87,7 +87,7 @@ export class DashboardSystem {
         }
         if (result.selection === 1) {
             DashboardEntry.resetGivenFlag(player);
-            player.sendMessage(CONFIG.PREFIX + "§aDashboard given flag reset.");
+            player.sendMessage(CONFIG.PREFIX + "§aMine Phone given flag reset.");
             return this.openSettings(player);
         }
     }

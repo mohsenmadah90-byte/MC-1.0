@@ -57,7 +57,7 @@ export class HelpUI {
 
     static quickStart() {
         return [
-            "§6MCity is a commandless city/economy dashboard.",
+            "§6MCity is a commandless city/economy Add-On.",
             "§7Open it with the §bMine Phone§7 without requiring a Personal Card.",
             "", 
             "§eCore loop:",
@@ -109,7 +109,7 @@ export class HelpUI {
     static market() {
         return [
             "§6Market",
-            "§7Buy and sell configured server items from the Dashboard.",
+            "§7Buy and sell configured server items from the Add-On.",
             "§7Some prices may be dynamic based on stock and demand.",
             "", 
             "§eLimits and safety:",

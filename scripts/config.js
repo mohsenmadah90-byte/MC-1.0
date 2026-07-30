@@ -2,7 +2,7 @@
 // Phase 0: Foundation scaffold
 
 export const CONFIG = {
-    VERSION: "1.14.3-market-authority",
+    VERSION: "1.14.4-mine-phone",
     SYSTEM_NAME: "MCity Dashboard V2",
     PREFIX: "§r[§6§lMCity§r] §r",
 
@@ -349,7 +349,7 @@ export const CONFIG = {
         ITEM_NAME: "Mine Phone",
         ITEM_DISPLAY_NAME: "§b§lMine Phone",
         GIVEN_PROPERTY: "mcity2_dashboard_given",
-        GIVE_ON_FIRST_JOIN: true,
+        GIVE_ON_FIRST_JOIN: false,
         OPEN_COOLDOWN_MS: 700,
         NOTIFICATION_BADGES_ENABLED: true
     },

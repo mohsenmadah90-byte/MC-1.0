@@ -53,7 +53,7 @@ export class DashboardRouter {
         if (!Permissions.canUseDashboard(player)) return;
         const modules = this.modulesFor(player);
         const form = new ActionFormData()
-            .title(UI.title(UI.ICON.dashboard, "MCity Dashboard"))
+            .title(UI.title(UI.ICON.dashboard, "Mine Phone"))
             .body(this.#homeBody(player, options));
 
         const actions = [];
