@@ -45,7 +45,7 @@ export class ATMProtection {
     // Fast local lookup
     static #fastCheck(block) {
         if(!block) return null;
-        if(block.typeId !== AC.CHEST_BLOCK && block.typeId !== AC.ATM_BLOCK && block.typeId !== AC.SOURCE_BLOCK) return null;
+        if(block.typeId !== AC.CHEST_BLOCK && block.typeId !== AC.ATM_BLOCK && block.typeId !== AC.SOURCE_BLOCK && !(AC.ATM_BLOCK_VARIANTS || []).includes(block.typeId)) return null;
         
         return {
             isATM: ATMService.isATM(block),
@@ -57,7 +57,7 @@ export class ATMProtection {
         try{ 
             BedrockCompat.subscribe("block.interact.after", "ATMProtection.setup", e=>{ 
                 const {block,itemStack,player}=e; 
-                if(!block||block.typeId!==AC.CHEST_BLOCK||!itemStack)return; 
+                if(!block||(![AC.CHEST_BLOCK, ...(AC.ATM_BLOCK_VARIANTS || [])].includes(block.typeId))||!itemStack)return; 
                 if(!(player instanceof Player))return; 
                 
                 if(isHook(itemStack,AC.HOOK_ATM_NAME)){

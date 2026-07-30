@@ -131,6 +131,7 @@ export const CONFIG = {
         COLLECTION: "atm",
         SOURCE_COLLECTION: "source",
         ATM_BLOCK: "minecraft:emerald_block",
+        ATM_BLOCK_VARIANTS: ["mcity:wall_atm", "mcity:floor_atm", "mcity:floor_atm_bottom"],
         SOURCE_BLOCK: "minecraft:netherite_block",
         CHEST_BLOCK: "minecraft:chest",
         SETUP_HOOK: "minecraft:tripwire_hook",
