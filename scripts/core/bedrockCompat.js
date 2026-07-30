@@ -12,6 +12,7 @@ const FEATURES = Object.freeze({
     "world.load": { path: "world.afterEvents.worldLoad", targetSupported: true, required: false },
     "player.spawn.after": { path: "world.afterEvents.playerSpawn", targetSupported: true, required: true },
     "player.leave.after": { path: "world.afterEvents.playerLeave", targetSupported: true, required: true },
+    "player.craft.after": { path: "world.afterEvents.playerCraftItem", targetSupported: true, required: false },
     "item.use.before": { path: "world.beforeEvents.itemUse", targetSupported: true, required: false },
     "item.use.after": { path: "world.afterEvents.itemUse", targetSupported: true, required: false },
     "block.break.before": { path: "world.beforeEvents.playerBreakBlock", targetSupported: true, required: false },
