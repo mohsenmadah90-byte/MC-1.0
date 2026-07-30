@@ -47,6 +47,7 @@ import { ATMProtection } from "./modules/atm/atmProtection.js";
 import { AuditService } from "./modules/audit/auditService.js";
 import { BackupService } from "./modules/backup/backupService.js";
 import { CustomCardService } from "./core/customCardService.js";
+import { MinePhoneService } from "./core/minePhoneService.js";
 
 class RuntimeState {
     static initialized = false;
@@ -86,6 +87,7 @@ class RuntimeState {
         try { LandProtection.shutdown(); } catch (error) { Logger.error("Main", "LandProtection shutdown error", error); }
         try { DashboardEntry.shutdown(); } catch (error) { Logger.error("Main", "DashboardEntry shutdown error", error); }
         try { CustomCardService.shutdown?.(); } catch (error) { Logger.error("Main", "CustomCardService shutdown error", error); }
+        try { MinePhoneService.shutdown(); } catch (error) { Logger.error("Main", "MinePhoneService shutdown error", error); }
         try { DashboardSystem.shutdown(); } catch (error) { Logger.error("Main", "Dashboard shutdown error", error); }
         try { PlayerRegistry.shutdown(); } catch (error) { Logger.error("Main", "PlayerRegistry shutdown error", error); }
         // Cancel all background jobs before the final synchronous DB flush.
@@ -160,6 +162,7 @@ function initialize() {
         MemoryMonitor.initialize();
         ItemSettingsService.initialize();
         CustomCardService.initialize();
+        MinePhoneService.initialize();
         ShardMigrationService.initialize();
         ScalabilityService.initialize();
         DashboardSystem.initialize();

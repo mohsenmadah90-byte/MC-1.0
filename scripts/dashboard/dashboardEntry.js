@@ -12,6 +12,7 @@ import { SubscriptionRegistry } from "../core/subscriptionRegistry.js";
 import { RateLimiter } from "../core/rateLimiter.js";
 import { ErrorBoundary } from "../core/errorBoundary.js";
 import { CustomCardService } from "../core/customCardService.js";
+import { MinePhoneService } from "../core/minePhoneService.js";
 import { RuntimeHandleRegistry } from "../core/runtimeHandleRegistry.js";
 
 const DC = CONFIG.DASHBOARD;
@@ -139,6 +140,7 @@ export class DashboardEntry {
         const last = this.#lastOpen.get(player.id) || 0;
         if (now - last < (DC.OPEN_COOLDOWN_MS || 700)) return false;
         this.#lastOpen.set(player.id, now);
+        MinePhoneService.begin(player);
 
         if (!this.#openHandler) {
             player.sendMessage(CONFIG.PREFIX + "§cMine Phone is not ready yet.");

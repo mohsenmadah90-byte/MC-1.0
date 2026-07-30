@@ -2,7 +2,7 @@
 // Phase 0: Foundation scaffold
 
 export const CONFIG = {
-    VERSION: "1.14.7-atm-temporary-storage",
+    VERSION: "1.14.8-atm-storage-phone-battery",
     SYSTEM_NAME: "MCity Dashboard V2",
     PREFIX: "§r[§6§lMCity§r] §r",
 

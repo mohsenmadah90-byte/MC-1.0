@@ -455,9 +455,11 @@ export class ATMService {
 
         if(!ATMInventory.hasItems(player,items))return{success:false,message:"§cYou do not have the required ores."};
         const container=this.#sourceContainer(src);
-        const pendingFlush = this.#flushPendingTransfer(info.code, container);
-        if (!pendingFlush.ok) return { success: false, message: "§cATM storage is waiting for the Source chest to load or have space." };
-        if(container && !ATMInventory.hasSpace(container,items))return{success:false,message:"§cSource chest is full."};
+        const pendingFlush = container ? this.#flushPendingTransfer(info.code, container) : { ok: false, reason: "source_unavailable" };
+        // Pending delivery is never a reason to reject a player transaction.
+        // When Source is unavailable/full, the current batch joins the same
+        // durable ATM Bottom queue and rewards can still be delivered.
+        const canWriteSourceNow = !!container && pendingFlush.ok && ATMInventory.hasSpace(container, items);
 
         // Phase 7.3 (v0.21.2) (CT7): Rate limit check HERE — only consumes
         // a slot if all pre-checks passed and we're about to actually
@@ -511,7 +513,7 @@ export class ATMService {
         // ─── Step 2: Transfer to Source or durable ATM Bottom queue ───
         // The player has already delivered the exchange; an unloaded Source
         // must never make the exchange fail after inventory removal.
-        if (container) {
+        if (canWriteSourceNow) {
             if(!ATMInventory.addItems(container,items)){
                 ATMInventory.returnItems(player,items);
                 this.#markJournal(journalId, "failed", "addItems to source failed");

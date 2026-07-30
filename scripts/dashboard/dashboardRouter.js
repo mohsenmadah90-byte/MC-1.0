@@ -8,6 +8,7 @@ import { Logger } from "../core/logger.js";
 import { Permissions } from "../core/permissions.js";
 import { FormUtils } from "../core/formUtils.js";
 import { ErrorBoundary } from "../core/errorBoundary.js";
+import { MinePhoneService } from "../core/minePhoneService.js";
 
 export class DashboardRouter {
     static #modules = [];
@@ -92,6 +93,7 @@ export class DashboardRouter {
             lines.push(`§e${options.notice}`);
             lines.push("");
         }
+        lines.push(`§7Battery: ${MinePhoneService.battery(player).toFixed(0)}%${MinePhoneService.flashlight(player) ? " §e(Flashlight ON)" : ""}`);
         lines.push("§8Select a city service:");
         return UI.body(...lines);
     }

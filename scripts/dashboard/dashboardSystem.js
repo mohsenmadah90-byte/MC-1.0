@@ -8,6 +8,7 @@ import { UI } from "../core/uiTheme.js";
 import { Logger } from "../core/logger.js";
 import { Permissions } from "../core/permissions.js";
 import { DashboardEntry } from "./dashboardEntry.js";
+import { MinePhoneService } from "../core/minePhoneService.js";
 import { DashboardRouter } from "./dashboardRouter.js";
 import { EconomyUI } from "../modules/economy/economyUI.js";
 import { PayoutUI } from "../modules/finance/payoutUI.js";
