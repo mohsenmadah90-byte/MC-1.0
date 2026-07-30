@@ -1,0 +1,10 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+const config=fs.readFileSync("scripts/config.js","utf8");
+const service=fs.readFileSync("scripts/modules/atm/atmService.js","utf8");
+const ui=fs.readFileSync("scripts/modules/atm/atmUI.js","utf8");
+assert.match(config,/MAX_EXCHANGE_PER_COMBO: 64/);
+assert.match(service,/MAX_EXCHANGE_PER_COMBO \|\| 64/);
+assert.match(ui,/MAX_EXCHANGE_PER_COMBO \|\| 64/);
+assert.match(ui,/ItemCatalog\.get\(id\)/);
+console.log("ATM slider cap and ingredient-label checks passed.");

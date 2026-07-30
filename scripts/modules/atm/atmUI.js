@@ -6,6 +6,7 @@ import { UI } from "../../core/uiTheme.js";
 import { MoneyUtils } from "../../core/moneyUtils.js";
 import { ATMInventory } from "./atmInventory.js";
 import { ATMService } from "./atmService.js";
+import { ItemCatalog } from "../../core/itemCatalog.js";
 
 const AIC = CONFIG.ATM_INFO;
 
@@ -67,8 +68,9 @@ export class ATMUI {
         for (const combo of combos) {
             const ores = CONFIG.ATM.ORE_COMBINATIONS[combo] || [];
             const available = ores.length ? Math.min(...ores.map(id => counts[id] || 0)) : 0;
-            const max = Math.max(0, available);
-            form.slider(`${AIC.COMBINATION_NAMES?.[combo] || combo} (max ${max})`, 0, Math.max(1, max), { valueStep: 1, defaultValue: 0 });
+            const max = Math.max(0, Math.min(CONFIG.ATM.MAX_EXCHANGE_PER_COMBO || 64, available));
+            const ingredientNames = ores.map(id => ItemCatalog.get(id)?.name || id.split(":").pop()).join(" + ");
+            form.slider(`${AIC.COMBINATION_NAMES?.[combo] || combo} | ${ingredientNames} (max ${max})`, 0, Math.max(1, max), { valueStep: 1, defaultValue: 0 });
         }
         const r = await form.show(player); if (r.canceled) return;
         const selections = {}; let any = false; let totalMoney = 0, totalScore = 0;

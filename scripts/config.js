@@ -141,6 +141,7 @@ export const CONFIG = {
         MAX_ACTIVE_ATMS: 500,
         MAX_WAITING_ATMS: 200,
         MAX_ATMS_PER_SOURCE: 50,
+        MAX_EXCHANGE_PER_COMBO: 64,
         BASE_PRICES: {
             copper: 100,
             copper_iron: 500,
