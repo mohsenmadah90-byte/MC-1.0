@@ -2,7 +2,7 @@
 // Phase 0: Foundation scaffold
 
 export const CONFIG = {
-    VERSION: "1.14.13-friends-money-gift",
+    VERSION: "1.14.14-trusted-friends",
     SYSTEM_NAME: "MCity Dashboard V2",
     PREFIX: "§r[§6§lMCity§r] §r",
 

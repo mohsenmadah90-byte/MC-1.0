@@ -11,6 +11,7 @@ import { MoneyUtils } from "../../core/moneyUtils.js";
 import { PlayerRegistry } from "../../core/playerRegistry.js";
 import { MoneyService } from "../economy/moneyService.js";
 import { LandService } from "./landService.js";
+import { FriendService } from "../friends/friendService.js";
 
 const LC = CONFIG.LAND;
 function backDashboard(player) { return import("../../dashboard/dashboardSystem.js").then(m => m.DashboardSystem.open(player)); }
@@ -294,7 +295,7 @@ export class LandUI {
 
     static async trusted(player, claimId) {
         const c = LandService.db().claims[claimId]; if (!c) return this.open(player);
-        const players = PlayerRegistry.online().filter(p => p.id !== player.id);
+        const players = FriendService.list(player).filter(p => p.playerId !== player.id).map(p => ({ id: p.playerId, name: p.playerName }));
         
         try {
             const form = new ActionFormData()
