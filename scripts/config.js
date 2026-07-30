@@ -2,7 +2,7 @@
 // Phase 0: Foundation scaffold
 
 export const CONFIG = {
-    VERSION: "1.14.12-friends-messaging",
+    VERSION: "1.14.13-friends-money-gift",
     SYSTEM_NAME: "MCity Dashboard V2",
     PREFIX: "§r[§6§lMCity§r] §r",
 
@@ -172,6 +172,10 @@ export const CONFIG = {
     CUSTOM_ITEMS: {
         CARD_SIGNATURE_SALT: "mcity-card-v1",
         PHONE_REQUIRES_CARD: false
+    },
+    FRIENDS: {
+        GIFT_COOLDOWN_MS: 24 * 60 * 60 * 1000,
+        ALLOWED_GIFT_ITEMS: []
     },
 
     CONTRACTS: {
