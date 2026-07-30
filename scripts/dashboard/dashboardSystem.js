@@ -10,6 +10,7 @@ import { Permissions } from "../core/permissions.js";
 import { DashboardEntry } from "./dashboardEntry.js";
 import { MinePhoneService } from "../core/minePhoneService.js";
 import { LeaderboardSettingsService } from "../core/leaderboardSettingsService.js";
+import { CustomCardService } from "../core/customCardService.js";
 import { DashboardRouter } from "./dashboardRouter.js";
 import { EconomyUI } from "../modules/economy/economyUI.js";
 import { PayoutUI } from "../modules/finance/payoutUI.js";
@@ -80,16 +81,17 @@ export class DashboardSystem {
                 UI.kv("Flash Light", MinePhoneService.flashlight(player) ? "ON" : "OFF", MinePhoneService.flashlight(player) ? "§e" : "§8"),
                 UI.kv("Money Leaderboard", LeaderboardSettingsService.moneyVisible(player) ? "Shown" : "Hidden"),
                 UI.kv("Level Leaderboard", LeaderboardSettingsService.levelVisible(player) ? "Shown" : "Hidden"),
-                "§8Use Mine Phone with a valid Personal Card."
+                "§8Mine Phone information and preferences."
             ))
             .button("§aGive / Recover Mine Phone")
             .button("§eReset Given Flag")
             .button("§6Flash Light")
+            .button("§bPhone Information")
             .button("§aToggle Money Leaderboard")
             .button("§bToggle Level Leaderboard")
             .button(UI.BACK);
         const result = await form.show(player);
-        if (result.canceled) return; if (result.selection === 5) return this.open(player);
+        if (result.canceled) return; if (result.selection === 6) return this.open(player);
         if (result.selection === 0) {
             const ok = DashboardEntry.ensureMenuItem(player, true);
             player.sendMessage(CONFIG.PREFIX + (ok ? "§aMine Phone recovered." : "§cCould not give Mine Phone. Check inventory space."));
@@ -105,8 +107,24 @@ export class DashboardSystem {
             player.sendMessage(CONFIG.PREFIX + (enabled ? "§eFlash Light enabled." : "§7Flash Light disabled."));
             return this.openSettings(player);
         }
-        if (result.selection === 3) { LeaderboardSettingsService.setMoneyVisible(player, !LeaderboardSettingsService.moneyVisible(player)); return this.openSettings(player); }
-        if (result.selection === 4) { LeaderboardSettingsService.setLevelVisible(player, !LeaderboardSettingsService.levelVisible(player)); return this.openSettings(player); }
+        if (result.selection === 3) return this.phoneInformation(player);
+        if (result.selection === 4) { LeaderboardSettingsService.setMoneyVisible(player, !LeaderboardSettingsService.moneyVisible(player)); return this.openSettings(player); }
+        if (result.selection === 5) { LeaderboardSettingsService.setLevelVisible(player, !LeaderboardSettingsService.levelVisible(player)); return this.openSettings(player); }
+    }
+
+    static async phoneInformation(player) {
+        let card = null;
+        const inventory = player.getComponent("minecraft:inventory")?.container;
+        if (inventory) for (let i = 0; i < inventory.size; i++) { const result = CustomCardService.validate(player, inventory.getItem(i)); if (result.valid) { card = result.card; break; } }
+        const lines = [
+            UI.kv("Phone", "Mine Phone", "§b"),
+            UI.kv("Battery", `${MinePhoneService.battery(player).toFixed(0)}%`, "§a"),
+            UI.kv("Flash Light", MinePhoneService.flashlight(player) ? "ON" : "OFF"),
+            UI.kv("Personal Card", card ? "Valid" : "Not found", card ? "§a" : "§e")
+        ];
+        if (card) { lines.push(UI.kv("Card Color", card.color, "§f"), UI.kv("Card Owner", card.ownerId === player.id ? "You" : "Other", "§f"), UI.kv("Card Version", card.version, "§f")); }
+        await new ActionFormData().title(UI.title(UI.ICON.settings, "Phone Information")).body(UI.body(...lines)).button(UI.BACK).show(player);
+        return this.openSettings(player);
     }
 
     static shutdown() {
