@@ -19,8 +19,9 @@
     "test:economy-policy": "node tests/economy-policy-contract.mjs",
     "test:atm-limit-removal": "node tests/atm-limit-removal-contract.mjs",
     "test:atm-slider": "node tests/atm-slider-contract.mjs",
+    "test:vanilla-textures": "node tests/vanilla-texture-contract.mjs",
     "preflight": "node tools/production-preflight.mjs",
-    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts && npm run test:protection && npm run test:catalog && npm run test:land-sale-tax && npm run test:chunk-banner && npm run test:atm-scrap && npm run test:land-price && npm run test:economy-policy && npm run test:atm-limit-removal && npm run test:atm-slider",
+    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts && npm run test:protection && npm run test:catalog && npm run test:land-sale-tax && npm run test:chunk-banner && npm run test:atm-scrap && npm run test:land-price && npm run test:economy-policy && npm run test:atm-limit-removal && npm run test:atm-slider && npm run test:vanilla-textures",
     "validate:production": "npm run validate && npm run test:load && npm run preflight"
   },
   "engines": {

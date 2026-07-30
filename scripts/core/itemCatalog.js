@@ -19463,7 +19463,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_button",
@@ -19482,7 +19483,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_chest_boat",
@@ -19501,7 +19503,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_door",
@@ -19520,7 +19523,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_double_slab",
@@ -19539,7 +19543,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_fence",
@@ -19560,7 +19565,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_fence_gate",
@@ -19579,7 +19585,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_hanging_sign",
@@ -19598,7 +19605,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_leaves",
@@ -19617,7 +19625,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_log",
@@ -19638,7 +19647,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_planks",
@@ -19657,7 +19667,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_pressure_plate",
@@ -19676,7 +19687,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_sapling",
@@ -19695,7 +19707,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_shelf",
@@ -19714,7 +19727,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_sign",
@@ -19733,7 +19747,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_slab",
@@ -19752,7 +19767,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_stairs",
@@ -19771,7 +19787,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_standing_sign",
@@ -19790,7 +19807,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_trapdoor",
@@ -19809,7 +19827,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_wall_sign",
@@ -19828,7 +19847,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:acacia_wood",
@@ -19847,7 +19867,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:activator_rail",
@@ -19866,7 +19887,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:agent_spawn_egg",
@@ -19885,7 +19907,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:air",
@@ -19904,7 +19927,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:allay_spawn_egg",
@@ -19923,7 +19947,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:allium",
@@ -19942,7 +19967,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:allow",
@@ -19961,7 +19987,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:amethyst_block",
@@ -19980,7 +20007,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:amethyst_cluster",
@@ -19999,7 +20027,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:amethyst_shard",
@@ -20021,7 +20050,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ancient_debris",
@@ -20043,7 +20073,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:andesite",
@@ -20062,7 +20093,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:andesite_double_slab",
@@ -20081,7 +20113,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:andesite_slab",
@@ -20100,7 +20133,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:andesite_stairs",
@@ -20119,7 +20153,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:andesite_wall",
@@ -20138,7 +20173,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:angler_pottery_sherd",
@@ -20157,7 +20193,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:anvil",
@@ -20176,7 +20213,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:apple",
@@ -20197,7 +20235,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:archer_pottery_sherd",
@@ -20216,7 +20255,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:armadillo_scute",
@@ -20237,7 +20277,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:armadillo_spawn_egg",
@@ -20256,7 +20297,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:armor_stand",
@@ -20277,7 +20319,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:arms_up_pottery_sherd",
@@ -20296,7 +20339,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:arrow",
@@ -20317,7 +20361,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:axolotl_bucket",
@@ -20336,7 +20381,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:axolotl_spawn_egg",
@@ -20355,7 +20401,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:azalea",
@@ -20374,7 +20421,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:azalea_leaves",
@@ -20393,7 +20441,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:azalea_leaves_flowered",
@@ -20412,7 +20461,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:azure_bluet",
@@ -20431,7 +20481,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:baked_potato",
@@ -20452,7 +20503,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:balloon",
@@ -20471,7 +20523,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo",
@@ -20492,7 +20545,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_block",
@@ -20511,7 +20565,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_button",
@@ -20530,7 +20585,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_chest_raft",
@@ -20549,7 +20605,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_door",
@@ -20568,7 +20625,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_double_slab",
@@ -20587,7 +20645,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_fence",
@@ -20606,7 +20665,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_fence_gate",
@@ -20625,7 +20685,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_hanging_sign",
@@ -20644,7 +20705,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_mosaic",
@@ -20663,7 +20725,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_mosaic_double_slab",
@@ -20682,7 +20745,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_mosaic_slab",
@@ -20701,7 +20765,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_mosaic_stairs",
@@ -20720,7 +20785,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_planks",
@@ -20739,7 +20805,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_pressure_plate",
@@ -20758,7 +20825,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_raft",
@@ -20777,7 +20845,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_sapling",
@@ -20796,7 +20865,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_shelf",
@@ -20815,7 +20885,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_sign",
@@ -20834,7 +20905,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_slab",
@@ -20853,7 +20925,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_stairs",
@@ -20872,7 +20945,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_standing_sign",
@@ -20891,7 +20965,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_trapdoor",
@@ -20910,7 +20985,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bamboo_wall_sign",
@@ -20929,7 +21005,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:banner",
@@ -20948,7 +21025,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:banner_pattern",
@@ -20967,7 +21045,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:barrel",
@@ -20988,7 +21067,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:barrier",
@@ -21009,7 +21089,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:basalt",
@@ -21030,7 +21111,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bat_spawn_egg",
@@ -21049,7 +21131,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:beacon",
@@ -21068,7 +21151,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bed",
@@ -21089,7 +21173,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bedrock",
@@ -21110,7 +21195,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bee_nest",
@@ -21129,7 +21215,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bee_spawn_egg",
@@ -21148,7 +21235,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:beef",
@@ -21170,7 +21258,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:beehive",
@@ -21189,7 +21278,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:beetroot",
@@ -21211,7 +21301,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:beetroot_seeds",
@@ -21233,7 +21324,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:beetroot_soup",
@@ -21252,7 +21344,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bell",
@@ -21271,7 +21364,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:big_dripleaf",
@@ -21290,7 +21384,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_boat",
@@ -21309,7 +21404,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_button",
@@ -21328,7 +21424,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_chest_boat",
@@ -21347,7 +21444,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_door",
@@ -21366,7 +21464,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_double_slab",
@@ -21385,7 +21484,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_fence",
@@ -21406,7 +21506,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_fence_gate",
@@ -21425,7 +21526,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_hanging_sign",
@@ -21444,7 +21546,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_leaves",
@@ -21463,7 +21566,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_log",
@@ -21485,7 +21589,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_planks",
@@ -21504,7 +21609,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_pressure_plate",
@@ -21523,7 +21629,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_sapling",
@@ -21542,7 +21649,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_shelf",
@@ -21561,7 +21669,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_sign",
@@ -21580,7 +21689,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_slab",
@@ -21599,7 +21709,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_stairs",
@@ -21618,7 +21729,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_standing_sign",
@@ -21637,7 +21749,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_trapdoor",
@@ -21656,7 +21769,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_wall_sign",
@@ -21675,7 +21789,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:birch_wood",
@@ -21694,7 +21809,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_candle",
@@ -21713,7 +21829,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_candle_cake",
@@ -21732,7 +21849,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_carpet",
@@ -21751,7 +21869,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_concrete",
@@ -21770,7 +21889,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_concrete_powder",
@@ -21789,7 +21909,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_dye",
@@ -21808,7 +21929,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_glazed_terracotta",
@@ -21827,7 +21949,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_harness",
@@ -21846,7 +21969,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_shulker_box",
@@ -21865,7 +21989,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_stained_glass",
@@ -21884,7 +22009,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_stained_glass_pane",
@@ -21903,7 +22029,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_terracotta",
@@ -21922,7 +22049,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_wool",
@@ -21941,7 +22069,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_wool_double_slab",
@@ -21960,7 +22089,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_wool_slab",
@@ -21979,7 +22109,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:black_wool_stairs",
@@ -21998,7 +22129,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blackstone",
@@ -22017,7 +22149,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blackstone_double_slab",
@@ -22036,7 +22169,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blackstone_slab",
@@ -22055,7 +22189,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blackstone_stairs",
@@ -22074,7 +22209,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blackstone_wall",
@@ -22093,7 +22229,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blade_pottery_sherd",
@@ -22112,7 +22249,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blast_furnace",
@@ -22131,7 +22269,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blaze_powder",
@@ -22152,7 +22291,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blaze_rod",
@@ -22174,7 +22314,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blaze_spawn_egg",
@@ -22193,7 +22334,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bleach",
@@ -22212,7 +22354,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_candle",
@@ -22231,7 +22374,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_candle_cake",
@@ -22250,7 +22394,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_carpet",
@@ -22269,7 +22414,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_concrete",
@@ -22288,7 +22434,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_concrete_powder",
@@ -22307,7 +22454,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_dye",
@@ -22326,7 +22474,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_egg",
@@ -22345,7 +22494,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_glazed_terracotta",
@@ -22364,7 +22514,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_harness",
@@ -22383,7 +22534,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_ice",
@@ -22402,7 +22554,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_orchid",
@@ -22421,7 +22574,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_shulker_box",
@@ -22440,7 +22594,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_stained_glass",
@@ -22459,7 +22614,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_stained_glass_pane",
@@ -22478,7 +22634,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_terracotta",
@@ -22497,7 +22654,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_wool",
@@ -22516,7 +22674,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_wool_double_slab",
@@ -22535,7 +22694,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_wool_slab",
@@ -22554,7 +22714,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:blue_wool_stairs",
@@ -22573,7 +22734,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:boat",
@@ -22594,7 +22756,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bogged_spawn_egg",
@@ -22613,7 +22776,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bolt_armor_trim_smithing_template",
@@ -22632,7 +22796,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bone",
@@ -22654,7 +22819,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bone_block",
@@ -22673,7 +22839,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bone_meal",
@@ -22695,7 +22862,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:book",
@@ -22716,7 +22884,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bookshelf",
@@ -22737,7 +22906,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:border_block",
@@ -22756,7 +22926,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bordure_indented_banner_pattern",
@@ -22775,7 +22946,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bow",
@@ -22796,7 +22968,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bowl",
@@ -22817,7 +22990,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brain_coral",
@@ -22836,7 +23010,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brain_coral_block",
@@ -22855,7 +23030,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brain_coral_fan",
@@ -22874,7 +23050,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brain_coral_wall_fan",
@@ -22893,7 +23070,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bread",
@@ -22914,7 +23092,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:breeze_rod",
@@ -22935,7 +23114,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:breeze_spawn_egg",
@@ -22954,7 +23134,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brewer_pottery_sherd",
@@ -22973,7 +23154,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brewing_stand",
@@ -22992,7 +23174,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brick",
@@ -23014,7 +23197,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brick_block",
@@ -23033,7 +23217,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brick_double_slab",
@@ -23052,7 +23237,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brick_slab",
@@ -23071,7 +23257,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brick_stairs",
@@ -23090,7 +23277,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brick_wall",
@@ -23109,7 +23297,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_candle",
@@ -23128,7 +23317,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_candle_cake",
@@ -23147,7 +23337,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_carpet",
@@ -23166,7 +23357,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_concrete",
@@ -23185,7 +23377,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_concrete_powder",
@@ -23204,7 +23397,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_dye",
@@ -23223,7 +23417,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_egg",
@@ -23242,7 +23437,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_glazed_terracotta",
@@ -23261,7 +23457,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_harness",
@@ -23280,7 +23477,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_mushroom",
@@ -23299,7 +23497,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_mushroom_block",
@@ -23320,7 +23519,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_shulker_box",
@@ -23339,7 +23539,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_stained_glass",
@@ -23358,7 +23559,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_stained_glass_pane",
@@ -23377,7 +23579,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_terracotta",
@@ -23396,7 +23599,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_wool",
@@ -23415,7 +23619,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_wool_double_slab",
@@ -23434,7 +23639,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_wool_slab",
@@ -23453,7 +23659,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brown_wool_stairs",
@@ -23472,7 +23679,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:brush",
@@ -23493,7 +23701,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bubble_column",
@@ -23512,7 +23721,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bubble_coral",
@@ -23531,7 +23741,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bubble_coral_block",
@@ -23550,7 +23761,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bubble_coral_fan",
@@ -23569,7 +23781,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bubble_coral_wall_fan",
@@ -23588,7 +23801,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bucket",
@@ -23609,7 +23823,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:budding_amethyst",
@@ -23628,7 +23843,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:burn_pottery_sherd",
@@ -23647,7 +23863,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:bush",
@@ -23666,7 +23883,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cactus",
@@ -23687,7 +23905,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cactus_flower",
@@ -23706,7 +23925,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cake",
@@ -23727,7 +23947,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:calcite",
@@ -23748,7 +23969,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:calibrated_sculk_sensor",
@@ -23767,7 +23989,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:camel_spawn_egg",
@@ -23786,7 +24009,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:camera",
@@ -23805,7 +24029,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:campfire",
@@ -23824,7 +24049,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:candle",
@@ -23843,7 +24069,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:candle_cake",
@@ -23862,7 +24089,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:carpet",
@@ -23881,7 +24109,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:carrot",
@@ -23903,7 +24132,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:carrot_on_a_stick",
@@ -23924,7 +24154,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:carrots",
@@ -23943,7 +24174,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cartography_table",
@@ -23962,7 +24194,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:carved_pumpkin",
@@ -23981,7 +24214,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cat_spawn_egg",
@@ -24000,7 +24234,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cauldron",
@@ -24019,7 +24254,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cave_spider_spawn_egg",
@@ -24038,7 +24274,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cave_vines",
@@ -24057,7 +24294,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cave_vines_body_with_berries",
@@ -24076,7 +24314,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cave_vines_head_with_berries",
@@ -24095,7 +24334,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chain_command_block",
@@ -24114,7 +24354,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chainmail_boots",
@@ -24135,7 +24376,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chainmail_chestplate",
@@ -24156,7 +24398,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chainmail_helmet",
@@ -24177,7 +24420,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chainmail_leggings",
@@ -24198,7 +24442,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chalkboard",
@@ -24217,7 +24462,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:charcoal",
@@ -24239,7 +24485,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chemical_heat",
@@ -24258,7 +24505,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_boat",
@@ -24277,7 +24525,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_button",
@@ -24296,7 +24545,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_chest_boat",
@@ -24315,7 +24565,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_door",
@@ -24334,7 +24585,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_double_slab",
@@ -24353,7 +24605,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_fence",
@@ -24372,7 +24625,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_fence_gate",
@@ -24391,7 +24645,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_hanging_sign",
@@ -24410,7 +24665,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_leaves",
@@ -24429,7 +24685,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_log",
@@ -24450,7 +24707,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_planks",
@@ -24469,7 +24727,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_pressure_plate",
@@ -24488,7 +24747,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_sapling",
@@ -24507,7 +24767,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_shelf",
@@ -24526,7 +24787,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_sign",
@@ -24545,7 +24807,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_slab",
@@ -24564,7 +24827,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_stairs",
@@ -24583,7 +24847,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_standing_sign",
@@ -24602,7 +24867,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_trapdoor",
@@ -24621,7 +24887,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_wall_sign",
@@ -24640,7 +24907,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cherry_wood",
@@ -24659,7 +24927,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chest",
@@ -24680,7 +24949,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chest_boat",
@@ -24699,7 +24969,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chest_minecart",
@@ -24720,7 +24991,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chicken",
@@ -24741,7 +25013,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chicken_spawn_egg",
@@ -24760,7 +25033,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chipped_anvil",
@@ -24779,7 +25053,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_bookshelf",
@@ -24798,7 +25073,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_cinnabar",
@@ -24817,7 +25093,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_copper",
@@ -24836,7 +25113,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_deepslate",
@@ -24855,7 +25133,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_nether_bricks",
@@ -24874,7 +25153,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_polished_blackstone",
@@ -24893,7 +25173,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_quartz_block",
@@ -24912,7 +25193,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_red_sandstone",
@@ -24931,7 +25213,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_resin_bricks",
@@ -24950,7 +25233,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_sandstone",
@@ -24969,7 +25253,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_stone_bricks",
@@ -24988,7 +25273,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_sulfur",
@@ -25007,7 +25293,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_tuff",
@@ -25026,7 +25313,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chiseled_tuff_bricks",
@@ -25045,7 +25333,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chorus_flower",
@@ -25064,7 +25353,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chorus_fruit",
@@ -25083,7 +25373,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:chorus_plant",
@@ -25102,7 +25393,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cinnabar",
@@ -25121,7 +25413,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cinnabar_brick_double_slab",
@@ -25140,7 +25433,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cinnabar_brick_slab",
@@ -25159,7 +25453,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cinnabar_brick_stairs",
@@ -25178,7 +25473,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cinnabar_brick_wall",
@@ -25197,7 +25493,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cinnabar_bricks",
@@ -25216,7 +25513,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cinnabar_double_slab",
@@ -25235,7 +25533,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cinnabar_slab",
@@ -25254,7 +25553,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cinnabar_stairs",
@@ -25273,7 +25573,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cinnabar_wall",
@@ -25292,7 +25593,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:clay",
@@ -25313,7 +25615,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:clay_ball",
@@ -25335,7 +25638,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:client_request_placeholder_block",
@@ -25354,7 +25658,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:clock",
@@ -25375,7 +25680,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:closed_eyeblossom",
@@ -25394,7 +25700,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:coal",
@@ -25416,7 +25723,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:coal_block",
@@ -25435,7 +25743,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:coal_ore",
@@ -25457,7 +25766,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:coarse_dirt",
@@ -25476,7 +25786,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:coast_armor_trim_smithing_template",
@@ -25495,7 +25806,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cobbled_deepslate",
@@ -25514,7 +25826,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cobbled_deepslate_double_slab",
@@ -25533,7 +25846,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cobbled_deepslate_slab",
@@ -25552,7 +25866,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cobbled_deepslate_stairs",
@@ -25571,7 +25886,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cobbled_deepslate_wall",
@@ -25590,7 +25906,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cobblestone",
@@ -25612,7 +25929,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cobblestone_double_slab",
@@ -25631,7 +25949,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cobblestone_slab",
@@ -25650,7 +25969,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cobblestone_wall",
@@ -25669,7 +25989,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cocoa",
@@ -25688,7 +26009,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cocoa_beans",
@@ -25710,7 +26032,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cod",
@@ -25731,7 +26054,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cod_bucket",
@@ -25750,7 +26074,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cod_spawn_egg",
@@ -25769,7 +26094,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:colored_torch_blue",
@@ -25788,7 +26114,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:colored_torch_green",
@@ -25807,7 +26134,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:colored_torch_purple",
@@ -25826,7 +26154,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:colored_torch_red",
@@ -25845,7 +26174,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:command_block",
@@ -25866,7 +26196,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:command_block_minecart",
@@ -25885,7 +26216,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:comparator",
@@ -25906,7 +26238,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:compass",
@@ -25927,7 +26260,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:composter",
@@ -25946,7 +26280,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:compound",
@@ -25965,7 +26300,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:compound_creator",
@@ -25984,7 +26320,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:concrete",
@@ -26003,7 +26340,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:concrete_powder",
@@ -26022,7 +26360,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:conduit",
@@ -26041,7 +26380,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cooked_beef",
@@ -26063,7 +26403,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cooked_chicken",
@@ -26084,7 +26425,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cooked_cod",
@@ -26106,7 +26448,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cooked_mutton",
@@ -26128,7 +26471,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cooked_porkchop",
@@ -26150,7 +26494,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cooked_rabbit",
@@ -26171,7 +26516,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cooked_salmon",
@@ -26192,7 +26538,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cookie",
@@ -26213,7 +26560,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_axe",
@@ -26232,7 +26580,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_bars",
@@ -26251,7 +26600,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_block",
@@ -26270,7 +26620,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_boots",
@@ -26289,7 +26640,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_bulb",
@@ -26308,7 +26660,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_chain",
@@ -26327,7 +26680,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_chest",
@@ -26346,7 +26700,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_chestplate",
@@ -26365,7 +26720,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_door",
@@ -26384,7 +26740,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_golem_spawn_egg",
@@ -26403,7 +26760,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_golem_statue",
@@ -26422,7 +26780,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_grate",
@@ -26441,7 +26800,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_helmet",
@@ -26460,7 +26820,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_hoe",
@@ -26479,7 +26840,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_horse_armor",
@@ -26498,7 +26860,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_ingot",
@@ -26521,7 +26884,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_lantern",
@@ -26540,7 +26904,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_leggings",
@@ -26559,7 +26924,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_nugget",
@@ -26578,7 +26944,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_ore",
@@ -26600,7 +26967,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_pickaxe",
@@ -26619,7 +26987,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_shovel",
@@ -26638,7 +27007,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_sword",
@@ -26657,7 +27027,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_torch",
@@ -26676,7 +27047,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:copper_trapdoor",
@@ -26695,7 +27067,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:coral",
@@ -26714,7 +27087,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:coral_block",
@@ -26733,7 +27107,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:coral_fan",
@@ -26752,7 +27127,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:coral_fan_dead",
@@ -26771,7 +27147,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cornflower",
@@ -26790,7 +27167,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cow_spawn_egg",
@@ -26809,7 +27187,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cracked_deepslate_bricks",
@@ -26828,7 +27207,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cracked_deepslate_tiles",
@@ -26847,7 +27227,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cracked_nether_bricks",
@@ -26866,7 +27247,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cracked_polished_blackstone_bricks",
@@ -26885,7 +27267,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cracked_stone_bricks",
@@ -26904,7 +27287,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crafter",
@@ -26923,7 +27307,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crafting_table",
@@ -26944,7 +27329,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:creaking_heart",
@@ -26963,7 +27349,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:creaking_spawn_egg",
@@ -26982,7 +27369,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:creeper_banner_pattern",
@@ -27001,7 +27389,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:creeper_head",
@@ -27020,7 +27409,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:creeper_spawn_egg",
@@ -27039,7 +27429,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_button",
@@ -27058,7 +27449,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_door",
@@ -27077,7 +27469,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_double_slab",
@@ -27096,7 +27489,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_fence",
@@ -27115,7 +27509,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_fence_gate",
@@ -27134,7 +27529,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_fungus",
@@ -27153,7 +27549,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_hanging_sign",
@@ -27172,7 +27569,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_hyphae",
@@ -27191,7 +27589,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_nylium",
@@ -27210,7 +27609,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_planks",
@@ -27229,7 +27629,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_pressure_plate",
@@ -27248,7 +27649,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_roots",
@@ -27267,7 +27669,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_shelf",
@@ -27286,7 +27689,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_sign",
@@ -27305,7 +27709,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_slab",
@@ -27324,7 +27729,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_stairs",
@@ -27343,7 +27749,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_standing_sign",
@@ -27362,7 +27769,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_stem",
@@ -27381,7 +27789,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_trapdoor",
@@ -27400,7 +27809,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crimson_wall_sign",
@@ -27419,7 +27829,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crossbow",
@@ -27440,7 +27851,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:crying_obsidian",
@@ -27459,7 +27871,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cut_copper",
@@ -27478,7 +27891,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cut_copper_slab",
@@ -27497,7 +27911,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cut_copper_stairs",
@@ -27516,7 +27931,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cut_red_sandstone",
@@ -27535,7 +27951,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cut_red_sandstone_double_slab",
@@ -27554,7 +27971,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cut_red_sandstone_slab",
@@ -27573,7 +27991,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cut_sandstone",
@@ -27592,7 +28011,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cut_sandstone_double_slab",
@@ -27611,7 +28031,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cut_sandstone_slab",
@@ -27630,7 +28051,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_candle",
@@ -27649,7 +28071,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_candle_cake",
@@ -27668,7 +28091,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_carpet",
@@ -27687,7 +28111,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_concrete",
@@ -27706,7 +28131,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_concrete_powder",
@@ -27725,7 +28151,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_dye",
@@ -27744,7 +28171,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_glazed_terracotta",
@@ -27763,7 +28191,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_harness",
@@ -27782,7 +28211,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_shulker_box",
@@ -27801,7 +28231,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_stained_glass",
@@ -27820,7 +28251,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_stained_glass_pane",
@@ -27839,7 +28271,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_terracotta",
@@ -27858,7 +28291,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_wool",
@@ -27877,7 +28311,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_wool_double_slab",
@@ -27896,7 +28331,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:cyan_wool_slab",
@@ -27915,7 +28351,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:damaged_anvil",
@@ -27934,7 +28371,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dandelion",
@@ -27955,7 +28393,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:danger_pottery_sherd",
@@ -27974,7 +28413,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_boat",
@@ -27993,7 +28433,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_button",
@@ -28012,7 +28453,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_chest_boat",
@@ -28031,7 +28473,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_door",
@@ -28050,7 +28493,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_double_slab",
@@ -28069,7 +28513,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_fence",
@@ -28090,7 +28535,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_fence_gate",
@@ -28109,7 +28555,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_hanging_sign",
@@ -28128,7 +28575,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_leaves",
@@ -28147,7 +28595,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_log",
@@ -28168,7 +28617,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_planks",
@@ -28187,7 +28637,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_pressure_plate",
@@ -28206,7 +28657,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_sapling",
@@ -28225,7 +28677,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_shelf",
@@ -28244,7 +28697,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_sign",
@@ -28263,7 +28717,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_slab",
@@ -28282,7 +28737,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_stairs",
@@ -28301,7 +28757,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_trapdoor",
@@ -28320,7 +28777,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_oak_wood",
@@ -28339,7 +28797,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_prismarine",
@@ -28358,7 +28817,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_prismarine_double_slab",
@@ -28377,7 +28837,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_prismarine_slab",
@@ -28396,7 +28857,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dark_prismarine_stairs",
@@ -28415,7 +28877,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:darkoak_standing_sign",
@@ -28434,7 +28897,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:darkoak_wall_sign",
@@ -28453,7 +28917,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:daylight_detector",
@@ -28472,7 +28937,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:daylight_detector_inverted",
@@ -28491,7 +28957,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_brain_coral",
@@ -28510,7 +28977,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_brain_coral_block",
@@ -28529,7 +28997,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_brain_coral_fan",
@@ -28548,7 +29017,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_brain_coral_wall_fan",
@@ -28567,7 +29037,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_bubble_coral",
@@ -28586,7 +29057,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_bubble_coral_block",
@@ -28605,7 +29077,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_bubble_coral_fan",
@@ -28624,7 +29097,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_bubble_coral_wall_fan",
@@ -28643,7 +29117,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_fire_coral",
@@ -28662,7 +29137,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_fire_coral_block",
@@ -28681,7 +29157,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_fire_coral_fan",
@@ -28700,7 +29177,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_fire_coral_wall_fan",
@@ -28719,7 +29197,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_horn_coral",
@@ -28738,7 +29217,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_horn_coral_block",
@@ -28757,7 +29237,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_horn_coral_fan",
@@ -28776,7 +29257,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_horn_coral_wall_fan",
@@ -28795,7 +29277,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_tube_coral",
@@ -28814,7 +29297,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_tube_coral_block",
@@ -28833,7 +29317,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_tube_coral_fan",
@@ -28852,7 +29337,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dead_tube_coral_wall_fan",
@@ -28871,7 +29357,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deadbush",
@@ -28890,7 +29377,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:decorated_pot",
@@ -28909,7 +29397,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate",
@@ -28930,7 +29419,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_brick_double_slab",
@@ -28949,7 +29439,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_brick_slab",
@@ -28968,7 +29459,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_brick_stairs",
@@ -28987,7 +29479,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_brick_wall",
@@ -29006,7 +29499,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_bricks",
@@ -29025,7 +29519,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_coal_ore",
@@ -29044,7 +29539,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_copper_ore",
@@ -29063,7 +29559,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_diamond_ore",
@@ -29082,7 +29579,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_emerald_ore",
@@ -29101,7 +29599,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_gold_ore",
@@ -29120,7 +29619,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_iron_ore",
@@ -29139,7 +29639,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_lapis_ore",
@@ -29158,7 +29659,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_redstone_ore",
@@ -29177,7 +29679,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_tile_double_slab",
@@ -29196,7 +29699,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_tile_slab",
@@ -29215,7 +29719,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_tile_stairs",
@@ -29234,7 +29739,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_tile_wall",
@@ -29253,7 +29759,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deepslate_tiles",
@@ -29272,7 +29779,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deny",
@@ -29291,7 +29799,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deprecated_anvil",
@@ -29310,7 +29819,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deprecated_purpur_block_1",
@@ -29329,7 +29839,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:deprecated_purpur_block_2",
@@ -29348,7 +29859,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:detector_rail",
@@ -29369,7 +29881,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond",
@@ -29391,7 +29904,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond_axe",
@@ -29412,7 +29926,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond_block",
@@ -29433,7 +29948,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond_boots",
@@ -29454,7 +29970,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond_chestplate",
@@ -29475,7 +29992,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond_helmet",
@@ -29496,7 +30014,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond_hoe",
@@ -29515,7 +30034,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond_horse_armor",
@@ -29536,7 +30056,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond_leggings",
@@ -29557,7 +30078,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond_ore",
@@ -29579,7 +30101,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond_pickaxe",
@@ -29600,7 +30123,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond_shovel",
@@ -29621,7 +30145,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diamond_sword",
@@ -29642,7 +30167,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diorite",
@@ -29661,7 +30187,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diorite_double_slab",
@@ -29680,7 +30207,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diorite_slab",
@@ -29699,7 +30227,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diorite_stairs",
@@ -29718,7 +30247,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:diorite_wall",
@@ -29737,7 +30267,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dirt",
@@ -29758,7 +30289,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dirt_with_roots",
@@ -29777,7 +30309,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:disc_fragment_5",
@@ -29798,7 +30331,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dispenser",
@@ -29819,7 +30353,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dolphin_spawn_egg",
@@ -29838,7 +30373,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:donkey_spawn_egg",
@@ -29857,7 +30393,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:double_cut_copper_slab",
@@ -29876,7 +30413,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:double_plant",
@@ -29895,7 +30433,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:double_stone_block_slab",
@@ -29914,7 +30453,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:double_stone_block_slab2",
@@ -29933,7 +30473,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:double_stone_block_slab3",
@@ -29952,7 +30493,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:double_stone_block_slab4",
@@ -29971,7 +30513,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dragon_breath",
@@ -29992,7 +30535,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dragon_egg",
@@ -30011,7 +30555,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dragon_head",
@@ -30030,7 +30575,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dried_ghast",
@@ -30049,7 +30595,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dried_kelp",
@@ -30070,7 +30617,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dried_kelp_block",
@@ -30089,7 +30637,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dripstone_block",
@@ -30108,7 +30657,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dropper",
@@ -30129,7 +30679,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:drowned_spawn_egg",
@@ -30148,7 +30699,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dune_armor_trim_smithing_template",
@@ -30167,7 +30719,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:dye",
@@ -30188,7 +30741,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:echo_shard",
@@ -30209,7 +30763,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:egg",
@@ -30230,7 +30785,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:elder_guardian_spawn_egg",
@@ -30249,7 +30805,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_0",
@@ -30268,7 +30825,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_1",
@@ -30287,7 +30845,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_10",
@@ -30306,7 +30865,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_100",
@@ -30325,7 +30885,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_101",
@@ -30344,7 +30905,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_102",
@@ -30363,7 +30925,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_103",
@@ -30382,7 +30945,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_104",
@@ -30401,7 +30965,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_105",
@@ -30420,7 +30985,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_106",
@@ -30439,7 +31005,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_107",
@@ -30458,7 +31025,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_108",
@@ -30477,7 +31045,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_109",
@@ -30496,7 +31065,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_11",
@@ -30515,7 +31085,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_110",
@@ -30534,7 +31105,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_111",
@@ -30553,7 +31125,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_112",
@@ -30572,7 +31145,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_113",
@@ -30591,7 +31165,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_114",
@@ -30610,7 +31185,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_115",
@@ -30629,7 +31205,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_116",
@@ -30648,7 +31225,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_117",
@@ -30667,7 +31245,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_118",
@@ -30686,7 +31265,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_12",
@@ -30705,7 +31285,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_13",
@@ -30724,7 +31305,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_14",
@@ -30743,7 +31325,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_15",
@@ -30762,7 +31345,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_16",
@@ -30781,7 +31365,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_17",
@@ -30800,7 +31385,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_18",
@@ -30819,7 +31405,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_19",
@@ -30838,7 +31425,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_2",
@@ -30857,7 +31445,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_20",
@@ -30876,7 +31465,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_21",
@@ -30895,7 +31485,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_22",
@@ -30914,7 +31505,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_23",
@@ -30933,7 +31525,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_24",
@@ -30952,7 +31545,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_25",
@@ -30971,7 +31565,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_26",
@@ -30990,7 +31585,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_27",
@@ -31009,7 +31605,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_28",
@@ -31028,7 +31625,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_29",
@@ -31047,7 +31645,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_3",
@@ -31066,7 +31665,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_30",
@@ -31085,7 +31685,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_31",
@@ -31104,7 +31705,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_32",
@@ -31123,7 +31725,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_33",
@@ -31142,7 +31745,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_34",
@@ -31161,7 +31765,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_35",
@@ -31180,7 +31785,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_36",
@@ -31199,7 +31805,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_37",
@@ -31218,7 +31825,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_38",
@@ -31237,7 +31845,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_39",
@@ -31256,7 +31865,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_4",
@@ -31275,7 +31885,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_40",
@@ -31294,7 +31905,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_41",
@@ -31313,7 +31925,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_42",
@@ -31332,7 +31945,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_43",
@@ -31351,7 +31965,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_44",
@@ -31370,7 +31985,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_45",
@@ -31389,7 +32005,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_46",
@@ -31408,7 +32025,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_47",
@@ -31427,7 +32045,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_48",
@@ -31446,7 +32065,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_49",
@@ -31465,7 +32085,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_5",
@@ -31484,7 +32105,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_50",
@@ -31503,7 +32125,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_51",
@@ -31522,7 +32145,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_52",
@@ -31541,7 +32165,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_53",
@@ -31560,7 +32185,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_54",
@@ -31579,7 +32205,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_55",
@@ -31598,7 +32225,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_56",
@@ -31617,7 +32245,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_57",
@@ -31636,7 +32265,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_58",
@@ -31655,7 +32285,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_59",
@@ -31674,7 +32305,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_6",
@@ -31693,7 +32325,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_60",
@@ -31712,7 +32345,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_61",
@@ -31731,7 +32365,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_62",
@@ -31750,7 +32385,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_63",
@@ -31769,7 +32405,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_64",
@@ -31788,7 +32425,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_65",
@@ -31807,7 +32445,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_66",
@@ -31826,7 +32465,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_67",
@@ -31845,7 +32485,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_68",
@@ -31864,7 +32505,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_69",
@@ -31883,7 +32525,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_7",
@@ -31902,7 +32545,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_70",
@@ -31921,7 +32565,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_71",
@@ -31940,7 +32585,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_72",
@@ -31959,7 +32605,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_73",
@@ -31978,7 +32625,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_74",
@@ -31997,7 +32645,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_75",
@@ -32016,7 +32665,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_76",
@@ -32035,7 +32685,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_77",
@@ -32054,7 +32705,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_78",
@@ -32073,7 +32725,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_79",
@@ -32092,7 +32745,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_8",
@@ -32111,7 +32765,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_80",
@@ -32130,7 +32785,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_81",
@@ -32149,7 +32805,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_82",
@@ -32168,7 +32825,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_83",
@@ -32187,7 +32845,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_84",
@@ -32206,7 +32865,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_85",
@@ -32225,7 +32885,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_86",
@@ -32244,7 +32905,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_87",
@@ -32263,7 +32925,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_88",
@@ -32282,7 +32945,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_89",
@@ -32301,7 +32965,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_9",
@@ -32320,7 +32985,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_90",
@@ -32339,7 +33005,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_91",
@@ -32358,7 +33025,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_92",
@@ -32377,7 +33045,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_93",
@@ -32396,7 +33065,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_94",
@@ -32415,7 +33085,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_95",
@@ -32434,7 +33105,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_96",
@@ -32453,7 +33125,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_97",
@@ -32472,7 +33145,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_98",
@@ -32491,7 +33165,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_99",
@@ -32510,7 +33185,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:element_constructor",
@@ -32529,7 +33205,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:elytra",
@@ -32550,7 +33227,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:emerald",
@@ -32572,7 +33250,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:emerald_block",
@@ -32591,7 +33270,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:emerald_ore",
@@ -32613,7 +33293,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:empty_map",
@@ -32632,7 +33313,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:enchanted_book",
@@ -32653,7 +33335,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:enchanted_golden_apple",
@@ -32674,7 +33357,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:enchanting_table",
@@ -32693,7 +33377,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:end_brick_stairs",
@@ -32712,7 +33397,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:end_bricks",
@@ -32731,7 +33417,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:end_crystal",
@@ -32752,7 +33439,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:end_gateway",
@@ -32771,7 +33459,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:end_portal",
@@ -32792,7 +33481,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:end_portal_frame",
@@ -32813,7 +33503,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:end_rod",
@@ -32832,7 +33523,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:end_stone",
@@ -32853,7 +33545,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:end_stone_brick_double_slab",
@@ -32872,7 +33565,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:end_stone_brick_slab",
@@ -32891,7 +33585,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:end_stone_brick_wall",
@@ -32910,7 +33605,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ender_chest",
@@ -32931,7 +33627,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ender_dragon_spawn_egg",
@@ -32950,7 +33647,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ender_eye",
@@ -32971,7 +33669,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ender_pearl",
@@ -32993,7 +33692,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:enderman_spawn_egg",
@@ -33012,7 +33712,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:endermite_spawn_egg",
@@ -33031,7 +33732,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:evoker_spawn_egg",
@@ -33050,7 +33752,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:experience_bottle",
@@ -33071,7 +33774,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:explorer_pottery_sherd",
@@ -33090,7 +33794,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_chiseled_copper",
@@ -33109,7 +33814,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_copper",
@@ -33128,7 +33834,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_copper_bars",
@@ -33147,7 +33854,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_copper_bulb",
@@ -33166,7 +33874,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_copper_chain",
@@ -33185,7 +33894,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_copper_chest",
@@ -33204,7 +33914,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_copper_door",
@@ -33223,7 +33934,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_copper_golem_statue",
@@ -33242,7 +33954,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_copper_grate",
@@ -33261,7 +33974,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_copper_lantern",
@@ -33280,7 +33994,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_copper_trapdoor",
@@ -33299,7 +34014,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_cut_copper",
@@ -33318,7 +34034,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_cut_copper_slab",
@@ -33337,7 +34054,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_cut_copper_stairs",
@@ -33356,7 +34074,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_double_cut_copper_slab",
@@ -33375,7 +34094,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:exposed_lightning_rod",
@@ -33394,7 +34114,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:eye_armor_trim_smithing_template",
@@ -33413,7 +34134,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:farmland",
@@ -33432,7 +34154,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:feather",
@@ -33454,7 +34177,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fence",
@@ -33473,7 +34197,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fence_gate",
@@ -33492,7 +34217,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fermented_spider_eye",
@@ -33513,7 +34239,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fern",
@@ -33534,7 +34261,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:field_masoned_banner_pattern",
@@ -33553,7 +34281,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:filled_map",
@@ -33572,7 +34301,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fire",
@@ -33593,7 +34323,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fire_charge",
@@ -33614,7 +34345,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fire_coral",
@@ -33633,7 +34365,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fire_coral_block",
@@ -33652,7 +34385,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fire_coral_fan",
@@ -33671,7 +34405,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fire_coral_wall_fan",
@@ -33690,7 +34425,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:firefly_bush",
@@ -33709,7 +34445,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:firework_rocket",
@@ -33728,7 +34465,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:firework_star",
@@ -33747,7 +34485,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fishing_rod",
@@ -33768,7 +34507,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fletching_table",
@@ -33787,7 +34527,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:flint",
@@ -33809,7 +34550,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:flint_and_steel",
@@ -33830,7 +34572,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:flow_armor_trim_smithing_template",
@@ -33849,7 +34592,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:flow_banner_pattern",
@@ -33868,7 +34612,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:flow_pottery_sherd",
@@ -33887,7 +34632,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:flower_banner_pattern",
@@ -33906,7 +34652,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:flower_pot",
@@ -33925,7 +34672,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:flowering_azalea",
@@ -33944,7 +34692,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:flowing_lava",
@@ -33965,7 +34714,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:flowing_water",
@@ -33986,7 +34736,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:fox_spawn_egg",
@@ -34005,7 +34756,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:frame",
@@ -34024,7 +34776,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:friend_pottery_sherd",
@@ -34043,7 +34796,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:frog_spawn",
@@ -34062,7 +34816,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:frog_spawn_egg",
@@ -34081,7 +34836,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:frosted_ice",
@@ -34100,7 +34856,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:furnace",
@@ -34121,7 +34878,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ghast_spawn_egg",
@@ -34140,7 +34898,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ghast_tear",
@@ -34161,7 +34920,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gilded_blackstone",
@@ -34180,7 +34940,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:glass",
@@ -34201,7 +34962,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:glass_bottle",
@@ -34222,7 +34984,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:glass_pane",
@@ -34241,7 +35004,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:glistering_melon_slice",
@@ -34260,7 +35024,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:globe_banner_pattern",
@@ -34279,7 +35044,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:glow_frame",
@@ -34298,7 +35064,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:glow_ink_sac",
@@ -34319,7 +35086,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:glow_lichen",
@@ -34338,7 +35106,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:glow_squid_spawn_egg",
@@ -34357,7 +35126,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:glowingobsidian",
@@ -34376,7 +35146,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:glowstone",
@@ -34397,7 +35168,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:glowstone_dust",
@@ -34418,7 +35190,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:goat_horn",
@@ -34439,7 +35212,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:goat_spawn_egg",
@@ -34458,7 +35232,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gold_block",
@@ -34479,7 +35254,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gold_ingot",
@@ -34502,7 +35278,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gold_nugget",
@@ -34523,7 +35300,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gold_ore",
@@ -34545,7 +35323,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_apple",
@@ -34566,7 +35345,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_axe",
@@ -34587,7 +35367,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_boots",
@@ -34608,7 +35389,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_carrot",
@@ -34630,7 +35412,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_chestplate",
@@ -34651,7 +35434,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_dandelion",
@@ -34670,7 +35454,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_helmet",
@@ -34691,7 +35476,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_hoe",
@@ -34710,7 +35496,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_horse_armor",
@@ -34731,7 +35518,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_leggings",
@@ -34752,7 +35540,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_pickaxe",
@@ -34773,7 +35562,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_rail",
@@ -34794,7 +35584,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_shovel",
@@ -34815,7 +35606,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:golden_sword",
@@ -34836,7 +35628,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:granite",
@@ -34855,7 +35648,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:granite_double_slab",
@@ -34874,7 +35668,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:granite_slab",
@@ -34893,7 +35688,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:granite_stairs",
@@ -34912,7 +35708,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:granite_wall",
@@ -34931,7 +35728,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:grass_block",
@@ -34953,7 +35751,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:grass_path",
@@ -34972,7 +35771,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gravel",
@@ -34993,7 +35793,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_candle",
@@ -35012,7 +35813,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_candle_cake",
@@ -35031,7 +35833,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_carpet",
@@ -35050,7 +35853,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_concrete",
@@ -35069,7 +35873,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_concrete_powder",
@@ -35088,7 +35893,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_dye",
@@ -35107,7 +35913,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_glazed_terracotta",
@@ -35126,7 +35933,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_harness",
@@ -35145,7 +35953,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_shulker_box",
@@ -35164,7 +35973,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_stained_glass",
@@ -35183,7 +35993,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_stained_glass_pane",
@@ -35202,7 +36013,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_terracotta",
@@ -35221,7 +36033,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_wool",
@@ -35240,7 +36053,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_wool_double_slab",
@@ -35259,7 +36073,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_wool_slab",
@@ -35278,7 +36093,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gray_wool_stairs",
@@ -35297,7 +36113,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_candle",
@@ -35316,7 +36133,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_candle_cake",
@@ -35335,7 +36153,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_carpet",
@@ -35354,7 +36173,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_concrete",
@@ -35373,7 +36193,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_concrete_powder",
@@ -35392,7 +36213,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_dye",
@@ -35411,7 +36233,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_glazed_terracotta",
@@ -35430,7 +36253,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_harness",
@@ -35449,7 +36273,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_shulker_box",
@@ -35468,7 +36293,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_stained_glass",
@@ -35487,7 +36313,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_stained_glass_pane",
@@ -35506,7 +36333,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_terracotta",
@@ -35525,7 +36353,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_wool",
@@ -35544,7 +36373,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_wool_double_slab",
@@ -35563,7 +36393,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_wool_slab",
@@ -35582,7 +36413,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:green_wool_stairs",
@@ -35601,7 +36433,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:grindstone",
@@ -35620,7 +36453,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:guardian_spawn_egg",
@@ -35639,7 +36473,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:gunpowder",
@@ -35661,7 +36496,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:guster_banner_pattern",
@@ -35680,7 +36516,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:guster_pottery_sherd",
@@ -35699,7 +36536,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hanging_roots",
@@ -35718,7 +36556,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:happy_ghast_spawn_egg",
@@ -35737,7 +36576,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_black_stained_glass",
@@ -35756,7 +36596,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_black_stained_glass_pane",
@@ -35775,7 +36616,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_blue_stained_glass",
@@ -35794,7 +36636,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_blue_stained_glass_pane",
@@ -35813,7 +36656,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_brown_stained_glass",
@@ -35832,7 +36676,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_brown_stained_glass_pane",
@@ -35851,7 +36696,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_cyan_stained_glass",
@@ -35870,7 +36716,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_cyan_stained_glass_pane",
@@ -35889,7 +36736,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_glass",
@@ -35908,7 +36756,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_glass_pane",
@@ -35927,7 +36776,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_gray_stained_glass",
@@ -35946,7 +36796,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_gray_stained_glass_pane",
@@ -35965,7 +36816,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_green_stained_glass",
@@ -35984,7 +36836,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_green_stained_glass_pane",
@@ -36003,7 +36856,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_light_blue_stained_glass",
@@ -36022,7 +36876,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_light_blue_stained_glass_pane",
@@ -36041,7 +36896,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_light_gray_stained_glass",
@@ -36060,7 +36916,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_light_gray_stained_glass_pane",
@@ -36079,7 +36936,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_lime_stained_glass",
@@ -36098,7 +36956,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_lime_stained_glass_pane",
@@ -36117,7 +36976,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_magenta_stained_glass",
@@ -36136,7 +36996,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_magenta_stained_glass_pane",
@@ -36155,7 +37016,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_orange_stained_glass",
@@ -36174,7 +37036,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_orange_stained_glass_pane",
@@ -36193,7 +37056,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_pink_stained_glass",
@@ -36212,7 +37076,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_pink_stained_glass_pane",
@@ -36231,7 +37096,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_purple_stained_glass",
@@ -36250,7 +37116,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_purple_stained_glass_pane",
@@ -36269,7 +37136,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_red_stained_glass",
@@ -36288,7 +37156,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_red_stained_glass_pane",
@@ -36307,7 +37176,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_white_stained_glass",
@@ -36326,7 +37196,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_white_stained_glass_pane",
@@ -36345,7 +37216,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_yellow_stained_glass",
@@ -36364,7 +37236,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hard_yellow_stained_glass_pane",
@@ -36383,7 +37256,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hardened_clay",
@@ -36402,7 +37276,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hay_block",
@@ -36421,7 +37296,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:heart_of_the_sea",
@@ -36442,7 +37318,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:heart_pottery_sherd",
@@ -36461,7 +37338,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:heartbreak_pottery_sherd",
@@ -36480,7 +37358,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:heavy_core",
@@ -36499,7 +37378,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:heavy_weighted_pressure_plate",
@@ -36518,7 +37398,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hoglin_spawn_egg",
@@ -36537,7 +37418,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:honey_block",
@@ -36556,7 +37438,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:honey_bottle",
@@ -36577,7 +37460,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:honeycomb",
@@ -36598,7 +37482,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:honeycomb_block",
@@ -36617,7 +37502,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hopper",
@@ -36638,7 +37524,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:hopper_minecart",
@@ -36657,7 +37544,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:horn_coral",
@@ -36676,7 +37564,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:horn_coral_block",
@@ -36695,7 +37584,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:horn_coral_fan",
@@ -36714,7 +37604,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:horn_coral_wall_fan",
@@ -36733,7 +37624,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:horse_spawn_egg",
@@ -36752,7 +37644,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:host_armor_trim_smithing_template",
@@ -36771,7 +37664,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:howl_pottery_sherd",
@@ -36790,7 +37684,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:husk_spawn_egg",
@@ -36809,7 +37704,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ice",
@@ -36830,7 +37726,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ice_bomb",
@@ -36849,7 +37746,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:infested_chiseled_stone_bricks",
@@ -36868,7 +37766,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:infested_cobblestone",
@@ -36887,7 +37786,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:infested_cracked_stone_bricks",
@@ -36906,7 +37806,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:infested_deepslate",
@@ -36925,7 +37826,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:infested_mossy_stone_bricks",
@@ -36944,7 +37846,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:infested_stone",
@@ -36965,7 +37868,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:infested_stone_bricks",
@@ -36984,7 +37888,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:info_update",
@@ -37003,7 +37908,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:info_update2",
@@ -37022,7 +37928,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ink_sac",
@@ -37043,7 +37950,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:invisible_bedrock",
@@ -37062,7 +37970,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_axe",
@@ -37083,7 +37992,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_bars",
@@ -37102,7 +38012,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_block",
@@ -37123,7 +38034,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_boots",
@@ -37144,7 +38056,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_chain",
@@ -37163,7 +38076,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_chestplate",
@@ -37184,7 +38098,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_door",
@@ -37203,7 +38118,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_golem_spawn_egg",
@@ -37222,7 +38138,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_helmet",
@@ -37243,7 +38160,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_hoe",
@@ -37262,7 +38180,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_horse_armor",
@@ -37283,7 +38202,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_ingot",
@@ -37306,7 +38226,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_leggings",
@@ -37327,7 +38248,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_nugget",
@@ -37348,7 +38270,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_ore",
@@ -37370,7 +38293,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_pickaxe",
@@ -37391,7 +38315,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_shovel",
@@ -37412,7 +38337,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_sword",
@@ -37433,7 +38359,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:iron_trapdoor",
@@ -37452,7 +38379,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jigsaw",
@@ -37471,7 +38399,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jukebox",
@@ -37492,7 +38421,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_boat",
@@ -37511,7 +38441,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_button",
@@ -37530,7 +38461,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_chest_boat",
@@ -37549,7 +38481,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_door",
@@ -37568,7 +38501,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_double_slab",
@@ -37587,7 +38521,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_fence",
@@ -37608,7 +38543,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_fence_gate",
@@ -37627,7 +38563,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_hanging_sign",
@@ -37646,7 +38583,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_leaves",
@@ -37665,7 +38603,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_log",
@@ -37686,7 +38625,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_planks",
@@ -37705,7 +38645,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_pressure_plate",
@@ -37724,7 +38665,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_sapling",
@@ -37743,7 +38685,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_shelf",
@@ -37762,7 +38705,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_sign",
@@ -37781,7 +38725,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_slab",
@@ -37800,7 +38745,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_stairs",
@@ -37819,7 +38765,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_standing_sign",
@@ -37838,7 +38785,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_trapdoor",
@@ -37857,7 +38805,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_wall_sign",
@@ -37876,7 +38825,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:jungle_wood",
@@ -37895,7 +38845,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:kelp",
@@ -37916,7 +38867,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lab_table",
@@ -37935,7 +38887,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ladder",
@@ -37956,7 +38909,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lantern",
@@ -37977,7 +38931,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lapis_block",
@@ -37998,7 +38953,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lapis_lazuli",
@@ -38020,7 +38976,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lapis_ore",
@@ -38042,7 +38999,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:large_amethyst_bud",
@@ -38061,7 +39019,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:large_fern",
@@ -38080,7 +39039,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lava",
@@ -38101,7 +39061,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lava_bucket",
@@ -38122,7 +39083,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lead",
@@ -38143,7 +39105,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:leaf_litter",
@@ -38162,7 +39125,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:leather",
@@ -38184,7 +39148,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:leather_boots",
@@ -38205,7 +39170,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:leather_chestplate",
@@ -38226,7 +39192,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:leather_helmet",
@@ -38247,7 +39214,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:leather_horse_armor",
@@ -38268,7 +39236,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:leather_leggings",
@@ -38289,7 +39258,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:leaves",
@@ -38308,7 +39278,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:leaves2",
@@ -38327,7 +39298,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lectern",
@@ -38346,7 +39318,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lever",
@@ -38367,7 +39340,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block",
@@ -38386,7 +39360,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_0",
@@ -38405,7 +39380,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_1",
@@ -38424,7 +39400,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_10",
@@ -38443,7 +39420,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_11",
@@ -38462,7 +39440,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_12",
@@ -38481,7 +39460,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_13",
@@ -38500,7 +39480,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_14",
@@ -38519,7 +39500,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_15",
@@ -38538,7 +39520,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_2",
@@ -38557,7 +39540,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_3",
@@ -38576,7 +39560,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_4",
@@ -38595,7 +39580,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_5",
@@ -38614,7 +39600,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_6",
@@ -38633,7 +39620,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_7",
@@ -38652,7 +39640,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_8",
@@ -38671,7 +39660,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_block_9",
@@ -38690,7 +39680,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_candle",
@@ -38709,7 +39700,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_candle_cake",
@@ -38728,7 +39720,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_carpet",
@@ -38747,7 +39740,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_concrete",
@@ -38766,7 +39760,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_concrete_powder",
@@ -38785,7 +39780,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_dye",
@@ -38804,7 +39800,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_glazed_terracotta",
@@ -38823,7 +39820,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_harness",
@@ -38842,7 +39840,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_shulker_box",
@@ -38861,7 +39860,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_stained_glass",
@@ -38880,7 +39880,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_stained_glass_pane",
@@ -38899,7 +39900,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_terracotta",
@@ -38918,7 +39920,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_wool",
@@ -38937,7 +39940,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_wool_double_slab",
@@ -38956,7 +39960,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_wool_slab",
@@ -38975,7 +39980,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_blue_wool_stairs",
@@ -38994,7 +40000,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_candle",
@@ -39013,7 +40020,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_candle_cake",
@@ -39032,7 +40040,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_carpet",
@@ -39051,7 +40060,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_concrete",
@@ -39070,7 +40080,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_concrete_powder",
@@ -39089,7 +40100,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_dye",
@@ -39108,7 +40120,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_harness",
@@ -39127,7 +40140,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_shulker_box",
@@ -39146,7 +40160,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_stained_glass",
@@ -39165,7 +40180,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_stained_glass_pane",
@@ -39184,7 +40200,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_terracotta",
@@ -39203,7 +40220,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_wool",
@@ -39222,7 +40240,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_wool_double_slab",
@@ -39241,7 +40260,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_wool_slab",
@@ -39260,7 +40280,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_gray_wool_stairs",
@@ -39279,7 +40300,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:light_weighted_pressure_plate",
@@ -39298,7 +40320,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lightning_rod",
@@ -39317,7 +40340,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lilac",
@@ -39336,7 +40360,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lily_of_the_valley",
@@ -39355,7 +40380,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_candle",
@@ -39374,7 +40400,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_candle_cake",
@@ -39393,7 +40420,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_carpet",
@@ -39412,7 +40440,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_concrete",
@@ -39431,7 +40460,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_concrete_powder",
@@ -39450,7 +40480,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_dye",
@@ -39469,7 +40500,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_glazed_terracotta",
@@ -39488,7 +40520,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_harness",
@@ -39507,7 +40540,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_shulker_box",
@@ -39526,7 +40560,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_stained_glass",
@@ -39545,7 +40580,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_stained_glass_pane",
@@ -39564,7 +40600,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_terracotta",
@@ -39583,7 +40620,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_wool",
@@ -39602,7 +40640,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_wool_double_slab",
@@ -39621,7 +40660,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_wool_slab",
@@ -39640,7 +40680,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lime_wool_stairs",
@@ -39659,7 +40700,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lingering_potion",
@@ -39678,7 +40720,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lit_blast_furnace",
@@ -39697,7 +40740,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lit_deepslate_redstone_ore",
@@ -39716,7 +40760,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lit_furnace",
@@ -39735,7 +40780,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lit_pumpkin",
@@ -39756,7 +40802,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lit_redstone_lamp",
@@ -39775,7 +40822,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lit_redstone_ore",
@@ -39794,7 +40842,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lit_smoker",
@@ -39813,7 +40862,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:llama_spawn_egg",
@@ -39832,7 +40882,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lodestone",
@@ -39851,7 +40902,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:lodestone_compass",
@@ -39872,7 +40924,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:log",
@@ -39891,7 +40944,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:log2",
@@ -39910,7 +40964,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:loom",
@@ -39929,7 +40984,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mace",
@@ -39948,7 +41004,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_candle",
@@ -39967,7 +41024,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_candle_cake",
@@ -39986,7 +41044,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_carpet",
@@ -40005,7 +41064,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_concrete",
@@ -40024,7 +41084,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_concrete_powder",
@@ -40043,7 +41104,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_dye",
@@ -40062,7 +41124,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_glazed_terracotta",
@@ -40081,7 +41144,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_harness",
@@ -40100,7 +41164,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_shulker_box",
@@ -40119,7 +41184,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_stained_glass",
@@ -40138,7 +41204,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_stained_glass_pane",
@@ -40157,7 +41224,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_terracotta",
@@ -40176,7 +41244,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_wool",
@@ -40195,7 +41264,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_wool_double_slab",
@@ -40214,7 +41284,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_wool_slab",
@@ -40233,7 +41304,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magenta_wool_stairs",
@@ -40252,7 +41324,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magma",
@@ -40271,7 +41344,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magma_cream",
@@ -40292,7 +41366,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:magma_cube_spawn_egg",
@@ -40311,7 +41386,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_boat",
@@ -40330,7 +41406,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_button",
@@ -40349,7 +41426,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_chest_boat",
@@ -40368,7 +41446,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_door",
@@ -40387,7 +41466,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_double_slab",
@@ -40406,7 +41486,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_fence",
@@ -40425,7 +41506,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_fence_gate",
@@ -40444,7 +41526,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_hanging_sign",
@@ -40463,7 +41546,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_leaves",
@@ -40482,7 +41566,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_log",
@@ -40503,7 +41588,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_planks",
@@ -40522,7 +41608,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_pressure_plate",
@@ -40541,7 +41628,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_propagule",
@@ -40560,7 +41648,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_roots",
@@ -40579,7 +41668,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_shelf",
@@ -40598,7 +41688,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_sign",
@@ -40617,7 +41708,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_slab",
@@ -40636,7 +41728,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_stairs",
@@ -40655,7 +41748,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_standing_sign",
@@ -40674,7 +41768,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_trapdoor",
@@ -40693,7 +41788,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_wall_sign",
@@ -40712,7 +41808,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mangrove_wood",
@@ -40731,7 +41828,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:material_reducer",
@@ -40750,7 +41848,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:medicine",
@@ -40769,7 +41868,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:medium_amethyst_bud",
@@ -40788,7 +41888,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:melon_block",
@@ -40810,7 +41911,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:melon_seeds",
@@ -40831,7 +41933,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:melon_slice",
@@ -40853,7 +41956,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:melon_stem",
@@ -40872,7 +41976,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:milk_bucket",
@@ -40893,7 +41998,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:minecart",
@@ -40914,7 +42020,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:miner_pottery_sherd",
@@ -40933,7 +42040,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mob_spawner",
@@ -40952,7 +42060,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mojang_banner_pattern",
@@ -40971,7 +42080,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:monster_egg",
@@ -40990,7 +42100,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mooshroom_spawn_egg",
@@ -41009,7 +42120,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:moss_block",
@@ -41028,7 +42140,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:moss_carpet",
@@ -41047,7 +42160,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mossy_cobblestone",
@@ -41068,7 +42182,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mossy_cobblestone_double_slab",
@@ -41087,7 +42202,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mossy_cobblestone_slab",
@@ -41106,7 +42222,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mossy_cobblestone_stairs",
@@ -41125,7 +42242,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mossy_cobblestone_wall",
@@ -41144,7 +42262,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mossy_stone_brick_double_slab",
@@ -41163,7 +42282,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mossy_stone_brick_slab",
@@ -41182,7 +42302,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mossy_stone_brick_stairs",
@@ -41201,7 +42322,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mossy_stone_brick_wall",
@@ -41220,7 +42342,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mossy_stone_bricks",
@@ -41239,7 +42362,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mourner_pottery_sherd",
@@ -41258,7 +42382,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:moving_block",
@@ -41277,7 +42402,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mud",
@@ -41296,7 +42422,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mud_brick_double_slab",
@@ -41315,7 +42442,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mud_brick_slab",
@@ -41334,7 +42462,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mud_brick_stairs",
@@ -41353,7 +42482,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mud_brick_wall",
@@ -41372,7 +42502,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mud_bricks",
@@ -41391,7 +42522,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:muddy_mangrove_roots",
@@ -41410,7 +42542,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mule_spawn_egg",
@@ -41429,7 +42562,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mushroom_stem",
@@ -41450,7 +42584,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mushroom_stew",
@@ -41471,7 +42606,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_11",
@@ -41490,7 +42626,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_13",
@@ -41509,7 +42646,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_5",
@@ -41528,7 +42666,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_blocks",
@@ -41547,7 +42686,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_cat",
@@ -41566,7 +42706,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_chirp",
@@ -41585,7 +42726,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_creator",
@@ -41604,7 +42746,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_creator_music_box",
@@ -41623,7 +42766,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_far",
@@ -41642,7 +42786,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_lava_chicken",
@@ -41661,7 +42806,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_mall",
@@ -41680,7 +42826,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_mellohi",
@@ -41699,7 +42846,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_otherside",
@@ -41718,7 +42866,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_pigstep",
@@ -41737,7 +42886,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_precipice",
@@ -41756,7 +42906,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_relic",
@@ -41775,7 +42926,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_stal",
@@ -41794,7 +42946,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_strad",
@@ -41813,7 +42966,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_tears",
@@ -41832,7 +42986,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_wait",
@@ -41851,7 +43006,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:music_disc_ward",
@@ -41870,7 +43026,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mutton",
@@ -41891,7 +43048,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:mycelium",
@@ -41910,7 +43068,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:name_tag",
@@ -41931,7 +43090,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:nautilus_shell",
@@ -41952,7 +43112,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:nether_brick",
@@ -41973,7 +43134,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:nether_brick_double_slab",
@@ -41992,7 +43154,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:nether_brick_fence",
@@ -42013,7 +43176,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:nether_brick_slab",
@@ -42032,7 +43196,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:nether_brick_stairs",
@@ -42053,7 +43218,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:nether_brick_wall",
@@ -42072,7 +43238,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:nether_gold_ore",
@@ -42091,7 +43258,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:nether_sprouts",
@@ -42110,7 +43278,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:nether_star",
@@ -42131,7 +43300,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:nether_wart",
@@ -42150,7 +43320,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:nether_wart_block",
@@ -42169,7 +43340,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherbrick",
@@ -42188,7 +43360,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_axe",
@@ -42209,7 +43382,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_block",
@@ -42228,7 +43402,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_boots",
@@ -42249,7 +43424,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_chestplate",
@@ -42270,7 +43446,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_helmet",
@@ -42291,7 +43468,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_hoe",
@@ -42310,7 +43488,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_ingot",
@@ -42332,7 +43511,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_leggings",
@@ -42353,7 +43533,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_pickaxe",
@@ -42374,7 +43555,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_scrap",
@@ -42395,7 +43577,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_shovel",
@@ -42416,7 +43599,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_sword",
@@ -42437,7 +43621,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherite_upgrade_smithing_template",
@@ -42456,7 +43641,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherrack",
@@ -42477,7 +43663,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:netherreactor",
@@ -42496,7 +43683,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:normal_stone_double_slab",
@@ -42515,7 +43703,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:normal_stone_slab",
@@ -42534,7 +43723,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:normal_stone_stairs",
@@ -42553,7 +43743,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:noteblock",
@@ -42574,7 +43765,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:npc_spawn_egg",
@@ -42593,7 +43785,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_boat",
@@ -42612,7 +43805,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_chest_boat",
@@ -42631,7 +43825,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_double_slab",
@@ -42650,7 +43845,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_fence",
@@ -42671,7 +43867,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_hanging_sign",
@@ -42690,7 +43887,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_leaves",
@@ -42711,7 +43909,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_log",
@@ -42733,7 +43932,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_planks",
@@ -42755,7 +43955,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_sapling",
@@ -42776,7 +43977,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_shelf",
@@ -42795,7 +43997,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_sign",
@@ -42814,7 +44017,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_slab",
@@ -42833,7 +44037,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_stairs",
@@ -42854,7 +44059,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oak_wood",
@@ -42873,7 +44079,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:observer",
@@ -42894,7 +44101,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:obsidian",
@@ -42916,7 +44124,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ocelot_spawn_egg",
@@ -42935,7 +44144,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ochre_froglight",
@@ -42954,7 +44164,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ominous_bottle",
@@ -42975,7 +44186,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ominous_trial_key",
@@ -42996,7 +44208,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:open_eyeblossom",
@@ -43015,7 +44228,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_candle",
@@ -43034,7 +44248,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_candle_cake",
@@ -43053,7 +44268,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_carpet",
@@ -43072,7 +44288,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_concrete",
@@ -43091,7 +44308,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_concrete_powder",
@@ -43110,7 +44328,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_dye",
@@ -43129,7 +44348,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_glazed_terracotta",
@@ -43148,7 +44368,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_harness",
@@ -43167,7 +44388,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_poplar_leaves",
@@ -43186,7 +44408,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_shulker_box",
@@ -43205,7 +44428,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_stained_glass",
@@ -43224,7 +44448,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_stained_glass_pane",
@@ -43243,7 +44468,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_terracotta",
@@ -43262,7 +44488,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_tulip",
@@ -43281,7 +44508,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_wool",
@@ -43300,7 +44528,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_wool_double_slab",
@@ -43319,7 +44548,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_wool_slab",
@@ -43338,7 +44568,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:orange_wool_stairs",
@@ -43357,7 +44588,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxeye_daisy",
@@ -43376,7 +44608,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_chiseled_copper",
@@ -43395,7 +44628,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_copper",
@@ -43414,7 +44648,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_copper_bars",
@@ -43433,7 +44668,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_copper_bulb",
@@ -43452,7 +44688,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_copper_chain",
@@ -43471,7 +44708,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_copper_chest",
@@ -43490,7 +44728,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_copper_door",
@@ -43509,7 +44748,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_copper_golem_statue",
@@ -43528,7 +44768,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_copper_grate",
@@ -43547,7 +44788,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_copper_lantern",
@@ -43566,7 +44808,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_copper_trapdoor",
@@ -43585,7 +44828,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_cut_copper",
@@ -43604,7 +44848,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_cut_copper_slab",
@@ -43623,7 +44868,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_cut_copper_stairs",
@@ -43642,7 +44888,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_double_cut_copper_slab",
@@ -43661,7 +44908,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:oxidized_lightning_rod",
@@ -43680,7 +44928,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:packed_ice",
@@ -43699,7 +44948,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:packed_mud",
@@ -43718,7 +44968,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:painting",
@@ -43739,7 +44990,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_hanging_moss",
@@ -43758,7 +45010,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_moss_block",
@@ -43777,7 +45030,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_moss_carpet",
@@ -43796,7 +45050,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_boat",
@@ -43815,7 +45070,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_button",
@@ -43834,7 +45090,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_chest_boat",
@@ -43853,7 +45110,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_door",
@@ -43872,7 +45130,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_double_slab",
@@ -43891,7 +45150,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_fence",
@@ -43910,7 +45170,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_fence_gate",
@@ -43929,7 +45190,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_hanging_sign",
@@ -43948,7 +45210,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_leaves",
@@ -43967,7 +45230,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_log",
@@ -43986,7 +45250,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_planks",
@@ -44005,7 +45270,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_pressure_plate",
@@ -44024,7 +45290,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_sapling",
@@ -44043,7 +45310,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_shelf",
@@ -44062,7 +45330,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_sign",
@@ -44081,7 +45350,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_slab",
@@ -44100,7 +45370,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_stairs",
@@ -44119,7 +45390,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_standing_sign",
@@ -44138,7 +45410,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_trapdoor",
@@ -44157,7 +45430,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_wall_sign",
@@ -44176,7 +45450,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pale_oak_wood",
@@ -44195,7 +45470,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:panda_spawn_egg",
@@ -44214,7 +45490,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:paper",
@@ -44235,7 +45512,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:parrot_spawn_egg",
@@ -44254,7 +45532,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pearlescent_froglight",
@@ -44273,7 +45552,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:peony",
@@ -44292,7 +45572,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:petrified_oak_double_slab",
@@ -44311,7 +45592,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:petrified_oak_slab",
@@ -44330,7 +45612,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:phantom_membrane",
@@ -44351,7 +45634,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:phantom_spawn_egg",
@@ -44370,7 +45654,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pig_spawn_egg",
@@ -44389,7 +45674,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:piglin_banner_pattern",
@@ -44408,7 +45694,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:piglin_brute_spawn_egg",
@@ -44427,7 +45714,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:piglin_head",
@@ -44446,7 +45734,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:piglin_spawn_egg",
@@ -44465,7 +45754,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pillager_spawn_egg",
@@ -44484,7 +45774,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_candle",
@@ -44503,7 +45794,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_candle_cake",
@@ -44522,7 +45814,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_carpet",
@@ -44541,7 +45834,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_concrete",
@@ -44560,7 +45854,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_concrete_powder",
@@ -44579,7 +45874,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_dye",
@@ -44598,7 +45894,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_glazed_terracotta",
@@ -44617,7 +45914,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_harness",
@@ -44636,7 +45934,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_petals",
@@ -44655,7 +45954,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_shulker_box",
@@ -44674,7 +45974,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_stained_glass",
@@ -44693,7 +45994,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_stained_glass_pane",
@@ -44712,7 +46014,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_terracotta",
@@ -44731,7 +46034,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_tulip",
@@ -44750,7 +46054,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_wool",
@@ -44769,7 +46074,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_wool_double_slab",
@@ -44788,7 +46094,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_wool_slab",
@@ -44807,7 +46114,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pink_wool_stairs",
@@ -44826,7 +46134,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:piston",
@@ -44847,7 +46156,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:piston_arm_collision",
@@ -44868,7 +46178,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pitcher_crop",
@@ -44887,7 +46198,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pitcher_plant",
@@ -44906,7 +46218,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pitcher_pod",
@@ -44927,7 +46240,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:planks",
@@ -44946,7 +46260,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:player_head",
@@ -44965,7 +46280,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:plenty_pottery_sherd",
@@ -44984,7 +46300,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:podzol",
@@ -45003,7 +46320,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pointed_dripstone",
@@ -45022,7 +46340,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poisonous_potato",
@@ -45043,7 +46362,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polar_bear_spawn_egg",
@@ -45062,7 +46382,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_andesite",
@@ -45081,7 +46402,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_andesite_double_slab",
@@ -45100,7 +46422,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_andesite_slab",
@@ -45119,7 +46442,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_andesite_stairs",
@@ -45138,7 +46462,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_basalt",
@@ -45157,7 +46482,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_blackstone",
@@ -45176,7 +46502,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_blackstone_brick_double_slab",
@@ -45195,7 +46522,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_blackstone_brick_slab",
@@ -45214,7 +46542,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_blackstone_brick_stairs",
@@ -45233,7 +46562,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_blackstone_brick_wall",
@@ -45252,7 +46582,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_blackstone_bricks",
@@ -45271,7 +46602,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_blackstone_button",
@@ -45290,7 +46622,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_blackstone_double_slab",
@@ -45309,7 +46642,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_blackstone_pressure_plate",
@@ -45328,7 +46662,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_blackstone_slab",
@@ -45347,7 +46682,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_blackstone_stairs",
@@ -45366,7 +46702,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_blackstone_wall",
@@ -45385,7 +46722,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_cinnabar",
@@ -45404,7 +46742,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_cinnabar_double_slab",
@@ -45423,7 +46762,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_cinnabar_slab",
@@ -45442,7 +46782,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_cinnabar_stairs",
@@ -45461,7 +46802,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_cinnabar_wall",
@@ -45480,7 +46822,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_deepslate",
@@ -45499,7 +46842,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_deepslate_double_slab",
@@ -45518,7 +46862,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_deepslate_slab",
@@ -45537,7 +46882,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_deepslate_stairs",
@@ -45556,7 +46902,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_deepslate_wall",
@@ -45575,7 +46922,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_diorite",
@@ -45594,7 +46942,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_diorite_double_slab",
@@ -45613,7 +46962,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_diorite_slab",
@@ -45632,7 +46982,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_diorite_stairs",
@@ -45651,7 +47002,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_granite",
@@ -45670,7 +47022,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_granite_double_slab",
@@ -45689,7 +47042,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_granite_slab",
@@ -45708,7 +47062,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_granite_stairs",
@@ -45727,7 +47082,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_sulfur",
@@ -45746,7 +47102,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_sulfur_double_slab",
@@ -45765,7 +47122,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_sulfur_slab",
@@ -45784,7 +47142,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_sulfur_stairs",
@@ -45803,7 +47162,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_sulfur_wall",
@@ -45822,7 +47182,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_tuff",
@@ -45841,7 +47202,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_tuff_double_slab",
@@ -45860,7 +47222,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_tuff_slab",
@@ -45879,7 +47242,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_tuff_stairs",
@@ -45898,7 +47262,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:polished_tuff_wall",
@@ -45917,7 +47282,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_button",
@@ -45936,7 +47302,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_door",
@@ -45955,7 +47322,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_double_slab",
@@ -45974,7 +47342,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_fence",
@@ -45993,7 +47362,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_fence_gate",
@@ -46012,7 +47382,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_hanging_sign",
@@ -46031,7 +47402,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_log",
@@ -46050,7 +47422,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_planks",
@@ -46069,7 +47442,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_pressure_plate",
@@ -46088,7 +47462,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_sapling",
@@ -46107,7 +47482,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_shelf",
@@ -46126,7 +47502,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_slab",
@@ -46145,7 +47522,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_stairs",
@@ -46164,7 +47542,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_standing_sign",
@@ -46183,7 +47562,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_trapdoor",
@@ -46202,7 +47582,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_wall_sign",
@@ -46221,7 +47602,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poplar_wood",
@@ -46240,7 +47622,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:popped_chorus_fruit",
@@ -46259,7 +47642,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:poppy",
@@ -46280,7 +47664,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:porkchop",
@@ -46301,7 +47686,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:portal",
@@ -46322,7 +47708,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:portfolio",
@@ -46341,7 +47728,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:potato",
@@ -46363,7 +47751,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:potatoes",
@@ -46382,7 +47771,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:potent_sulfur",
@@ -46401,7 +47791,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:potion",
@@ -46422,7 +47813,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:powder_snow",
@@ -46441,7 +47833,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:powder_snow_bucket",
@@ -46460,7 +47853,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:powered_comparator",
@@ -46479,7 +47873,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:powered_repeater",
@@ -46500,7 +47895,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:prismarine",
@@ -46519,7 +47915,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:prismarine_brick_double_slab",
@@ -46538,7 +47935,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:prismarine_brick_slab",
@@ -46557,7 +47955,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:prismarine_bricks",
@@ -46576,7 +47975,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:prismarine_bricks_stairs",
@@ -46595,7 +47995,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:prismarine_crystals",
@@ -46614,7 +48015,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:prismarine_double_slab",
@@ -46633,7 +48035,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:prismarine_shard",
@@ -46654,7 +48057,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:prismarine_slab",
@@ -46673,7 +48077,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:prismarine_stairs",
@@ -46692,7 +48097,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:prismarine_wall",
@@ -46711,7 +48117,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:prize_pottery_sherd",
@@ -46730,7 +48137,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pufferfish",
@@ -46751,7 +48159,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pufferfish_bucket",
@@ -46770,7 +48179,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pufferfish_spawn_egg",
@@ -46789,7 +48199,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pumpkin",
@@ -46810,7 +48221,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pumpkin_pie",
@@ -46831,7 +48243,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pumpkin_seeds",
@@ -46852,7 +48265,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:pumpkin_stem",
@@ -46871,7 +48285,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_candle",
@@ -46890,7 +48305,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_candle_cake",
@@ -46909,7 +48325,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_carpet",
@@ -46928,7 +48345,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_concrete",
@@ -46947,7 +48365,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_concrete_powder",
@@ -46966,7 +48385,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_dye",
@@ -46985,7 +48405,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_glazed_terracotta",
@@ -47004,7 +48425,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_harness",
@@ -47023,7 +48445,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_shulker_box",
@@ -47042,7 +48465,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_stained_glass",
@@ -47061,7 +48485,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_stained_glass_pane",
@@ -47080,7 +48505,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_terracotta",
@@ -47099,7 +48525,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_wool",
@@ -47118,7 +48545,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_wool_double_slab",
@@ -47137,7 +48565,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_wool_slab",
@@ -47156,7 +48585,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purple_wool_stairs",
@@ -47175,7 +48605,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purpur_block",
@@ -47194,7 +48625,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purpur_double_slab",
@@ -47213,7 +48645,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purpur_pillar",
@@ -47232,7 +48665,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purpur_slab",
@@ -47251,7 +48685,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:purpur_stairs",
@@ -47270,7 +48705,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:quartz",
@@ -47292,7 +48728,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:quartz_block",
@@ -47311,7 +48748,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:quartz_bricks",
@@ -47330,7 +48768,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:quartz_double_slab",
@@ -47349,7 +48788,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:quartz_ore",
@@ -47368,7 +48808,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:quartz_pillar",
@@ -47387,7 +48828,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:quartz_slab",
@@ -47406,7 +48848,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:quartz_stairs",
@@ -47425,7 +48868,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:rabbit",
@@ -47446,7 +48890,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:rabbit_foot",
@@ -47467,7 +48912,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:rabbit_hide",
@@ -47488,7 +48934,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:rabbit_spawn_egg",
@@ -47507,7 +48954,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:rabbit_stew",
@@ -47528,7 +48976,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:rail",
@@ -47549,7 +48998,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:raiser_armor_trim_smithing_template",
@@ -47568,7 +49018,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:rapid_fertilizer",
@@ -47587,7 +49038,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ravager_spawn_egg",
@@ -47606,7 +49058,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:raw_copper",
@@ -47628,7 +49081,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:raw_copper_block",
@@ -47647,7 +49101,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:raw_gold",
@@ -47669,7 +49124,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:raw_gold_block",
@@ -47688,7 +49144,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:raw_iron",
@@ -47710,7 +49167,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:raw_iron_block",
@@ -47729,7 +49187,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:recovery_compass",
@@ -47750,7 +49209,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_candle",
@@ -47769,7 +49229,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_candle_cake",
@@ -47788,7 +49249,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_carpet",
@@ -47807,7 +49269,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_concrete",
@@ -47826,7 +49289,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_concrete_powder",
@@ -47845,7 +49309,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_dye",
@@ -47864,7 +49329,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_flower",
@@ -47883,7 +49349,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_glazed_terracotta",
@@ -47902,7 +49369,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_harness",
@@ -47921,7 +49389,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_mushroom",
@@ -47940,7 +49409,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_mushroom_block",
@@ -47961,7 +49431,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_nether_brick",
@@ -47980,7 +49451,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_nether_brick_double_slab",
@@ -47999,7 +49471,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_nether_brick_slab",
@@ -48018,7 +49491,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_nether_brick_stairs",
@@ -48037,7 +49511,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_nether_brick_wall",
@@ -48056,7 +49531,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_poplar_leaves",
@@ -48075,7 +49551,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_sand",
@@ -48096,7 +49573,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_sandstone",
@@ -48115,7 +49593,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_sandstone_double_slab",
@@ -48134,7 +49613,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_sandstone_slab",
@@ -48153,7 +49633,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_sandstone_stairs",
@@ -48172,7 +49653,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_sandstone_wall",
@@ -48191,7 +49673,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_shrub",
@@ -48210,7 +49693,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_shulker_box",
@@ -48229,7 +49713,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_stained_glass",
@@ -48248,7 +49733,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_stained_glass_pane",
@@ -48267,7 +49753,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_terracotta",
@@ -48286,7 +49773,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_tulip",
@@ -48305,7 +49793,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_wool",
@@ -48324,7 +49813,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_wool_double_slab",
@@ -48343,7 +49833,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_wool_slab",
@@ -48362,7 +49853,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:red_wool_stairs",
@@ -48381,7 +49873,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:redstone",
@@ -48403,7 +49896,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:redstone_block",
@@ -48422,7 +49916,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:redstone_lamp",
@@ -48441,7 +49936,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:redstone_ore",
@@ -48463,7 +49959,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:redstone_torch",
@@ -48484,7 +49981,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:redstone_wire",
@@ -48505,7 +50003,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:reeds",
@@ -48524,7 +50023,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:reinforced_deepslate",
@@ -48543,7 +50043,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:repeater",
@@ -48564,7 +50065,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:repeating_command_block",
@@ -48583,7 +50085,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:reserved6",
@@ -48602,7 +50105,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:resin_block",
@@ -48621,7 +50125,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:resin_brick",
@@ -48640,7 +50145,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:resin_brick_double_slab",
@@ -48659,7 +50165,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:resin_brick_slab",
@@ -48678,7 +50185,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:resin_brick_stairs",
@@ -48697,7 +50205,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:resin_brick_wall",
@@ -48716,7 +50225,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:resin_bricks",
@@ -48735,7 +50245,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:resin_clump",
@@ -48754,7 +50265,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:respawn_anchor",
@@ -48773,7 +50285,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:rib_armor_trim_smithing_template",
@@ -48792,7 +50305,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:rose_bush",
@@ -48811,7 +50325,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:rotten_flesh",
@@ -48832,7 +50347,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:saddle",
@@ -48853,7 +50369,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:salmon",
@@ -48874,7 +50391,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:salmon_bucket",
@@ -48893,7 +50411,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:salmon_spawn_egg",
@@ -48912,7 +50431,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sand",
@@ -48933,7 +50453,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sandstone",
@@ -48954,7 +50475,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sandstone_double_slab",
@@ -48973,7 +50495,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sandstone_slab",
@@ -48992,7 +50515,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sandstone_stairs",
@@ -49013,7 +50537,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sandstone_wall",
@@ -49032,7 +50557,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sapling",
@@ -49051,7 +50577,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:scaffolding",
@@ -49070,7 +50597,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:scrape_pottery_sherd",
@@ -49089,7 +50617,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sculk",
@@ -49108,7 +50637,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sculk_catalyst",
@@ -49127,7 +50657,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sculk_sensor",
@@ -49146,7 +50677,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sculk_shrieker",
@@ -49165,7 +50697,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sculk_vein",
@@ -49184,7 +50717,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sea_lantern",
@@ -49203,7 +50737,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sea_pickle",
@@ -49222,7 +50757,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:seagrass",
@@ -49241,7 +50777,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sentry_armor_trim_smithing_template",
@@ -49260,7 +50797,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:shaper_armor_trim_smithing_template",
@@ -49279,7 +50817,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sheaf_pottery_sherd",
@@ -49298,7 +50837,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:shears",
@@ -49319,7 +50859,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sheep_spawn_egg",
@@ -49338,7 +50879,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:shelf_mushroom",
@@ -49357,7 +50899,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:shelter_pottery_sherd",
@@ -49376,7 +50919,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:shield",
@@ -49397,7 +50941,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:short_dry_grass",
@@ -49416,7 +50961,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:short_grass",
@@ -49435,7 +50981,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:shroomlight",
@@ -49454,7 +51001,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:shulker_box",
@@ -49473,7 +51021,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:shulker_shell",
@@ -49494,7 +51043,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:shulker_spawn_egg",
@@ -49513,7 +51063,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:silence_armor_trim_smithing_template",
@@ -49532,7 +51083,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:silver_glazed_terracotta",
@@ -49551,7 +51103,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:silverfish_spawn_egg",
@@ -49570,7 +51123,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:skeleton_horse_spawn_egg",
@@ -49589,7 +51143,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:skeleton_skull",
@@ -49608,7 +51163,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:skeleton_spawn_egg",
@@ -49627,7 +51183,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:skull",
@@ -49648,7 +51205,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:skull_banner_pattern",
@@ -49667,7 +51225,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:skull_pottery_sherd",
@@ -49686,7 +51245,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:slime",
@@ -49705,7 +51265,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:slime_ball",
@@ -49727,7 +51288,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:slime_spawn_egg",
@@ -49746,7 +51308,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:small_amethyst_bud",
@@ -49765,7 +51328,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:small_dripleaf_block",
@@ -49784,7 +51348,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smithing_table",
@@ -49803,7 +51368,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smoker",
@@ -49822,7 +51388,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_basalt",
@@ -49841,7 +51408,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_quartz",
@@ -49860,7 +51428,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_quartz_double_slab",
@@ -49879,7 +51448,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_quartz_slab",
@@ -49898,7 +51468,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_quartz_stairs",
@@ -49917,7 +51488,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_red_sandstone",
@@ -49936,7 +51508,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_red_sandstone_double_slab",
@@ -49955,7 +51528,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_red_sandstone_slab",
@@ -49974,7 +51548,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_red_sandstone_stairs",
@@ -49993,7 +51568,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_sandstone",
@@ -50012,7 +51588,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_sandstone_double_slab",
@@ -50031,7 +51608,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_sandstone_slab",
@@ -50050,7 +51628,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_sandstone_stairs",
@@ -50069,7 +51648,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_stone",
@@ -50088,7 +51668,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_stone_double_slab",
@@ -50107,7 +51688,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:smooth_stone_slab",
@@ -50126,7 +51708,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sniffer_egg",
@@ -50145,7 +51728,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sniffer_spawn_egg",
@@ -50164,7 +51748,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:snort_pottery_sherd",
@@ -50183,7 +51768,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:snout_armor_trim_smithing_template",
@@ -50202,7 +51788,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:snow",
@@ -50223,7 +51810,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:snow_golem_spawn_egg",
@@ -50242,7 +51830,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:snow_layer",
@@ -50263,7 +51852,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:snowball",
@@ -50284,7 +51874,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:soul_campfire",
@@ -50303,7 +51894,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:soul_fire",
@@ -50322,7 +51914,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:soul_lantern",
@@ -50341,7 +51934,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:soul_sand",
@@ -50362,7 +51956,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:soul_soil",
@@ -50381,7 +51976,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:soul_torch",
@@ -50400,7 +51996,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sparkler",
@@ -50419,7 +52016,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spawn_egg",
@@ -50440,7 +52038,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spider_eye",
@@ -50461,7 +52060,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spider_spawn_egg",
@@ -50480,7 +52080,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spire_armor_trim_smithing_template",
@@ -50499,7 +52100,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:splash_potion",
@@ -50518,7 +52120,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sponge",
@@ -50539,7 +52142,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spore_blossom",
@@ -50558,7 +52162,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_boat",
@@ -50577,7 +52182,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_button",
@@ -50596,7 +52202,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_chest_boat",
@@ -50615,7 +52222,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_door",
@@ -50634,7 +52242,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_double_slab",
@@ -50653,7 +52262,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_fence",
@@ -50674,7 +52284,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_fence_gate",
@@ -50693,7 +52304,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_hanging_sign",
@@ -50712,7 +52324,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_leaves",
@@ -50731,7 +52344,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_log",
@@ -50753,7 +52367,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_planks",
@@ -50774,7 +52389,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_pressure_plate",
@@ -50793,7 +52409,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_sapling",
@@ -50812,7 +52429,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_shelf",
@@ -50831,7 +52449,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_sign",
@@ -50850,7 +52469,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_slab",
@@ -50869,7 +52489,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_stairs",
@@ -50888,7 +52509,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_standing_sign",
@@ -50907,7 +52529,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_trapdoor",
@@ -50926,7 +52549,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_wall_sign",
@@ -50945,7 +52569,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spruce_wood",
@@ -50964,7 +52589,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:spyglass",
@@ -50985,7 +52611,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:squid_spawn_egg",
@@ -51004,7 +52631,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stained_glass",
@@ -51023,7 +52651,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stained_glass_pane",
@@ -51042,7 +52671,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stained_hardened_clay",
@@ -51061,7 +52691,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:standing_banner",
@@ -51080,7 +52711,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:standing_sign",
@@ -51099,7 +52731,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stick",
@@ -51121,7 +52754,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sticky_piston",
@@ -51142,7 +52776,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sticky_piston_arm_collision",
@@ -51161,7 +52796,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone",
@@ -51182,7 +52818,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_axe",
@@ -51203,7 +52840,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_block_slab",
@@ -51222,7 +52860,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_block_slab2",
@@ -51241,7 +52880,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_block_slab3",
@@ -51260,7 +52900,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_block_slab4",
@@ -51279,7 +52920,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_brick_double_slab",
@@ -51298,7 +52940,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_brick_slab",
@@ -51317,7 +52960,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_brick_stairs",
@@ -51336,7 +52980,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_brick_wall",
@@ -51355,7 +53000,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_bricks",
@@ -51374,7 +53020,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_button",
@@ -51395,7 +53042,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_hoe",
@@ -51414,7 +53062,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_pickaxe",
@@ -51435,7 +53084,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_pressure_plate",
@@ -51456,7 +53106,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_shovel",
@@ -51477,7 +53128,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_stairs",
@@ -51496,7 +53148,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stone_sword",
@@ -51517,7 +53170,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stonebrick",
@@ -51536,7 +53190,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stonecutter",
@@ -51555,7 +53210,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stonecutter_block",
@@ -51574,7 +53230,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stray_spawn_egg",
@@ -51593,7 +53250,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:strider_spawn_egg",
@@ -51612,7 +53270,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:string",
@@ -51634,7 +53293,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_acacia_log",
@@ -51653,7 +53313,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_acacia_wood",
@@ -51672,7 +53333,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_bamboo_block",
@@ -51691,7 +53353,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_birch_log",
@@ -51710,7 +53373,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_birch_wood",
@@ -51729,7 +53393,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_cherry_log",
@@ -51748,7 +53413,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_cherry_wood",
@@ -51767,7 +53433,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_crimson_hyphae",
@@ -51786,7 +53453,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_crimson_stem",
@@ -51805,7 +53473,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_dark_oak_log",
@@ -51824,7 +53493,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_dark_oak_wood",
@@ -51843,7 +53513,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_jungle_log",
@@ -51862,7 +53533,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_jungle_wood",
@@ -51881,7 +53553,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_mangrove_log",
@@ -51900,7 +53573,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_mangrove_wood",
@@ -51919,7 +53593,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_oak_log",
@@ -51938,7 +53613,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_oak_wood",
@@ -51957,7 +53633,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_pale_oak_log",
@@ -51976,7 +53653,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_pale_oak_wood",
@@ -51995,7 +53673,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_poplar_log",
@@ -52014,7 +53693,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_poplar_wood",
@@ -52033,7 +53713,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_spruce_log",
@@ -52052,7 +53733,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_spruce_wood",
@@ -52071,7 +53753,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_warped_hyphae",
@@ -52090,7 +53773,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:stripped_warped_stem",
@@ -52109,7 +53793,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:structure_block",
@@ -52128,7 +53813,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:structure_void",
@@ -52147,7 +53833,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sugar",
@@ -52168,7 +53855,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sugar_cane",
@@ -52190,7 +53878,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sulfur",
@@ -52209,7 +53898,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sulfur_brick_double_slab",
@@ -52228,7 +53918,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sulfur_brick_slab",
@@ -52247,7 +53938,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sulfur_brick_stairs",
@@ -52266,7 +53958,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sulfur_brick_wall",
@@ -52285,7 +53978,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sulfur_bricks",
@@ -52304,7 +53998,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sulfur_double_slab",
@@ -52323,7 +54018,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sulfur_slab",
@@ -52342,7 +54038,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sulfur_spike",
@@ -52361,7 +54058,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sulfur_stairs",
@@ -52380,7 +54078,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sulfur_wall",
@@ -52399,7 +54098,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sunflower",
@@ -52418,7 +54118,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:suspicious_gravel",
@@ -52437,7 +54138,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:suspicious_sand",
@@ -52456,7 +54158,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:suspicious_stew",
@@ -52477,7 +54180,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sweet_berries",
@@ -52499,7 +54203,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:sweet_berry_bush",
@@ -52518,7 +54223,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tadpole_bucket",
@@ -52537,7 +54243,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tadpole_spawn_egg",
@@ -52556,7 +54263,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tall_dry_grass",
@@ -52575,7 +54283,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tall_grass",
@@ -52594,7 +54303,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tallgrass",
@@ -52613,7 +54323,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:target",
@@ -52632,7 +54343,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tide_armor_trim_smithing_template",
@@ -52651,7 +54363,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tinted_glass",
@@ -52670,7 +54383,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tnt",
@@ -52691,7 +54405,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tnt_minecart",
@@ -52712,7 +54427,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Transportation",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:torch",
@@ -52733,7 +54449,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:torchflower",
@@ -52752,7 +54469,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:torchflower_crop",
@@ -52771,7 +54489,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:torchflower_seeds",
@@ -52792,7 +54511,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:totem_of_undying",
@@ -52813,7 +54533,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:trader_llama_spawn_egg",
@@ -52832,7 +54553,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:trapdoor",
@@ -52853,7 +54575,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:trapped_chest",
@@ -52872,7 +54595,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:trial_key",
@@ -52893,7 +54617,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:trial_spawner",
@@ -52912,7 +54637,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:trident",
@@ -52933,7 +54659,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:trip_wire",
@@ -52952,7 +54679,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tripwire_hook",
@@ -52971,7 +54699,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tropical_fish",
@@ -52992,7 +54721,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Food",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tropical_fish_bucket",
@@ -53011,7 +54741,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tropical_fish_spawn_egg",
@@ -53030,7 +54761,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tube_coral",
@@ -53049,7 +54781,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tube_coral_block",
@@ -53068,7 +54801,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tube_coral_fan",
@@ -53087,7 +54821,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tube_coral_wall_fan",
@@ -53106,7 +54841,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tuff",
@@ -53127,7 +54863,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tuff_brick_double_slab",
@@ -53146,7 +54883,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tuff_brick_slab",
@@ -53165,7 +54903,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tuff_brick_stairs",
@@ -53184,7 +54923,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tuff_brick_wall",
@@ -53203,7 +54943,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tuff_bricks",
@@ -53222,7 +54963,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tuff_double_slab",
@@ -53241,7 +54983,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tuff_slab",
@@ -53260,7 +55003,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tuff_stairs",
@@ -53279,7 +55023,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:tuff_wall",
@@ -53298,7 +55043,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:turtle_egg",
@@ -53317,7 +55063,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:turtle_helmet",
@@ -53338,7 +55085,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:turtle_scute",
@@ -53357,7 +55105,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:turtle_spawn_egg",
@@ -53376,7 +55125,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:twisting_vines",
@@ -53395,7 +55145,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:underwater_tnt",
@@ -53414,7 +55165,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:underwater_torch",
@@ -53433,7 +55185,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:undyed_shulker_box",
@@ -53452,7 +55205,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:unknown",
@@ -53471,7 +55225,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:unlit_redstone_torch",
@@ -53490,7 +55245,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:unpowered_comparator",
@@ -53509,7 +55265,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:unpowered_repeater",
@@ -53530,7 +55287,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:vault",
@@ -53549,7 +55307,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:verdant_froglight",
@@ -53568,7 +55327,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:vex_armor_trim_smithing_template",
@@ -53587,7 +55347,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:vex_spawn_egg",
@@ -53606,7 +55367,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:villager_spawn_egg",
@@ -53625,7 +55387,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:vindicator_spawn_egg",
@@ -53644,7 +55407,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:vine",
@@ -53663,7 +55427,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wall_banner",
@@ -53682,7 +55447,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wall_sign",
@@ -53701,7 +55467,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wandering_trader_spawn_egg",
@@ -53720,7 +55487,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:ward_armor_trim_smithing_template",
@@ -53739,7 +55507,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warden_spawn_egg",
@@ -53758,7 +55527,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_button",
@@ -53777,7 +55547,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_door",
@@ -53796,7 +55567,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_double_slab",
@@ -53815,7 +55587,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_fence",
@@ -53834,7 +55607,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_fence_gate",
@@ -53853,7 +55627,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_fungus",
@@ -53872,7 +55647,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_fungus_on_a_stick",
@@ -53893,7 +55669,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_hanging_sign",
@@ -53912,7 +55689,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_hyphae",
@@ -53931,7 +55709,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_nylium",
@@ -53950,7 +55729,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_planks",
@@ -53969,7 +55749,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_pressure_plate",
@@ -53988,7 +55769,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_roots",
@@ -54007,7 +55789,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_shelf",
@@ -54026,7 +55809,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_sign",
@@ -54045,7 +55829,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_slab",
@@ -54064,7 +55849,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_stairs",
@@ -54083,7 +55869,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_standing_sign",
@@ -54102,7 +55889,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_stem",
@@ -54121,7 +55909,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_trapdoor",
@@ -54140,7 +55929,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_wall_sign",
@@ -54159,7 +55949,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:warped_wart_block",
@@ -54178,7 +55969,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:water",
@@ -54199,7 +55991,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:water_bucket",
@@ -54220,7 +56013,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waterlily",
@@ -54239,7 +56033,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_chiseled_copper",
@@ -54258,7 +56053,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_copper",
@@ -54277,7 +56073,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_copper_bars",
@@ -54296,7 +56093,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_copper_bulb",
@@ -54315,7 +56113,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_copper_chain",
@@ -54334,7 +56133,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_copper_chest",
@@ -54353,7 +56153,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_copper_door",
@@ -54372,7 +56173,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_copper_golem_statue",
@@ -54391,7 +56193,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_copper_grate",
@@ -54410,7 +56213,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_copper_lantern",
@@ -54429,7 +56233,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_copper_trapdoor",
@@ -54448,7 +56253,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_cut_copper",
@@ -54467,7 +56273,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_cut_copper_slab",
@@ -54486,7 +56293,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_cut_copper_stairs",
@@ -54505,7 +56313,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_double_cut_copper_slab",
@@ -54524,7 +56333,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_chiseled_copper",
@@ -54543,7 +56353,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_copper",
@@ -54562,7 +56373,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_copper_bars",
@@ -54581,7 +56393,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_copper_bulb",
@@ -54600,7 +56413,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_copper_chain",
@@ -54619,7 +56433,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_copper_chest",
@@ -54638,7 +56453,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_copper_door",
@@ -54657,7 +56473,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_copper_golem_statue",
@@ -54676,7 +56493,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_copper_grate",
@@ -54695,7 +56513,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_copper_lantern",
@@ -54714,7 +56533,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_copper_trapdoor",
@@ -54733,7 +56553,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_cut_copper",
@@ -54752,7 +56573,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_cut_copper_slab",
@@ -54771,7 +56593,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_cut_copper_stairs",
@@ -54790,7 +56613,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_double_cut_copper_slab",
@@ -54809,7 +56633,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_exposed_lightning_rod",
@@ -54828,7 +56653,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_lightning_rod",
@@ -54847,7 +56673,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_chiseled_copper",
@@ -54866,7 +56693,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_copper",
@@ -54885,7 +56713,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_copper_bars",
@@ -54904,7 +56733,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_copper_bulb",
@@ -54923,7 +56753,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_copper_chain",
@@ -54942,7 +56773,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_copper_chest",
@@ -54961,7 +56793,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_copper_door",
@@ -54980,7 +56813,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_copper_golem_statue",
@@ -54999,7 +56833,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_copper_grate",
@@ -55018,7 +56853,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_copper_lantern",
@@ -55037,7 +56873,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_copper_trapdoor",
@@ -55056,7 +56893,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_cut_copper",
@@ -55075,7 +56913,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_cut_copper_slab",
@@ -55094,7 +56933,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_cut_copper_stairs",
@@ -55113,7 +56953,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_double_cut_copper_slab",
@@ -55132,7 +56973,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_oxidized_lightning_rod",
@@ -55151,7 +56993,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_chiseled_copper",
@@ -55170,7 +57013,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_copper",
@@ -55189,7 +57033,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_copper_bars",
@@ -55208,7 +57053,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_copper_bulb",
@@ -55227,7 +57073,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_copper_chain",
@@ -55246,7 +57093,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_copper_chest",
@@ -55265,7 +57113,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_copper_door",
@@ -55284,7 +57133,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_copper_golem_statue",
@@ -55303,7 +57153,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_copper_grate",
@@ -55322,7 +57173,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_copper_lantern",
@@ -55341,7 +57193,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_copper_trapdoor",
@@ -55360,7 +57213,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_cut_copper",
@@ -55379,7 +57233,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_cut_copper_slab",
@@ -55398,7 +57253,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_cut_copper_stairs",
@@ -55417,7 +57273,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_double_cut_copper_slab",
@@ -55436,7 +57293,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:waxed_weathered_lightning_rod",
@@ -55455,7 +57313,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wayfinder_armor_trim_smithing_template",
@@ -55474,7 +57333,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_chiseled_copper",
@@ -55493,7 +57353,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_copper",
@@ -55512,7 +57373,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_copper_bars",
@@ -55531,7 +57393,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_copper_bulb",
@@ -55550,7 +57413,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_copper_chain",
@@ -55569,7 +57433,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_copper_chest",
@@ -55588,7 +57453,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_copper_door",
@@ -55607,7 +57473,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_copper_golem_statue",
@@ -55626,7 +57493,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_copper_grate",
@@ -55645,7 +57513,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_copper_lantern",
@@ -55664,7 +57533,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_copper_trapdoor",
@@ -55683,7 +57553,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_cut_copper",
@@ -55702,7 +57573,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_cut_copper_slab",
@@ -55721,7 +57593,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_cut_copper_stairs",
@@ -55740,7 +57613,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_double_cut_copper_slab",
@@ -55759,7 +57633,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weathered_lightning_rod",
@@ -55778,7 +57653,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:web",
@@ -55797,7 +57673,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:weeping_vines",
@@ -55816,7 +57693,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wet_sponge",
@@ -55835,7 +57713,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wheat",
@@ -55857,7 +57736,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wheat_seeds",
@@ -55879,7 +57759,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_candle",
@@ -55898,7 +57779,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_candle_cake",
@@ -55917,7 +57799,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_carpet",
@@ -55936,7 +57819,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_concrete",
@@ -55955,7 +57839,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_concrete_powder",
@@ -55974,7 +57859,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_dye",
@@ -55993,7 +57879,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_glazed_terracotta",
@@ -56012,7 +57899,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_harness",
@@ -56031,7 +57919,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_shulker_box",
@@ -56050,7 +57939,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_stained_glass",
@@ -56069,7 +57959,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_stained_glass_pane",
@@ -56088,7 +57979,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_terracotta",
@@ -56107,7 +57999,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_tulip",
@@ -56126,7 +58019,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_wool",
@@ -56145,7 +58039,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_wool_double_slab",
@@ -56164,7 +58059,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_wool_slab",
@@ -56183,7 +58079,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:white_wool_stairs",
@@ -56202,7 +58099,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wild_armor_trim_smithing_template",
@@ -56221,7 +58119,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wildflowers",
@@ -56240,7 +58139,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wind_charge",
@@ -56259,7 +58159,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:witch_spawn_egg",
@@ -56278,7 +58179,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wither_rose",
@@ -56297,7 +58199,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wither_skeleton_skull",
@@ -56316,7 +58219,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wither_skeleton_spawn_egg",
@@ -56335,7 +58239,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wither_spawn_egg",
@@ -56354,7 +58259,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wolf_armor",
@@ -56375,7 +58281,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wolf_spawn_egg",
@@ -56394,7 +58301,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wood",
@@ -56413,7 +58321,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wooden_axe",
@@ -56434,7 +58343,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wooden_button",
@@ -56453,7 +58363,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wooden_door",
@@ -56472,7 +58383,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wooden_hoe",
@@ -56491,7 +58403,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wooden_pickaxe",
@@ -56512,7 +58425,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wooden_pressure_plate",
@@ -56531,7 +58445,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Redstone",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wooden_shovel",
@@ -56552,7 +58467,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wooden_slab",
@@ -56571,7 +58487,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wooden_sword",
@@ -56592,7 +58509,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Combat",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:wool",
@@ -56611,7 +58529,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:writable_book",
@@ -56632,7 +58551,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:written_book",
@@ -56653,7 +58573,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Tools",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_candle",
@@ -56672,7 +58593,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_candle_cake",
@@ -56691,7 +58613,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_carpet",
@@ -56710,7 +58633,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_concrete",
@@ -56729,7 +58653,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_concrete_powder",
@@ -56748,7 +58673,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_dye",
@@ -56767,7 +58693,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_glazed_terracotta",
@@ -56786,7 +58713,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_harness",
@@ -56805,7 +58733,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_poplar_leaves",
@@ -56824,7 +58753,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Natural",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_shulker_box",
@@ -56843,7 +58773,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_stained_glass",
@@ -56862,7 +58793,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_stained_glass_pane",
@@ -56881,7 +58813,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_terracotta",
@@ -56900,7 +58833,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_wool",
@@ -56919,7 +58853,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_wool_double_slab",
@@ -56938,7 +58873,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_wool_slab",
@@ -56957,7 +58893,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:yellow_wool_stairs",
@@ -56976,7 +58913,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Building Blocks",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:zoglin_spawn_egg",
@@ -56995,7 +58933,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:zombie_head",
@@ -57014,7 +58953,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Decoration",
     "isBlock": true,
     "isItem": false,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:zombie_horse_spawn_egg",
@@ -57033,7 +58973,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:zombie_pigman_spawn_egg",
@@ -57052,7 +58993,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:zombie_spawn_egg",
@@ -57071,7 +59013,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   },
   {
     "id": "minecraft:zombie_villager_spawn_egg",
@@ -57090,7 +59033,8 @@ export const ITEM_CATALOG = Object.freeze([
     "creativeTab": "Miscellaneous",
     "isBlock": false,
     "isItem": true,
-    "sourceVersion": "1.21.130"
+    "sourceVersion": "1.21.130",
+    "textureSource": "vanilla"
   }
 ]);
 const ITEM_BY_ID = new Map(ITEM_CATALOG.map(item => [item.id, item]));
