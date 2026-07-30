@@ -5,7 +5,7 @@
       "crafting_table"
     ],
     "pattern": [
-      "III",
+      "ILI",
       "CGN",
       "IGI"
     ],
@@ -13,7 +13,8 @@
       "I": "minecraft:iron_ingot",
       "G": "minecraft:glass",
       "N": "minecraft:gold_nugget",
-      "C": "mcity:personal_card_cyan"
+      "C": "mcity:personal_card_cyan",
+      "L": "minecraft:lightning_rod"
     },
     "result": {
       "item": "mcity:mine_phone",

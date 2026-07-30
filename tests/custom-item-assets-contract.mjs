@@ -19,6 +19,8 @@ for (const color of colors) {
     assert.equal(recipe["minecraft:recipe_shapeless"].result.item, `mcity:personal_card_${color}`);
     const phoneRecipe = readJson(path.join(root, `recipes/mcity/mine_phone_${color}.json`));
     assert.equal(phoneRecipe["minecraft:recipe_shaped"].key.C, `mcity:personal_card_${color}`);
+    assert.deepEqual(phoneRecipe["minecraft:recipe_shaped"].pattern, ["ILI", "CGN", "IGI"]);
+    assert.equal(phoneRecipe["minecraft:recipe_shaped"].key.L, "minecraft:lightning_rod");
 }
 const phone = readJson(path.join(root, "items/mcity/mine_phone.json"));
 assert.equal(phone["minecraft:item"].description.identifier, "mcity:mine_phone");
