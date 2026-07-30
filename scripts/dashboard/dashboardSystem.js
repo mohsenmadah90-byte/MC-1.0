@@ -18,6 +18,7 @@ import { LandUI } from "../modules/land/landUI.js";
 import { ContractUI } from "../modules/contracts/contractUI.js";
 import { ATMAdminUI } from "../modules/atm/atmAdminUI.js";
 import { AdminDashboard } from "./adminDashboard.js";
+import { FriendUI } from "../modules/friends/friendUI.js";
 import { ProfileUI } from "./profileUI.js";
 import { HelpUI } from "./helpUI.js";
 
@@ -48,6 +49,7 @@ export class DashboardSystem {
         };
 
         DashboardRouter.register({ id: "profile", title: "Profile", icon: UI.ICON.profile, color: "§f", order: 10, open: ProfileUI.open.bind(ProfileUI), badge: ProfileUI.badge.bind(ProfileUI), summary: ProfileUI.summary.bind(ProfileUI) });
+        DashboardRouter.register({ id: "friends", title: "Friends", icon: UI.ICON.profile, color: "§b", order: 15, open: FriendUI.open.bind(FriendUI) });
         DashboardRouter.register({ id: "economy", title: "Economy", icon: UI.ICON.money, color: "§f", order: 20, open: EconomyUI.open.bind(EconomyUI), badge: EconomyUI.badge.bind(EconomyUI), summary: EconomyUI.summary.bind(EconomyUI) });
         DashboardRouter.register({ id: "market", title: "Market", icon: UI.ICON.market, color: "§f", order: 30, open: MarketUI.open.bind(MarketUI), badge: MarketUI.badge.bind(MarketUI), summary: MarketUI.summary.bind(MarketUI) });
         DashboardRouter.register({ id: "land", title: "Land", icon: UI.ICON.land, color: "§f", order: 40, open: LandUI.open.bind(LandUI), badge: LandUI.badge.bind(LandUI), summary: LandUI.summary.bind(LandUI) });

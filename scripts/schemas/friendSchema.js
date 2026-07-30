@@ -1,0 +1,2 @@
+export const DEFAULT_FRIEND_DB={schemaVersion:1,players:{}};
+export function validateFriendData(data,def=DEFAULT_FRIEND_DB){const out=JSON.parse(JSON.stringify(def));for(const [id,raw] of Object.entries(data?.players||{})){if(!raw||typeof raw!=="object")continue;out.players[String(id).slice(0,128)]={playerId:String(raw.playerId||id).slice(0,128),playerName:String(raw.playerName||"").slice(0,64),friends:{...(raw.friends||{})},incoming:{...(raw.incoming||{})},outgoing:{...(raw.outgoing||{})},updatedAt:Number(raw.updatedAt)||0};}return out;}
