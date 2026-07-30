@@ -62,26 +62,70 @@ export class ATMUI {
     static async exchangeForm(player, block) {
         const info = ATMService.getATMFromBlock(block);
         if (!info?.atm?.sourceCode) { player.sendMessage(CONFIG.PREFIX + "§cThis ATM is not linked."); return this.open(player, block); }
-        const counts = ATMInventory.oreCounts(player);
+        return this.exchangeComboPicker(player, block, {});
+    }
+
+    static async exchangeComboPicker(player, block, selections = {}) {
         const combos = Object.keys(CONFIG.ATM.ORE_COMBINATIONS || {});
-        const form = new ModalFormData().title("§aATM Exchange");
+        const counts = ATMInventory.oreCounts(player);
+        const form = new ActionFormData()
+            .title(UI.title(UI.ICON.atm, "Select Exchange Tier"))
+            .body(UI.body("§7Select a tier to choose its quantity.", "§7Each slider is capped at 64.", "§7Selected quantities are kept until confirmation."));
+        const actions = [];
         for (const combo of combos) {
             const ores = CONFIG.ATM.ORE_COMBINATIONS[combo] || [];
             const available = ores.length ? Math.min(...ores.map(id => counts[id] || 0)) : 0;
             const max = Math.max(0, Math.min(CONFIG.ATM.MAX_EXCHANGE_PER_COMBO || 64, available));
-            const ingredientNames = ores.map(id => ItemCatalog.get(id)?.name || id.split(":").pop()).join(" + ");
-            form.slider(`${AIC.COMBINATION_NAMES?.[combo] || combo} | ${ingredientNames} (max ${max})`, 0, Math.max(1, max), { valueStep: 1, defaultValue: 0 });
+            const primary = ItemCatalog.get(ores[0]);
+            const selected = selections[combo] || 0;
+            const label = `${AIC.COMBINATION_NAMES?.[combo] || combo}\\n§7${primary?.name || ores[0]} | ${selected}/${max}`;
+            try { form.button(label, primary?.icon || undefined); } catch { form.button(label); }
+            actions.push({ type: "combo", combo, max });
         }
-        const r = await form.show(player); if (r.canceled) return;
-        const selections = {}; let any = false; let totalMoney = 0, totalScore = 0;
-        for (let i = 0; i < combos.length; i++) {
-            const qty = Math.max(0, Math.floor(r.formValues[i] || 0));
-            if (qty > 0) { selections[combos[i]] = qty; any = true; const calc = ATMService.calculate(combos[i], qty, player); totalMoney += calc.money; totalScore += calc.score; }
+        const selectedTotal = Object.values(selections).reduce((sum, value) => sum + (Number(value) || 0), 0);
+        form.button(`§aReview & Confirm${selectedTotal ? ` (${selectedTotal} units)` : ""}`); actions.push({ type: "review" });
+        form.button(UI.BACK); actions.push({ type: "back" });
+        const result = await form.show(player);
+        if (result.canceled) return;
+        const action = actions[result.selection];
+        if (!action || action.type === "back") return this.open(player, block);
+        if (action.type === "review") return this.confirmExchange(player, block, selections);
+        return this.exchangeComboSlider(player, block, selections, action.combo, action.max);
+    }
+
+    static async exchangeComboSlider(player, block, selections, combo, max) {
+        const ores = CONFIG.ATM.ORE_COMBINATIONS[combo] || [];
+        const counts = ATMInventory.oreCounts(player);
+        const available = ores.length ? Math.min(...ores.map(id => counts[id] || 0)) : 0;
+        const safeMax = Math.max(0, Math.min(CONFIG.ATM.MAX_EXCHANGE_PER_COMBO || 64, available, max));
+        const names = ores.map(id => ItemCatalog.get(id)?.name || id.split(":").pop()).join(" + ");
+        const form = new ModalFormData()
+            .title(`§a${AIC.COMBINATION_NAMES?.[combo] || combo}`)
+            .slider(`${names} (maximum ${safeMax})`, 0, Math.max(1, safeMax), { valueStep: 1, defaultValue: Math.min(selections[combo] || 0, safeMax) });
+        const result = await form.show(player);
+        if (result.canceled) return this.exchangeComboPicker(player, block, selections);
+        const quantity = Math.max(0, Math.min(safeMax, Math.floor(Number(result.formValues?.[0]) || 0)));
+        const next = { ...selections };
+        if (quantity) next[combo] = quantity; else delete next[combo];
+        return this.exchangeComboPicker(player, block, next);
+    }
+
+    static async confirmExchange(player, block, selections) {
+        const clean = {};
+        for (const [combo, value] of Object.entries(selections)) {
+            const quantity = Math.max(0, Math.min(CONFIG.ATM.MAX_EXCHANGE_PER_COMBO || 64, Math.floor(Number(value) || 0)));
+            if (quantity) clean[combo] = quantity;
         }
-        if (!any) return this.open(player, block);
-        const conf = await new MessageFormData().title("§6Confirm ATM Exchange").body(`Receive §a${MoneyUtils.formatCents(totalMoney)} §rand §b${totalScore} score§r?\n\nOres will be moved to the linked Source chest.`).button1("§cCancel").button2("§aExchange").show(player);
-        if (conf.canceled) return; if (conf.selection !== 1) return this.open(player, block);
-        const res = ATMService.exchange(player, block, selections); player.sendMessage(CONFIG.PREFIX + res.message); return this.open(player, block);
+        if (!Object.keys(clean).length) return this.exchangeComboPicker(player, block, selections);
+        const summary = ATMService.buildExchangeSummary(player, clean);
+        const lines = ["§6Confirm ATM Exchange", ""];
+        for (const [combo, quantity] of Object.entries(clean)) lines.push(`§7${AIC.COMBINATION_NAMES?.[combo] || combo}: §f${quantity}`);
+        lines.push("", `§7Receive: §a${MoneyUtils.formatCents(summary.totalMoney)} §8| §b${summary.totalScore} score`, "", "§8Ores will be moved to the linked Source chest.");
+        const result = await new MessageFormData().title("§6Confirm ATM Exchange").body(lines.join("\\n")).button1("§cBack").button2("§aExchange").show(player);
+        if (result.canceled || result.selection !== 1) return this.exchangeComboPicker(player, block, clean);
+        const response = ATMService.exchange(player, block, clean);
+        player.sendMessage(CONFIG.PREFIX + response.message);
+        return this.open(player, block);
     }
 }
 
