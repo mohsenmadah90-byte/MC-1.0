@@ -2,7 +2,7 @@
 // Phase 0: Foundation scaffold
 
 export const CONFIG = {
-    VERSION: "1.14.19-charger-visuals",
+    VERSION: "1.14.20-charger-textures",
     SYSTEM_NAME: "MCity Dashboard V2",
     PREFIX: "§r[§6§lMCity§r] §r",
 
