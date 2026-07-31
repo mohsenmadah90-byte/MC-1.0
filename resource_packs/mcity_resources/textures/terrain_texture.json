@@ -1,0 +1,13 @@
+{
+  "resource_pack_name": "mcity",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "mcity_phone_charger": {
+      "textures": {
+        "side": "textures/mcity/blocks/mine_phone_charger_side",
+        "top": "textures/mcity/blocks/mine_phone_charger_top",
+        "bottom": "textures/mcity/blocks/mine_phone_charger_bottom"
+      }
+    }
+  }
+}

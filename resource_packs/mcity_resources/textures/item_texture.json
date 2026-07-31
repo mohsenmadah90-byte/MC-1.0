@@ -89,7 +89,7 @@
     },
     "mcity_mine_phone_charger": {
       "textures": [
-        "textures/items/redstone"
+        "textures/mcity/items/mine_phone_charger"
       ]
     }
   }
