@@ -1,0 +1,46 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mcity:phone_charger",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "tag:mcity:phone_charger": {},
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:geometry": "geometry.mcity_phone_charger",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "mcity_phone_charger",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          8,
+          16
+        ]
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          8,
+          16
+        ]
+      }
+    }
+  }
+}

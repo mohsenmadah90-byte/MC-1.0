@@ -1,0 +1,23 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "mcity:wall_atm": {
+    "sound": "netherite",
+    "textures": "mcity_wall_atm"
+  },
+  "mcity:floor_atm": {
+    "sound": "netherite",
+    "textures": "mcity_wall_atm"
+  },
+  "mcity:floor_atm_bottom": {
+    "sound": "netherite",
+    "textures": "floor_atm_bottom"
+  },
+  "mcity:phone_charger": {
+    "sound": "metal",
+    "textures": "mcity_phone_charger"
+  }
+}

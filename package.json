@@ -1,0 +1,52 @@
+{
+  "name": "mcity-dashboard-v2",
+  "version": "1.14.3",
+  "private": true,
+  "description": "MCity Dashboard V2 Bedrock script project",
+  "type": "module",
+  "scripts": {
+    "check:syntax": "find scripts -type f -name '*.js' -print0 | xargs -0 -n1 node --check",
+    "check:imports": "node tools/validate-imports.mjs",
+    "check:manifest": "node tools/validate-manifest.mjs",
+    "test:contracts": "node tests/runtime-lifecycle-smoke.mjs && node tests/database-backup-contract.mjs && node tests/financial-safety-contract.mjs && node tests/performance-contract.mjs",
+    "test:load": "node tests/load-simulation.mjs",
+    "test:protection": "node tests/protection-fallback-contract.mjs",
+    "test:catalog": "node tests/catalog-contract.mjs",
+    "test:land-sale-tax": "node tests/land-sale-tax-contract.mjs",
+    "test:chunk-banner": "node tests/chunk-banner-preview-contract.mjs",
+    "test:atm-scrap": "node tests/atm-netherite-scrap-contract.mjs",
+    "test:land-price": "node tests/land-price-contract.mjs",
+    "test:economy-policy": "node tests/economy-policy-contract.mjs",
+    "test:atm-limit-removal": "node tests/atm-limit-removal-contract.mjs",
+    "test:atm-slider": "node tests/atm-slider-contract.mjs",
+    "test:vanilla-textures": "node tests/vanilla-texture-contract.mjs",
+    "test:custom-items": "node tests/custom-item-registry-contract.mjs",
+    "test:custom-assets": "node tests/custom-item-assets-contract.mjs",
+    "test:card-identity": "node tests/card-identity-contract.mjs",
+    "test:mine-phone": "node tests/mine-phone-flow-contract.mjs",
+    "test:access-card": "node tests/access-card-contract.mjs",
+    "test:atm-appearance": "node tests/atm-appearance-contract.mjs",
+    "test:friends": "node tests/friends-contract.mjs",
+    "test:friends-messaging": "node tests/friends-messaging-contract.mjs",
+    "test:friends-finance-gift": "node tests/friends-finance-gift-contract.mjs",
+    "test:trusted-friends": "node tests/trusted-friends-contract.mjs",
+    "test:leaderboard-settings": "node tests/leaderboard-settings-contract.mjs",
+    "test:phone-information": "node tests/phone-information-contract.mjs",
+    "test:atm-recipes": "node tests/atm-recipe-contract.mjs",
+    "test:atm-storage": "node tests/atm-temporary-storage-contract.mjs",
+    "test:phone-battery": "node tests/mine-phone-battery-contract.mjs",
+    "test:charger-textures": "node tests/charger-texture-phase-1.1-contract.mjs",
+    "test:charger-geometry": "node tests/charger-geometry-contract.mjs",
+    "preflight": "node tools/production-preflight.mjs",
+    "validate": "npm run check:manifest && npm run check:imports && npm run check:syntax && npm run test:contracts && npm run test:protection && npm run test:catalog && npm run test:land-sale-tax && npm run test:chunk-banner && npm run test:atm-scrap && npm run test:land-price && npm run test:economy-policy && npm run test:atm-limit-removal && npm run test:atm-slider && npm run test:vanilla-textures && npm run test:custom-items && npm run test:custom-assets && npm run test:card-identity && npm run test:mine-phone && npm run test:access-card && npm run test:atm-appearance && npm run test:friends && npm run test:friends-messaging && npm run test:friends-finance-gift && npm run test:trusted-friends && npm run test:leaderboard-settings && npm run test:phone-information && npm run test:atm-recipes && npm run test:atm-storage && npm run test:phone-battery && npm run test:charger-textures && npm run test:charger-geometry",
+    "validate:production": "npm run validate && npm run test:load && npm run preflight"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "prettier": "^3.0.0"
+  }
+}

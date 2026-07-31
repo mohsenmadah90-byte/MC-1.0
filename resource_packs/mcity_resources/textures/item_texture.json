@@ -1,0 +1,96 @@
+{
+  "resource_pack_name": "mcity",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "mcity_personal_card_white": {
+      "textures": [
+        "textures/mcity/cards/white"
+      ]
+    },
+    "mcity_personal_card_orange": {
+      "textures": [
+        "textures/mcity/cards/orange"
+      ]
+    },
+    "mcity_personal_card_magenta": {
+      "textures": [
+        "textures/mcity/cards/magenta"
+      ]
+    },
+    "mcity_personal_card_light_blue": {
+      "textures": [
+        "textures/mcity/cards/light_blue"
+      ]
+    },
+    "mcity_personal_card_yellow": {
+      "textures": [
+        "textures/mcity/cards/yellow"
+      ]
+    },
+    "mcity_personal_card_lime": {
+      "textures": [
+        "textures/mcity/cards/lime"
+      ]
+    },
+    "mcity_personal_card_pink": {
+      "textures": [
+        "textures/mcity/cards/pink"
+      ]
+    },
+    "mcity_personal_card_gray": {
+      "textures": [
+        "textures/mcity/cards/gray"
+      ]
+    },
+    "mcity_personal_card_light_gray": {
+      "textures": [
+        "textures/mcity/cards/light_gray"
+      ]
+    },
+    "mcity_personal_card_cyan": {
+      "textures": [
+        "textures/mcity/cards/cyan"
+      ]
+    },
+    "mcity_personal_card_purple": {
+      "textures": [
+        "textures/mcity/cards/purple"
+      ]
+    },
+    "mcity_personal_card_blue": {
+      "textures": [
+        "textures/mcity/cards/blue"
+      ]
+    },
+    "mcity_personal_card_brown": {
+      "textures": [
+        "textures/mcity/cards/brown"
+      ]
+    },
+    "mcity_personal_card_green": {
+      "textures": [
+        "textures/mcity/cards/green"
+      ]
+    },
+    "mcity_personal_card_red": {
+      "textures": [
+        "textures/mcity/cards/red"
+      ]
+    },
+    "mcity_personal_card_black": {
+      "textures": [
+        "textures/mcity/cards/black"
+      ]
+    },
+    "mcity_mine_phone": {
+      "textures": [
+        "textures/mcity/items/mine_phone"
+      ]
+    },
+    "mcity_mine_phone_charger": {
+      "textures": [
+        "textures/mcity/items/mine_phone_charger"
+      ]
+    }
+  }
+}

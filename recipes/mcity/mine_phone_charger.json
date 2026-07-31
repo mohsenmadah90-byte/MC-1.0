@@ -1,0 +1,15 @@
+{
+  "format_version": "1.17.41",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "mcity:mine_phone_charger" },
+    "tags": ["crafting_table"],
+    "pattern": ["IRI", "RNR", "IGI"],
+    "key": {
+      "I": "minecraft:iron_ingot",
+      "R": "minecraft:redstone",
+      "N": "minecraft:gold_nugget",
+      "G": "minecraft:glass"
+    },
+    "result": { "item": "mcity:mine_phone_charger", "count": 1 }
+  }
+}
