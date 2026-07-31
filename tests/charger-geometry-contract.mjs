@@ -1,0 +1,11 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+const geometry=JSON.parse(fs.readFileSync("resource_packs/mcity_resources/models/blocks/mcity/phone_charger.geo.json"));
+const block=JSON.parse(fs.readFileSync("blocks/mcity/phone_charger.json"));
+const bones=geometry["minecraft:geometry"][0].bones;
+assert.ok(bones.some(b=>b.name==="central_cradle"));
+assert.equal(bones.filter(b=>b.name.startsWith("corner_support_")).length,4);
+assert.ok(bones.some(b=>b.name==="redstone_channels"));
+const collision=block["minecraft:block"].components["minecraft:collision_box"];
+assert.deepEqual(collision.origin,[-8,0,-8]); assert.deepEqual(collision.size,[16,8,16]);
+console.log("Charger half-block geometry and collision checks passed.");
