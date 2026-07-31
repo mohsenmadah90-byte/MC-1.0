@@ -68,9 +68,9 @@ export class DashboardRouter {
         actions.push({ id: "close" });
 
         const result = await form.show(player);
-        if (result.canceled) return;
+        if (result.canceled) { MinePhoneService.end(player); return; }
         const action = actions[result.selection];
-        if (!action || action.id === "close") return;
+        if (!action || action.id === "close") { MinePhoneService.end(player); return; }
         try {
             return await action.open(player);
         } catch (error) {

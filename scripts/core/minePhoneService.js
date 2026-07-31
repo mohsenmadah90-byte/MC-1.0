@@ -33,8 +33,21 @@ export class MinePhoneService {
         DisposableRegistry.registerShutdownCleanup("MinePhone.battery", () => this.shutdown());
     }
     static shutdown() { if (intervalId !== null) RuntimeHandleRegistry.clear(intervalId); intervalId = null; sessions.clear(); }
-    static begin(player) { if (!player) return; this.ensure(player); sessions.add(player.id); }
-    static end(player) { if (player) sessions.delete(player.id); }
+    static begin(player) { if (!player) return; this.ensure(player); try { player.setDynamicProperty(LAST_KEY, Date.now()); } catch {} this.syncDurability(player); sessions.add(player.id); }
+    static end(player) { if (player) { sessions.delete(player.id); try { player.setDynamicProperty(LAST_KEY, Date.now()); } catch {} } }
+    static syncDurability(player) {
+        try {
+            const container = player?.getComponent("minecraft:inventory")?.container;
+            if (!container) return;
+            const damage = Math.max(0, Math.min(100, Math.round(100 - this.battery(player))));
+            for (let i = 0; i < container.size; i++) {
+                const stack = container.getItem(i);
+                if (stack?.typeId !== "mcity:mine_phone") continue;
+                const durability = stack.getComponent("minecraft:durability");
+                if (durability) { durability.damage = damage; container.setItem(i, stack); }
+            }
+        } catch {}
+    }
     static ensure(player) { try { if (player.getDynamicProperty(BATTERY_KEY) === undefined) player.setDynamicProperty(BATTERY_KEY, 100); if (player.getDynamicProperty(LAST_KEY) === undefined) player.setDynamicProperty(LAST_KEY, Date.now()); } catch {} }
     static battery(player) { try { this.ensure(player); return Math.max(0, Math.min(100, Number(player.getDynamicProperty(BATTERY_KEY) ?? 100))); } catch { return 0; } }
     static flashlight(player) { try { return player.getDynamicProperty(FLASHLIGHT_KEY) === true; } catch { return false; } }
@@ -67,12 +80,12 @@ export class MinePhoneService {
             if (!player) { sessions.delete(id); continue; }
             try {
                 this.ensure(player); const last = Number(player.getDynamicProperty(LAST_KEY) || now); const elapsed = Math.max(0, now - last);
-                if (elapsed >= 1000) { const drain = elapsed / (MAX_SECONDS * 1000) * (this.flashlight(player) ? 2 : 1); player.setDynamicProperty(BATTERY_KEY, Math.max(0, this.battery(player) - drain * 100)); player.setDynamicProperty(LAST_KEY, now); }
+                if (elapsed >= 1000) { const drain = elapsed / (MAX_SECONDS * 1000) * (this.flashlight(player) ? 2 : 1); player.setDynamicProperty(BATTERY_KEY, Math.max(0, this.battery(player) - drain * 100)); player.setDynamicProperty(LAST_KEY, now); this.syncDurability(player); }
                 const raw = player.getDynamicProperty(CHARGE_KEY); if (typeof raw === "string") {
                     const charge = JSON.parse(raw); const block = world.getDimension(charge.dimensionId)?.getBlock({ x: charge.x, y: charge.y, z: charge.z });
                     if (charge.phonePlaced ? !chargerPowered(block) : !redstoneSource(block)) { player.setDynamicProperty(CHARGE_KEY, undefined); continue; }
                     const chargeElapsed = Math.max(0, now - Number(charge.lastAt || now)); const increase = chargeElapsed / (CHARGE_SECONDS * 1000) * 100;
-                    if (increase > 0) { player.setDynamicProperty(BATTERY_KEY, Math.min(100, this.battery(player) + increase)); charge.lastAt = now; player.setDynamicProperty(CHARGE_KEY, JSON.stringify(charge)); if (this.battery(player) >= 100) player.setDynamicProperty(CHARGE_KEY, undefined); }
+                    if (increase > 0) { player.setDynamicProperty(BATTERY_KEY, Math.min(100, this.battery(player) + increase)); this.syncDurability(player); charge.lastAt = now; player.setDynamicProperty(CHARGE_KEY, JSON.stringify(charge)); if (this.battery(player) >= 100) player.setDynamicProperty(CHARGE_KEY, undefined); }
                 }
                 if (this.battery(player) <= 0) sessions.delete(id);
             } catch { sessions.delete(id); }
