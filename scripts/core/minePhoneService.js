@@ -1,5 +1,5 @@
 // MCity Dashboard V2 - Mine Phone battery, charger and flashlight state.
-import { world } from "@minecraft/server";
+import { world, ItemStack, EquipmentSlot } from "@minecraft/server";
 import { CustomItemRegistry } from "./customItemRegistry.js";
 import { BedrockCompat } from "./bedrockCompat.js";
 import { RuntimeHandleRegistry } from "./runtimeHandleRegistry.js";
@@ -18,12 +18,18 @@ function redstoneSource(block) {
     const id = String(block?.typeId || "");
     return id === "minecraft:redstone_block" || id === "minecraft:redstone_torch" || id === "minecraft:lit_redstone_torch" || id.includes("powered_repeater") || id.includes("powered_comparator") || id.includes("lever") || id.includes("button");
 }
+function chargerPowered(block) {
+    if (redstoneSource(block)) return true;
+    for (const offset of [{x:1,y:0,z:0},{x:-1,y:0,z:0},{x:0,y:1,z:0},{x:0,y:-1,z:0},{x:0,y:0,z:1},{x:0,y:0,z:-1}]) { try { if (redstoneSource(block?.offset(offset))) return true; } catch {} }
+    return false;
+}
 
 export class MinePhoneService {
     static initialize() {
         if (intervalId !== null) return;
         intervalId = RuntimeHandleRegistry.interval("MinePhone.battery", () => this.tick(), 20);
         BedrockCompat.subscribe("item.use.before", "MinePhone.charger", event => this.tryStartCharging(event.source, event.itemStack));
+        BedrockCompat.subscribe("item.use.before", "MinePhone.placeOnCharger", event => this.tryPlaceOnCharger(event.source, event.itemStack, event));
         DisposableRegistry.registerShutdownCleanup("MinePhone.battery", () => this.shutdown());
     }
     static shutdown() { if (intervalId !== null) RuntimeHandleRegistry.clear(intervalId); intervalId = null; sessions.clear(); }
@@ -33,6 +39,20 @@ export class MinePhoneService {
     static battery(player) { try { this.ensure(player); return Math.max(0, Math.min(100, Number(player.getDynamicProperty(BATTERY_KEY) ?? 100))); } catch { return 0; } }
     static flashlight(player) { try { return player.getDynamicProperty(FLASHLIGHT_KEY) === true; } catch { return false; } }
     static toggleFlashlight(player) { const next = !this.flashlight(player); try { player.setDynamicProperty(FLASHLIGHT_KEY, next); } catch {} return next; }
+    static tryPlaceOnCharger(player, stack, event) {
+        if (!player || !CustomItemRegistry.isMinePhone(stack?.typeId)) return false;
+        let target; try { target = player.getBlockFromViewDirection({ includeLiquidBlocks: false, includePassableBlocks: false, maxDistance: 5 })?.block; } catch {}
+        if (target?.typeId !== "mcity:phone_charger") return false;
+        try {
+            event.cancel = true;
+            const slot = player.getComponent("minecraft:equippable")?.getEquipmentSlot(EquipmentSlot.Mainhand);
+            slot?.setItem(undefined);
+            target.dimension.spawnItem(new ItemStack("mcity:mine_phone", 1), { x: target.location.x + 0.5, y: target.location.y + 1, z: target.location.z + 0.5 });
+            player.setDynamicProperty(CHARGE_KEY, JSON.stringify({ startedAt: Date.now(), lastAt: Date.now(), dimensionId: target.dimension.id, x: target.location.x, y: target.location.y, z: target.location.z, phonePlaced: true }));
+            player.sendMessage("§aMine Phone placed on the charger.");
+            return true;
+        } catch { return false; }
+    }
     static tryStartCharging(player, stack) {
         if (!player || !CustomItemRegistry.isCharger?.(stack?.typeId)) return false;
         let target; try { target = player.getBlockFromViewDirection({ includeLiquidBlocks: false, includePassableBlocks: false, maxDistance: 5 })?.block; } catch {}
@@ -50,7 +70,7 @@ export class MinePhoneService {
                 if (elapsed >= 1000) { const drain = elapsed / (MAX_SECONDS * 1000) * (this.flashlight(player) ? 2 : 1); player.setDynamicProperty(BATTERY_KEY, Math.max(0, this.battery(player) - drain * 100)); player.setDynamicProperty(LAST_KEY, now); }
                 const raw = player.getDynamicProperty(CHARGE_KEY); if (typeof raw === "string") {
                     const charge = JSON.parse(raw); const block = world.getDimension(charge.dimensionId)?.getBlock({ x: charge.x, y: charge.y, z: charge.z });
-                    if (!redstoneSource(block)) { player.setDynamicProperty(CHARGE_KEY, undefined); continue; }
+                    if (charge.phonePlaced ? !chargerPowered(block) : !redstoneSource(block)) { player.setDynamicProperty(CHARGE_KEY, undefined); continue; }
                     const chargeElapsed = Math.max(0, now - Number(charge.lastAt || now)); const increase = chargeElapsed / (CHARGE_SECONDS * 1000) * 100;
                     if (increase > 0) { player.setDynamicProperty(BATTERY_KEY, Math.min(100, this.battery(player) + increase)); charge.lastAt = now; player.setDynamicProperty(CHARGE_KEY, JSON.stringify(charge)); if (this.battery(player) >= 100) player.setDynamicProperty(CHARGE_KEY, undefined); }
                 }

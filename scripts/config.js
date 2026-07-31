@@ -2,7 +2,7 @@
 // Phase 0: Foundation scaffold
 
 export const CONFIG = {
-    VERSION: "1.14.16-phone-information",
+    VERSION: "1.14.17-charger-block",
     SYSTEM_NAME: "MCity Dashboard V2",
     PREFIX: "§r[§6§lMCity§r] §r",
 
